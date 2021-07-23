@@ -6,13 +6,14 @@ ms.date: 06/20/2020
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.search.region: Global
+ms.service: dynamics-365-supply-chain-insights
 ms.author: josaw
 ---
 
 # Metadata and Markdown template
 
-[!include[banner](../includes/banner.md)]
-[!include[banner](../includes/preview-banner.md)]
+[!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
 This template contains examples of Markdown syntax, as well as guidance on setting the metadata. To get the most of it, you must view both the [raw Markdown](https://raw.githubusercontent.com/MicrosoftDocs/Dynamics-365-Operations/master/template.md?token=AUBjQ-wxx8wHU3pnuQiYvPdvbodbxP2uks5Ypg9_wA%3D%3D) and the [rendered view](https://github.com/MicrosoftDocs/Dynamics-365-Operations/edit/master/template.md) (for instance, the raw Markdown shows the metadata block, while the rendered view does not).
 
@@ -34,6 +35,7 @@ Here are some key things to note about metadata.
 - **audience** - Use these values: Application User, Developer, or IT Pro. If you use more than one value, separate them with a comma.
 - **ms.reviewer** - This is the Microsoft alias of your Content Strategist.  
 - **ms.search.region** - Use "global" or enter a country-region value.
+- **ms.service** - Use "ms.service: dynamics-365-supply-chain-insights"
 - **ms.author** - Use your Microsoft alias.  
 
 
@@ -103,7 +105,7 @@ To link to a Markdown file in the same repo, use [relative links](https://www.w3
 
 To link to a header in a Markdown file in the same repo, use relative linking + hashtag linking.
 
-- Example: [Links](#links)
+- Example: [Links](file.md#links)
 
 ### External links
 
@@ -197,19 +199,20 @@ Use backticks (&#96;) for `inline code`. Use inline code for command-line comman
 
 ### Static image or animated gif
 
-![this is the alt text.](../images/Logo_DotNet.png)
+![this is the alt text.](media/Logo_DotNet.png)
 
-### Image with border
 
-Sometimes it's nice to have a border an around an image, especially if it's screenshot where background matches the docs page.
-
-:::image type="content" source="<folderPath>" alt-text="<alt text>":::
 
 ## Videos
 
 ### YouTube
 
-<iframe width="420" height="315" src="https://www.youtube.com/embed/g2a4W6Q7aRw" frameborder="0" allowfullscreen></iframe>
+For a video on YouTube, you can just link to the video using the external link syntax.
+[XYZ video](https://www.youtube.com/watch?v=3CUHWYqNZv8)
+
+### To embed a video
+
+If you want to embed a video into a topic, the video must be stored in RedTiger. For more information, contact josaw.
 
 ## docs.microsoft extensions
 
@@ -239,6 +242,4 @@ It's important to use the following alert styles so they render with the proper 
 > [!IMPORTANT]
 > This is IMPORTANT
 
-And they'll render like this:
-![Alert styles.](../images/alerts.png)
 
