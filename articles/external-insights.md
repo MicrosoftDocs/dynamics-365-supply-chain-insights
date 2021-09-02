@@ -24,5 +24,5 @@ Supply Chain Insights curates recent news articles and presents them as tiles on
 In future releases, new surveys and cases will be able to be created based off a news article.
 
 # Weather
-Supply Chain Insights also collects and presents data on weather events. These may come up in news articles, but it also uses other sources for the weather-related information displayed on the supply chain map. Visit [Supply chain map](relative link) to learn how weather information is used there.
+Supply Chain Insights also collects and presents data on weather events. These may come up in news articles, but it also uses other sources for the weather-related information displayed on the supply chain map. Visit [Supply chain map](/articles/supply-chain-map.md) to learn how weather information is used there.
 
