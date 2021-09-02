@@ -14,7 +14,7 @@ ms.author: carylhenry
 [!include[banner](includes/preview-banner.md)]
 
 # Prerequisites
-Analytics requires data to have been ingested according to the process described in [data ingestion](relative link).
+Analytics requires data to have been ingested according to the process described in [Ingestion](/articles/ingestion.md).
 Data for all entities should be imported because this is required for all analytic features to run and helps to ensure the analytics are accurate, but the specific data entities required for each analytic feature is listed within each feature's description below.
 
 
