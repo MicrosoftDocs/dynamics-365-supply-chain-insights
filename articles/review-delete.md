@@ -1,5 +1,5 @@
 ---
-title: Review, edit, delete, and export
+title: Review and delete
 description: This page contains information on how to review, edit, delete, and export data in Supply Chain Insights
 author: carylhenry
 ms.date: 09/01/2021
