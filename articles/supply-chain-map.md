@@ -22,7 +22,9 @@ Prerequisites
 The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will utilize the data provided when a participant onboards to populate your and your vendors' locations. This view will be updated to include additional sites when uploading additional vendor data or when you receive data from connected suppliers or customers within Supply Chain Insights.
 
 # Reading the map
-"My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites. They are represented by the icons in the image below, from top to bottom accordingly. 
+"My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites. They are represented by the icons in the image below, from top to bottom accordingly.
+
+![legend of icons used to represet different types of locations on the supply chain map](/articles/media/supply-chain-map-legend.PNG)
 
 ## Sites
 "My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites. Please note that "My site" and "Vendor's site" are more generic, since they are used when Supply Chain Insights cannot detect the facility type or when a facility includes both production plants and warehouses. You must ingest the production plant and warehouse entities to see your sites on the map whereas you must ingest, connect, and share data with a vendor for their sites to appear.
@@ -34,6 +36,8 @@ Arrows and dashed lines between two sites show the flow of goods. Goods are ship
 
 ## Risk score
 The circle with a number next to all of the site icons is the correlating risk score for the site. Risk scores are ranked on a scale from 0-99.  These risk levels are calculated by averaging all the latent weather risks for a given site and factoring in any current weather risks as needed. A risk score can be classified as low, medium, or high. Low risk scores are displayed in green and represent risk scores 0-33. Medium risk scores are displayed as orange and represent risk scores 34-66. High risk score are displayed as red and represent risk scores 67-99. 
+
+![supply chain map with a list of sites containing their risk score](/articles/media/supply-chain-map.PNG)
 
 # Map views
 The dropdown menu in the top right corner will display various types of latent risk overlaid on the map. Initially the view will be set to a default state where no latent risks will be overlaid. 
