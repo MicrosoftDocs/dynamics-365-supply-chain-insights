@@ -24,8 +24,11 @@ Data for all entities should be imported because this is required for all analyt
 # Summary
 The  "Summary" tab combines visuals contained in the other tabs to provide an overall snapshot of your supply chain's health. Selecting the same of a part on any of the visuals presents you with a new dashboard containing information on that particular part.
 
-# Supply and demand
-The "Supply and demand" dashboard gives an overview of how much interest various parts have relative to your inventory. 
+
+![summary-analytics-dashboard](/articles/media/summary-analytics.PNG)
+
+# Supply & demand
+The "Supply & demand" dashboard gives an overview of how much interest various parts have relative to your inventory. 
 Using the information provided on this dashboard, it's easy to identify which parts have the greatest shortage or greatest oversupply based on a variety of conditions such as time range, partner, product, etc.
 
 ## Required entities
