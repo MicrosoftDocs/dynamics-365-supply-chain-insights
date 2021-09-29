@@ -31,6 +31,8 @@ If you wish to add a company which Supply Chain Insights has not suggested, dete
 
 Choosing "Connect" on the company profile sidebar or directly from the company's card will prompt you to define your relationship with that company and write an optional note which will be attached to the invitation. Alternatively, this can also be done by selecting "Invite partners" to invite companies outside of the "Find partners" list by using their email. Once you select "Apply," a new request will appear under the pending invitations within "Sent requests."
 
+![find partners tab with filter](/articles/media/find-partners-with-filter.PNG)
+
 ## Imported
 The  "Imported" tab consists of a list containing companies Supply Chain Insights has detected based on your ingested data for the customer and vendor entities, but these companies are ones who have not joined Supply Chain Insights. You can import more data to Supply Chain Insights using the "Import partners" button in the top left to add more companies to the list. Companies can then be invited to join Supply Chain Insights as your partner. Once invited, those companies will move from the 'Imported" to "Sent requests" tab. Imported companies who don't have a contact email are unable to be invited, because that email is used to send the invitation.
 
