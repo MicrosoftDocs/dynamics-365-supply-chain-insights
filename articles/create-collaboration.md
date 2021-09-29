@@ -36,6 +36,8 @@ A new data collaboration can be started in two ways. The first is by clicking th
  ### Data requested
 The Data requested step presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. How often you receive updated information for the data entities you are requesting can be seen under the "Requested schedule" column.  Clicking on an item in this column lets you edit how often you get the updated data.
 
+![requested-entities-for-a-data-collaboration](/articles/media/data-collaboration-request-entities.PNG)
+
 ### Data shared
 Data shared mirrors Data requested, except it determines what information you will give to your Partners and how often you will update that information.
 
