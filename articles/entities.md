@@ -15,30 +15,32 @@ ms.author: carylhery
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Microsoft Dynamics 365 Supply Chain Insights organizes its data by labeling it in order to analyze it for insights. To do so, Supply Chain Insights has users ingest data by entity. 
-Entities are collections of attributes that come together to make a concept. 
-Supply Chain Insights contains many entities to represent different parts of a supply chain, and each of these entities have attributes to describe them. 
-For example, a vendor is an entity containing attributes related to their name, location, and more. 
+Entities are a critical concept for Supply Chain Insights because they are used to organize the data. Organized data is critical because this is what allows Supply Chain Insights to understand the information so it can then be analyzed for insights.
+
+
+# Definition
+
+Supply Chain Insights organizes its data by labeling it in order to analyze it for insights. To do so, Supply Chain Insights has users ingest data by entity. Entities are collections of attributes that come together to make a concept. For example, a vendor is an entity containing attributes related to their name, location, and other characteristics. Supply Chain Insights contains many of these entities to represent different parts of a supply chain, and each of these entities have attributes to describe them. A complete list of entities and their attributes can be found below.
 
 # Entities list
 
 ## Facilities
 
 ### Warehouse
-Entity to capture the warehouse locations and contacts details. 
+Entity to capture the details for a warehouse, such as its contact information and location.
 | Attribute            | Description                                                              | Type   | Required     |
 | -------------------- |--------------------------------------------------------------------------| ------ | ------------ | 
-| WarehouseId          | Unique   identifier for the warehouse                                    | String | Required     |
-| Name                 | Name   of the warehouse                                                  | String | Optional     |
-| Description          | Description for the   warehouse                                          | String | Optional     |
-| PrimaryContactEmail  | Primary contact details for the warehouse.                               | String | Optional     |
-| PrimaryContactName   | Full name of the personto be contacted such as warehouse manager etc.    | String | Optional     |
-| AddressLine1         | Primary address associated with warehouse.                               | String | Optional     |
-| AddressLine2         | Primary address associated with warehouse.                               | String | Optional     |
-| AddressCity          | City where warehouse is located.                                         | String | Required     |
-| AddressState         | State where warehouse is located.                                        | String | Required     |
-| AddressCountryRegion | Country where warehouse is located.                                      | String | Required     |
-| AddressPostalCode    | Postal code for the warehouse primary address.                           | String | Required     |
+| WarehouseId          | Unique identifier for the warehouse                                      | String | Required     |
+| Name                 | Name of the warehouse                                                    | String | Optional     |
+| Description          | Description for the warehouse                                            | String | Optional     |
+| PrimaryContactEmail  | Primary contact details for the warehouse                                | String | Optional     |
+| PrimaryContactName   | Full name of the person to be contacted                                  | String | Optional     |
+| AddressLine1         | Primary street address associated with warehouse                         | String | Optional     |
+| AddressLine2         | Apartment number, suite, or other street address information associated with warehouse            | String | Optional     |
+| AddressCity          | City where warehouse is located                                          | String | Required     |
+| AddressState         | State where warehouse is located                                         | String | Required     |
+| AddressCountryRegion | Country where warehouse is located                                       | String | Required     |
+| AddressPostalCode    | Postal code for the warehouse primary address                            | String | Required     |
 | AddressLongitude     |                                                                          | String | Optional     |
 | AddressLatitude      |                                                                          | String | Optional     |
 | RegionalLongitude    |                                                                          | String | Optional     |
@@ -47,19 +49,19 @@ Entity to capture the warehouse locations and contacts details.
 ## Products
 
 ### Item
-Entity to capture the physical representation of goods (finished products, raw materials, sub components) in a warehouse or production plant. 
+Entity to capture the physical representation of a good in a warehouse or production plant. A good can be a finished product, part, or raw material.
 | Attribute                | Description                                                                             | Type   | Required |
 | -------------------------|-----------------------------------------------------------------------------------------|--------|----------|                         
 | ItemId                   | Unique identifier for an item                                                           | String | Required |                             
 | ItemName                 | Name of the item                                                                        | String | Required |                            
 | ItemDescription          | Description of the item                                                                 | String | Optional |                            
-| ProductId                | The end product associated with the item if item is of type finished good.              | String | Required for finished goods |
-| VendorId                 | The vendor who supplies the item if item is of type raw material or   component.        | String | Required for all items that are raw materials) |
-| VendorProductId          | The vendors representation of the item if item is of type raw material or component.    | String | Optional |                            
+| ProductId                | The end product associated with the item if it's a finished good                        | String | Required for finished goods |
+| VendorId                 | The vendor who supplies the item if it's a part or raw material                         | String | Required for all items that are raw materials) |
+| VendorProductId          | The vendors representation of the item it's a part of raw material                      | String  | Optional |                            
 | IsItemTypeWorkInProgress | Indicator of whether item is work in progress                                           | Boolean | Optional |                             
 | IsItemTypeRawMaterial    | Indicator of item being a raw material                                                  | Boolean | Optional |                           
 | IsItemTypeFinishedGood   | Indicator of item being finished good                                                   | Boolean | Optional |                           
-| ItemAverageLeadTime      | Average number of days it takes to procure a raw material from a   supplier.            | Integer | Required | 
+| ItemAverageLeadTime      | Average number of days it takes to procure a raw material from a supplier               | Integer | Required | 
 | lwhUom                   | Length width height unit of measure                                                     | String  | Optional |
 | ItemHeight               | Height of the item                                                                      | Integer | Optional |  
 | ItemWidth                | Width of the item                                                                       | Integer | Optional |   
@@ -77,9 +79,9 @@ Entity to capture the end products that a company produces and sells their custo
 | Attribute                | Description                                                          | Type     | Required |
 | -------------------------|----------------------------------------------------------------------| -------- | -------- |
 | ProductId                | Unique identifier for the product                                    | String   | Required |
-| ProductName              | Name of the product.                                                 | String   | Required |
+| ProductName              | Name of the product                                                  | String   | Required |
 | ProductAlternateId       | Alternate identifiers for the product                                | String   | Optional |
-| ProductDescription       | Description of the product.                                          | String   | Optional |
+| ProductDescription       | Description of the product                                           | String   | Optional |
 | CriticalProductIndicator | Indicator                                                            | Boolean  | Optional |
 | ImageUrl                 | Publicly accessible web url of the product in a catalogue            | String   | Optional |
 | HeightUom                | Unit of measure for the height dimension                             | String   | Optional |
@@ -94,13 +96,13 @@ Entity to capture the end products that a company produces and sells their custo
 | Height                   | Height of the product                                                | Integer  | Optional |
 
 ### Bill of material lines
-Entity to capture the production bill of material details or the component/raw material requirement for manufacturing a product. 
+Entity to capture the details for the production bill of materials or the parts/raw materials requirement for manufacturing a product. 
 | Attribute            | Description                                                              | Type | Required     |
 | -------------------- |--------------------------------------------------------------------------| ---- | ------------ |
 | BillofMaterialLineId | Unique identifier for the bill of material                               | String  | Required     |
 | ItemId               | The parent item identifier in the BOM                                    | String  | Required     |
 | ComponentItemId      | The component item identifier                                            | String  | Required     |
-| BomLevel             | The level of the BOM in case of multi-level BOMs                         | Integer | Optional     |
+| BomLevel             | The level of the bill of materials in case of multi-level bill of materials        | Integer | Optional     |
 | ComponentQuantity    | Quantity of the component item required in manufacturing the parent item | Integer | Optional     |
 | UnitOfMeasureId      | Unit of measure used for item quantities                                 | String  | Optional     |
 | ProductId            | Product associated with parent item                                      | String  | Optional     |
@@ -108,42 +110,42 @@ Entity to capture the production bill of material details or the component/raw m
 ## Partners
 
 ### Customer
-Entity to capture the list of customers/buyers that a company sells their end products to. 
-| Attribute            | Description                                                              | Type   | Required     |
-| -------------------- |--------------------------------------------------------------------------| ------ | ------------ |
-| CustomerId           | Unique Id associated with the customer in the system of record           | String | Required     |
-| Name                 | Name of the customer                                                     |	String | Required     |
-| PrimaryContactEmail  | Primary contact email for the customer.                                  | String | Required     |
-| TaxCountryRegionCode | The country where the customer is situated.                              | String | Optional     |
-| CountryRegionTaxId   | The tax id associated with the customer in the country they’re situated. | String | Optional     |
-| AddressLine1         | Primary address associated with customer.                                | String | Optional     |
-| AddressLine2         | Primary address associated with customer.                                |	String | Optional     |
-| AddressCity          | City where customer is located.                                          | String | Optional     |
-| AddressState         | State where customer is located.                                         |	String | Optional     |
-| AddressCountryRegion | Country where customer is located.                                       |	String | Optional     |
-| AddressPostalCode    | Postal code for the customer primary address.                            | String | Optional     |
-| DunsNumber           | Dun & Bradstreet number for the customer company.                        | String | Optional     |
-| LexId                | LexisNexis id for the customer company.                                  | String | Optional     |
-| ExperianId           | Experian Id for the customer company.                                    | String | Optional     |	 	
+Entity to capture the list of customers that a company sells their end products to. 
+| Attribute            | Description                                                             | Type   | Required     |
+| -------------------- |-------------------------------------------------------------------------| ------ | ------------ |
+| CustomerId           | Unique Id associated with the customer in the system of record          | String | Required     |
+| Name                 | Name of the customer                                                    |	String | Required    |
+| PrimaryContactEmail  | Primary contact email for the customer                                  | String | Required     |
+| TaxCountryRegionCode | The country where the customer is situated                              | String | Optional     |
+| CountryRegionTaxId   | The tax id associated with the customer in the country they’re situated | String | Optional     |
+| AddressLine1         | Primary street address associated with customer                                | String | Optional     |
+| AddressLine2         | Apartment number, suite, or other street address information associated with customer   |	String | Optional    |
+| AddressCity          | City where customer is located                                          | String | Optional     |
+| AddressState         | State where customer is located                                         |	String | Optional    |
+| AddressCountryRegion | Country where customer is located                                       |	String | Optional    |
+| AddressPostalCode    | Postal code for the customer primary address                            | String | Optional     |
+| DunsNumber           | Dun & Bradstreet number for the customer company                        | String | Optional     |
+| LexId                | LexisNexis id for the customer company                                  | String | Optional     |
+| ExperianId           | Experian Id for the customer company                                    | String | Optional     |	 	
 
 ### Vendor
-Entity to capture the list of vendors/suppliers that provide raw materials or components that are needed for manufacturing a company’s products.  
+Entity to capture the list of vendors that supply raw materials or components that are needed for manufacturing a company’s products.  
 | Attribute            | Description                                                            | Type   | Required     |
 | -------------------- |------------------------------------------------------------------------| ------ | ------------ |
 | VendorId             | Unique Id associated with the vendor in the system of record           | String | Required     |
 | Name                 | Name of the vendor                                                     | String | Required     |
-| PrimaryContactEmail  | Primary contact email for the vendor.                                  | String | Required     |
-| TaxCountryRegionCode | The country where the vendor is situated.                              | String | Optional     |
+| PrimaryContactEmail  | Primary contact email for the vendor                                  | String | Required     |
+| TaxCountryRegionCode | The country where the vendor is situated                              | String | Optional     |
 | CountryRegionTaxId   | The tax id associated with the vendor in the country they’re situated. | String | Optional     |
-| AddressLine1         | Primary address associated with vendor.                                | String | Optional     |
-| AddressLine2         | Primary address associated with vendor.                                | String | Optional     |
-| AddressCity          | City where vendor is located.                                          | String | Optional     |
-| AddressState         | State where vendor is located.                                         | String | Optional     |
-| AddressCountryRegion | Country where vendor is located.                                       | String | Optional     |
-| AddressPostalCode    | Postal code for the vendor’s primary address.                          | String | Optional     |
-| DunsNumber           | Dun & Bradstreet number for the vendor company.                        | String | Optional     |
-| LexId                | LexisNexis id for the vendor company.                                  | String | Optional     |
-| ExperianId           | Experian Id for the vendor company.                                    | String | Optional     | 
+| AddressLine1         | Primary street address associated with vendor                                | String | Optional     |
+| AddressLine2         | Apartment number, suite, or other street address information associated with vendor   | String | Optional     |
+| AddressCity          | City where vendor is located                                          | String | Optional     |
+| AddressState         | State where vendor is located                                         | String | Optional     |
+| AddressCountryRegion | Country where vendor is located                                       | String | Optional     |
+| AddressPostalCode    | Postal code for the vendor’s primary address                          | String | Optional     |
+| DunsNumber           | Dun & Bradstreet number for the vendor company                        | String | Optional     |
+| LexId                | LexisNexis id for the vendor company                                  | String | Optional     |
+| ExperianId           | Experian Id for the vendor company                                    | String | Optional     | 
 
 ## Orders
 
@@ -153,7 +155,7 @@ Entity to capture details about purchase and sales orders.
 | -------------------------- |----------------------------------------------------------------------------------| --------------- | -------- |
 | OrderId                    | Unique identifier for the order. Can be same as PO number or sales order number. | String          | RequireD |
 | OrderType                  | Type of order: purchase or sales                                                 | String          | Required |
-| PurchaseOrderNumber        | PO number for the order                                                          | String          | Required |
+| PurchaseOrderNumber        | Purchase order number for the order                                              | String          | Required |
 | VendorId                   | Identifier of the vendor the order is raised for. (In case of PO)                | String          | Optional |
 | CustomerId                 | Identifier of the customer the order is raised for (in case of sales order)      | String          | Optional |
 | OrderReceivedDate          | Date when order was received                                                     | ISO 8601 format | Optional |
@@ -163,16 +165,16 @@ Entity to capture details about purchase and sales orders.
 | OrderActualDeliveryDate    | Date when order was actually completed                                           | ISO 8601 format | Optional |
 | IssueDate                  | Date when order was raised                                                       | ISO 8601 format | Optional |
 | ReturnedDate               | N/A for April release                                                            | ISO 8601 format | Optional |
-| CancellationDate            | Date when order was cancelled                                                   | ISO 8601 format | Optional |
+| CancellationDate           | Date when order was cancelled                                                    | ISO 8601 format | Optional |
 | ShipToParty                | Name of the company/person the order is to be shipped to.                        | String          | Optional |
 | CarrierId                  | N/A for April release                                                            | String          | Optional |
 | ShipmentMethod             | N/A for April release                                                            | String          | Optional |
-| AddressLine1               | Address mentioned in the PO or sales order                                       | String          | Optional |
-| AddressLine2               | Address mentioned in the PO or sales order                                       | String          | Optional |
-| AddressCity                | Address mentioned in the PO or sales order                                       | String          | Optional |
-| AddressState               | Address mentioned in the PO or sales order                                       | String          | Optional |
-| AddressCountryRegion       | Address mentioned in the PO or sales order                                       | String          | Optional |
-| AddressPostalCode          | Address mentioned in the PO or sales order                                       | String          | Optional |
+| AddressLine1               | Street address mentioned in the order                                            | String          | Optional |
+| AddressLine2               | Apartment number, suite, or other street address information mentioned in order  | String          | Optional |
+| AddressCity                | Address mentioned in the order                                       | String          | Optional |
+| AddressState               | Address mentioned in the order                                       | String          | Optional |
+| AddressCountryRegion       | Address mentioned in the order                                       | String          | Optional |
+| AddressPostalCode          | Address mentioned in the order                                       | String          | Optional |
 | Status                     | Order status: completed, in progress                                             | String          | Optional |
 | ConfirmationTimestamp      | Timestamp when order was confirmed                                               | ISO 8601 format | Optional |
 | ReceivedTimestamp          | Timestamp when order was received                                                | ISO 8601 format | Optional |
@@ -186,13 +188,13 @@ Entity to capture the order line details for each purchase and sales order.
 | ---------------------------------- |--------------------------------------------------------------------------------| --------------- | -------- |
 | OrderLineDescription               | Description of the order line                                                  | String          | Optional |
 | OrderId                            | Identifier of the order that contains the order line                           | String          | Required |
-| OrderLineId                        | Unique identifier for the order line. Cane be same as PO line number           | String          | Required |
-| PurchaseOrderLineNumber            | Corresponding PO line number                                                   | String          | Required |
+| OrderLineId                        | Unique identifier for the order line. Cane be same as the purchase order line number           | String          | Required |
+| PurchaseOrderLineNumber            | Corresponding purcharse order line number                                                   | String          | Required |
 | OrderLineStatus                    | Status: completed, in progress                                                 | String          | Required |
 | WarehouseId                        | Identifier of the warehouse servicing the order                                | String          | Required |
 | ItemId                             | Identifier of the item being ordered                                           | String          | Required |
 | WarehouseAddress                   | Address of the warehouse                                                       | String          | Optional |
-| VendorItemNumber                   | For PO, this is the identifier of the item in the vendor’s system              | String          | Optional |
+| VendorItemNumber                   | For purchases orders, the identifier of the item in the vendor’s system              | String          | Optional |
 | ConfirmedShippingDate              | Date when the shipment associated with the order is confirmed to be shipped    | ISO 8601 format | Optional |
 | ConfirmedDeliveryDate              | Date when the shipment associated with the order is confirmed to be delivered  | ISO 8601 format | Required |
 | ActualDeliveryTimestamp            | Date when the order line is actually completed                                 | ISO 8601 format | Optional |
@@ -258,7 +260,7 @@ Entity to capture the quantities allocated for customers to satisfy anticipated 
 | PeriodEndDate 	 	                   | 	                                                                                   | ISO 8601 format | Required     | 
 
 ### Master plan schedule
-Entity to capture the build plan details – what is being produced, in what quantity and when.
+Entity to capture the build plan details, including what is being produced, in what quantity, and when.
 | Attribute                 | Description                                                                         | Type            | Required |
 | ------------------------- |-------------------------------------------------------------------------------------| --------------- | -------- |
 | MasterPlanScheduleId      | Unique identifier for a master plan                                                 | String          | Required |
@@ -271,15 +273,15 @@ Entity to capture the build plan details – what is being produced, in what qua
 | PeriodEndDate             |                                                                                     | ISO 8601 format | Required |
 
 ### Material resource plan
-Entity to capture the material resource plan which tells us the quantity of items required to satisfy demand for an end product and to achieve the master plan schedule.  
+Entity to capture the material resource plan which contains the quantity of items required to satisfy demand for an end product and to achieve the master plan schedule.  
 | Attribute              | Description                                                                          | Type            | Required |
 | ---------------------- |--------------------------------------------------------------------------------------| --------------- | -------- |
-| MaterialResourcePlanId | Unique identifier for the MRP                                                        | String          | Required |
-| ItemId                 | The item that is involved in the MRP forecast. Can be finished good or raw material. | String          | Required |
+| MaterialResourcePlanId | Unique identifier for the master resource plan                                                        | String          | Required |
+| ItemId                 | The item that is involved in the master resource plan forecast. Can be finished good or raw material. | String          | Required |
 | QuantityRequired       | The quantity of item required to satisfy demand                                      | Integer         | Required |
 | QuantityUnitOfMeasure  | Unit of measure for the item quantity                                                | String          | Optional |
-| PeriodStartDate        | Start date for MRP                                                                   | ISO 8601 format | Required |
-| PeriodEndDate          | End date for MRP                                                                     | ISO 8601 format | Required |
+| PeriodStartDate        | Start date for master resource plan                                                                   | ISO 8601 format | Required |
+| PeriodEndDate          | End date for master resource plan                                                                     | ISO 8601 format | Required |
 
 ### Production order
 Entity to capture details about the production orders that are raised to meet customer demand in response to purchase orders or to replenish stock.  
@@ -308,10 +310,10 @@ Entity to capture the location and contact details for production plants.
 | Description            | Description for the production plant                                     | String | Optional     |
 | RawMaterialWarehouseId | Identifier of the dedicated warehouse associated with the production plant where raw materials are stored | String | Optional  |
 | OutputWarehouseId      | Identifier of the dedicated warehouse where finished goods from the production plant are stored           | String | Optional  |
-| PrimaryContactEmail    | Primary contact details for reaching the production plant.               | String |              |
-| PrimaryContactName     | Full name of the person to be contacted.                                 | String | Optional     |
-| AddressLine1           | Primary address associated with warehouse.                               | String | Required     |
-| AddressLine2           | Primary address associated with warehouse.                               | String | Required     |
+| PrimaryContactEmail    | Primary contact details for reaching the production plant                | String |              |
+| PrimaryContactName     | Full name of the person to be contacted                                  | String | Optional     |
+| AddressLine1           | Primary street address associated with production plant                  | String | Required     |
+| AddressLine2           | Apartment number, suite, or other street address information associated with production plant    | String | Required     |
 | AddressCity            | City where warehouse is located.                                         | String | Required     |
 | AddressState           | State where warehouse is located.                                        | String | Required     |
 | AddressCountryRegion   | Country where warehouse is located.                                      | String | Required     |           
@@ -326,8 +328,8 @@ Entity to capture the location and contact details for production plants.
 Entity to capture the available stock in warehouses.  
 | Attribute                     | Description                                                              | Type            | Required     |
 | ----------------------------- |--------------------------------------------------------------------------| --------------- | ------------ | 
-| WarehouseId                   | Identifierfor the warehouse where the stock is located                   | String          | Required     |
-| ItemId                        | Identifier fo the item whose stock is being recorded                     | String          | Required     |
+| WarehouseId                   | Identifier for the warehouse where the stock is located                  | String          | Required     |
+| ItemId                        | Identifier for the item whose stock is being recorded                    | String          | Required     |
 | VendorId                      | If item is procured, identifier of the vendor who is supplying it        | String          | Required for raw materials  |
 | PlannedItemAvailableQuantity  | Estimated stock levels for an item                                       | Integer         | Optional     |
 | ActualItemQuantity            | Actual stock levels for an item                                          | Integer         | Required     |
