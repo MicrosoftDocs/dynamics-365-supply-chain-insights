@@ -14,7 +14,7 @@ Microsoft Dynamics 365 Supply Chain Insights needs data relevant to your supply 
 To bring that data into the application, Supply Chain Insights leverages [Power Query](https://docs.microsoft.com/en-us/power-query/power-query-what-is-power-query) for a smooth data ingestion experience.
 
 # Prerequisites
-Data management requires that you have data in a cloud storage solution that has data to ingest according to the entities described in Data entities (link to 3a Data management).
+Data management requires that you have data in a cloud storage solution that has data to ingest according to the entities described in [Data entities](/articles/entities.md).
 
 Please review the "Data resiliency, compliance, and security" page of this documentation before ingesting your data to ensure that Supply Chain Insights meets your company's expectations.
 
