@@ -1,5 +1,5 @@
 ---
-title: Dashboards
+title: Analytics
 description: This page contains information on the analytic dashboards in Supply Chain Insights
 author: carylhenry
 ms.date: 09/01/2021
