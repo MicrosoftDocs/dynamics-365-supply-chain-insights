@@ -27,30 +27,18 @@ It is recommended that you have completed your company's profile and have ingest
 If you wish to add a company which Supply Chain Insights has not suggested, detected, or partially detected from your data, then you may need to have the company name, vendor ID, DUNS number, and contact email on hand.
 
 ## Find partners
-The "Find partners" tab contains a list of companies who have completed onboarding for Supply Chain Insights. 
-These companies may be detected based on data you have previously imported or are companies from the same industry as you who have made their company profile visible. 
-Clicking on a company will bring up a sidebar containing that company's profile if you'd like to learn more about them before connecting. 
-If there are many companies under "Find partners," you can use the search bar and filters to narrow down the results. 
-If the company you're looking for is not available, you can manually invite them by clicking "Invite partners." 
-This option is available at the top-left of the page, at the bottom of the "Find partners" list, or when there are no results after filtering and searching the "Find partners" list.
+"Find partners" contains a list of companies who have completed Supply Chain Insight's onboarding. These companies are from the same industry as you who have made their company profile visible. Selecting a company name or entire card will bring up a sidebar containing that company's profile if you'd like to learn more about them before connecting. If there are many companies under "Find partners," you can use the search bar and filters to narrow down the results. If the company you're looking for is not available, you can manually invite them by clicking "Invite partners." This option is available at the top-left of the page, at the bottom of the "Find partners" list, or when there are no results after filtering and searching the "Find partners" list.
 
-Clicking "Connect" will prompt you to define your relationship with that company, provide the vendor ID, and write an optional note which will be attached to the invitation. 
-Once you click "Apply," a new request will appear under the pending invitations within the "Sent requests" tab.
+Choosing "Connect" on the company profile sidebar or directly from the company's card will prompt you to define your relationship with that company and write an optional note which will be attached to the invitation. Alternatively, this can also be done by selecting "Invite partners" to invite companies outside of the "Find partners" list by using their email. Once you select "Apply," a new request will appear under the pending invitations within "Sent requests."
 
 ## Imported
-The  "Imported" tab consists of a table of companies Supply Chain Isights has detected based on the data you have imported, but have not joined Supply Chain Insights.
-Companies can then be selected individually or in bulk to be invited to join Supply Chain Insights as your Partner. 
-Companies listed who don't have a contact email are unable to be invited, because that email is used for the invitation.
+The  "Imported" tab consists of a list containing companies Supply Chain Insights has detected based on your ingested data for the customer and vendor entities, but these companies are ones who have not joined Supply Chain Insights. You can import more data to Supply Chain Insights using the "Import partners" button in the top left to add more companies to the list. Companies can then be invited to join Supply Chain Insights as your partner. Once invited, those companies will move from the 'Imported" to "Sent requests" tab. Imported companies who don't have a contact email are unable to be invited, because that email is used to send the invitation.
 
 ## Incoming requests
-The "Incoming requests" tab contains all connection requests that have been sent from other companies. Clicking "Reply" to a given request will pull up a sidebar to enter your response information. Once completed, the request will no longer show up as a pending request under "Incoming requests." It will show up as a declined request under "Incoming requests" if it was declined or the company will be listed under "My partners" if the request was accepted.
-
-Companies who have not joined Supply Chain Insights but have been invited via the "Imported" tab will receive their invitation through an email instead of the 'Incoming requests" tab.
+Incoming requests will be received via email for companies who have not joined Supply Chain Insights and will be found under the "Incoming requests" tab for those who have joined. Clicking "Reply" to a given request pulls up a sidebar to enter your response. Once completed, the request will no longer show up as a pending request under "Incoming requests." The company will be listed under "My partners" if the request was accepted or the request will be declined and remain in "Incoming requests."
 
 ## Sent requests
-The "Sent requests" tab contains the status of your sent invitations which have not been accepted yet. If a request has been accepted, the company will be listed under "My partners." Otherwise, the invitation will be pending or declined, and can be resent in either case.
+You can view the status of requests which have not been accepted yet. If a request has been accepted, the company will be listed under "My partners." Otherwise, the invitation will be pending or declined, and can be resent in either case.
 
-# Managing partners
-"My partners" contains a list of companies you have connected with in Supply Chain Insights.
-A search bar and filters are available to more easily find the Partner you're looking for. For each Partner, you can manage your relationship, reassign their tier, view what data collaborations have been established, start a new collaboration with them, view their company profile, and remove them as a Partner completely.
-
+# Managing connections
+"My partners" contains a list of companies you have connected with on Supply Chain Insights. A search bar and filters are available to more easily find the partner you're looking for. For each partner, you can manage your relationship, view what collaborations have been established, start a new collaboration with them, view their company profile, and remove your connection with them.
