@@ -2,7 +2,7 @@
 title: Supply chain map
 description: This page contains information for the supply chain map in Microsoft Dynamics 365 Supply Chain Insights
 author: carylhenry
-ms.date: 09/01/2021
+ms.date: 10/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -37,10 +37,22 @@ Arrows and dashed lines between two sites show the flow of goods. Goods are ship
 ## Risk score
 The circle with a number next to all of the site icons is the correlating risk score for the site. Risk scores are ranked on a scale from 0-99.  These risk levels are calculated by averaging all the latent weather risks for a given site and factoring in any current weather risks as needed. A risk score can be classified as low, medium, or high. Low risk scores are displayed in green and represent risk scores 0-33. Medium risk scores are displayed as orange and represent risk scores 34-66. High risk score are displayed as red and represent risk scores 67-99. 
 
+## Live alerts
+Red circles on the map represent areas containing sites which may be impacted by real time event. Currently real time risk shown are weather risks such as ongoing natural catastrophes. Clicking on a circle will pull up a sidebar on the left hand side with a list containing live alerts. 
+
 ![supply chain map with a list of sites containing their risk score](/articles/media/supply-chain-map.PNG)
 
 # Map views
-The dropdown menu in the top right corner will display various types of latent risk overlaid on the map. Initially the view will be set to a default state where no latent risks will be overlaid. 
+The dropdown menu in the top right corner will display various types of latent risk overlaid on the map. Initially the view will be set to a default state where no latent risks will be overlaid.  The following latent weather risks can be viewed on the map page:
+- River flood
+- High winds
+- Hailstorm
+- Seismic
+- Tornado
+- Lightning
+- Ash thickness
+- Subsidence
+- Storm surge
 
 ## Filters
 Filters are provided to help you focus on different aspects of your supply chain. Selecting the "Filter button" in the top right corner will cause a sidebar with the options to filter by. Currently filters will be provided for facility type and vendor visibility for tier 1- 5+. By default vendor visibility will be set to all uploaded vendors regardless of tiers.
