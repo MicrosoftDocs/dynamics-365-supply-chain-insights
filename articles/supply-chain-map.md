@@ -14,12 +14,12 @@ ms.author: carylhenry
 [!include[banner](includes/preview-banner.md)]
 
 
-The supply chain map provides a visual representation of a company’s supply chain. This visualization shows how supplier are connected to company facilities and how those facilities are connected to customers. This feature utilizes an uploaded bill of materials to connect these sites together and visualize the geographic flow of a product and relationships between sites. 
+The supply chain map provides a visual representation of a company’s supply chain. This visualization shows how supplier are connected to company facilities and how those facilities are connected to customers. 
 
 The map view also provides risk data for each uploaded site. Currently the two types of risk data shown are latent weather risks based on historical events and real-time weather risks such as ongoing natural catastrophes.
 
-Prerequisites
-The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will utilize the data provided when a participant onboards to populate your and your vendors' locations. This view will be updated to include additional sites when uploading additional vendor data or when you receive data from connected suppliers or customers within Supply Chain Insights.
+# Prerequisites
+The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will utilize the data provided when a participant onboards to populate your and your vendors' locations. This view will be updated to include additional sites when uploading additional production plant and warehouse data or when you receive data from connected suppliers or customers within Supply Chain Insights. This feature utilizes an uploaded bill of materials to connect these sites together and visualize the geographic flow of a product and relationships between sites. 
 
 # Reading the map
 "My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites. They are represented by the icons in the image below, from top to bottom accordingly.
