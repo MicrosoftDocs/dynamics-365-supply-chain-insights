@@ -10,10 +10,10 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
-Supply Chain Insights aims to enable users to identify and respond to external risks including news and weather events. This is accomplished by gathering information on world events and presenting articles that are relevant to your company and partner companies. 
+Supply Chain Insights aims to enable users to identify and respond to external risks including news and weather events. This is accomplished by gathering information on world events and presenting only the information that is relevant to your company and partner companies. 
 
 # Prerequisites
-Supply Chain Insights uses your company's and vendor company name provided in the initial onboarding to curate news articls. The relevancy of these articles is determined by these companies' names. When a list of vendors are uploaded to Supply Chain Insights, these companies' names will also be added to the news results. News articles are sorted based on their relevancy to a given company.
+Supply Chain Insights uses your company's and vendor companies' name provided in the initial onboarding to curate news articls. The relevancy of these articles is determined by these companies' names. When a list of vendors are uploaded to Supply Chain Insights, these companies' names will also be added to the news results. News articles are sorted based on their relevancy to a given company.
 
 # News
 Supply Chain Insights curates recent and relevant news articles. It then presents them as tiles on the "Home" and "News" sections of the application. Clicking "Read article" on a tile will open the news story in a new tab. Select view impacts to be taken to a page spesific to that news article where you can view which partners in your supply chain are potentially impacted.
