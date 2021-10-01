@@ -25,6 +25,9 @@ Select an entity from the "Data import" page which has a "Not imported" status. 
 
 Import a local CSV or XLS file from your computer or connect Supply Chain Insights to a cloud storage service to populate the data for any entity. Make sure your data contains the required attributes of a given entity for both methods. Additional information will be required to authenticate Supply Chain Insight's access to the data depending on the cloud storage service selected or the column headers must be named if you upload a local file.
 
+![selecting an entity, choosing a cloud data source, and authorizing Supply Chain Insights' access to the data](/articles/media/connect-and-authorize-cloud-storage.gif)
+
+
 # Mapping
 Mapping informs Supply Chain Insights how to interpret your data so it can be analyzed. More specifically, a mapping explains how your data relates to the attributes which represent a certain entity and is easy to complete during the ingestion process. 
 ## Local files
@@ -33,6 +36,7 @@ Local files must have column headers because Supply Chain Insights uses the head
 ## Cloud storage
 If a table representing the desired entity is readily available, simply select it from the left hand column once a data source has been selected. If not, the Power Query interface contains many tools to transform your data into a single table representing the entity. More information on these tools and how to use them can be found within the sub-articles of the "[Transform data](https://docs.microsoft.com/en-us/power-query/power-query-ui)" section of Power Query's documentation. Once a table containing all of the information for the entity has been created, Power Query can automatically map the information in your table to the attributes of the entity by selecting "Map to entity" in the top right, choosing the entity of interest from the left hand column in the popup window, and then selecting "Auto map." Check the query output column for any errors or manually map your data using this column before selecting "Done."
 
-![mapping for importing data from a cloud storage solution](/articles/media/cloud-storage-ingestion.PNG)
+![mapping for importing data from a cloud storage solution](/articles/media/map-column-headers-to-attributes.gif)
+
 # Refresh schedule
 Up-to-date insights are reliant upon up-to-date data ingestion, which can be completed in three ways. A refresh schedule automatically updates the ingested data for a given entity based on any changes made to that data within your cloud storage solution. Entities connected to a cloud storage solution can also be updated by selecting "Refresh now" from their dropdown menu on the "Data import" page. This is also where you can change a refresh schedule, stop it, or disconnect the entity from the data source entirely. The final way to update the data for an entity is to complete the data ingestion process descried above. 
