@@ -2,7 +2,7 @@
 title: Ingestion
 description: This pge contains information for how users ingest data for Supply Chain Insights
 author: carylhenry
-ms.date: 09/01/2021
+ms.date: 10/08/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -14,19 +14,23 @@ Microsoft Dynamics 365 Supply Chain Insights needs data relevant to your supply 
 To bring that data into the application, Supply Chain Insights leverages [Power Query](https://docs.microsoft.com/en-us/power-query/power-query-what-is-power-query) for a smooth data ingestion experience.
 
 # Prerequisites
-Data management requires that you have data in a cloud storage solution that has data to ingest according to the entities described in [Data entities](/articles/entities.md).
+Data management requires that you ingest data from various sources according to the entities described in [Data entities](/articles/entities.md).
 
-Please review the "Data resiliency, compliance, and security" page of this documentation before ingesting your data to ensure that Supply Chain Insights meets your company's expectations.
+Please review [Data resiliency, compliance, and security](/articles/resiliency-compliance-security.md) before ingesting your data to ensure that Supply Chain Insights meets your company's expectations.
 
 # Getting started
 Select an entity from the "Data import" page which has a "Not imported" status. Afterwards, select "Not imported" or open the contextual menu and choose "Import data."
 
 # Sources
-
-Import a local CSV or XLS file from your computer or connect Supply Chain Insights to a cloud storage service to populate the data for any entity. Make sure your data contains the required attributes of a given entity for both methods. Additional information will be required to authenticate Supply Chain Insight's access to the data depending on the cloud storage service selected or the column headers must be named if you upload a local file.
+Import a local CSV or XLS file from your computer or connect Supply Chain Insights to a your own data storage or cloud storage service to populate the data for any entity. Make sure your data contains the required attributes of a given entity for both methods. Additional information will be required to authenticate Supply Chain Insight's access to the data depending on the cloud storage service selected or the column headers must be named if you upload a local file.
 
 ![selecting an entity, choosing a cloud data source, and authorizing Supply Chain Insights' access to the data](/articles/media/connect-and-authorize-cloud-storage.gif)
 
+# Local file prerequisites
+
+- An [on-premises data gateway](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-onprem) is required for local files on your computer to be imported into Supply Chain Insights. Support for installing an on-premises data gateway can be found [here](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install).
+- After installing On-Premises Data Gateway, use your Supply Chain Insights user ID and pasword to login
+- Make sure the folder containing the file you with to upload on your computer is shared
 
 # Mapping
 Mapping informs Supply Chain Insights how to interpret your data so it can be analyzed. More specifically, a mapping explains how your data relates to the attributes which represent a certain entity and is easy to complete during the ingestion process. 
