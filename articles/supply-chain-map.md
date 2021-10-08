@@ -57,6 +57,6 @@ The dropdown menu in the top right corner will display various types of latent r
 ## Filters
 Filters are provided to help you focus on different aspects of your supply chain. Selecting the "Filter button" in the top right corner will cause a sidebar with the options to filter by. Currently filters will be provided for facility type and vendor visibility for tier 1- 5+. By default vendor visibility will be set to all uploaded vendors regardless of tiers.
 
-# List
-Selecting "List" in the top left corner will cause a sidebar to display on the left side of the map. It will initially contain a list of sites ranked from highest to lowest risk. Alternatively, this list of sites can be opened by directly choosing a site from the supply chain map. Drilling into a site will bring up more information related to that site, including details on the risk and potentially impacted orders.
 
+# List
+Selecting "List" in the top left corner will cause a sidebar to display on the left side of the map. It will initially contain a list of sites ranked from highest to lowest risk. These sites can also be re-ordered based on risk score and alphabetically by site name. Alternatively, a spesific site can be opened by directly choosing a site from the supply chain map. Drilling into a site will bring up more information related to that site, including details on the risk and order information.
