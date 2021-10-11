@@ -34,7 +34,7 @@ You can add one or more partners depending on if you created the collaboration w
 ## Request data from parters
 The "Data requested" tab presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. All, none, or some entities can be requested.
 
-![requested-entities-for-a-data-collaboration](/articles/media/data-collaboration-request-entities.PNG)
+![requested-entities-for-a-data-collaboration](/articles/media/data-collaboration-request-entities.png)
 
 ## Share data with partners
 The format of the "Data shared" tab mirrors the "Data requested" tab, except it determines what information you will share with your partners instead of what information your partners will share with you.
