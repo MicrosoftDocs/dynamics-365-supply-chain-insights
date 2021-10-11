@@ -1,8 +1,8 @@
 ---
-title: Metadata and markdown template
-description: This template contains information on what is in the company profile of Supply Chain Insights and the purpose of company profiles.
+title: Company profile
+description: This topic includes details about what is included the company profile in Supply Chain Insights and the purpose of company profiles.
 author: carylhenry
-ms.date: 10/08/2021
+ms.date: 11/03/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -10,15 +10,21 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
+# Company profile
+
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Supply Chain Insights lets you connect with your business partners to gain visibility and better risk assessment within your supply chain. Under the company profile, you may add general information and corporate details, financial information, certifications, and corporate social responsibility. Every part of each company profile section can be completed individually in case you do not have all the information on hand. 
+In your company profile in Dynamics 365 Supply Chain Insights, you can add general information and corporate details, financial information, certifications, and corporate social responsibility.  
 
-# Setup
-Completing your company profile is the second recommended onboarding step because Supply Chain Insights uses this information to gather relevant news articles and recommend partners. The company profile will only contain the company's name and profile picture based upon your Azure Active Directory tenant initially. Every part of each company profile section can be completed individually in the event that a user does not have all the information on hand. By clicking the "Edit" or "Add" button in the upper right-hand corner of the respective part, you can complete or update their company profile according to the pane that will appear on the right.
+## Set up your company profile
 
-# Profile visibility
-You can make your profile visible to other partners by setting the "Profile visibility" in the "Basic information" tab as Public. This will allow partners to discover your profile and connect with you for collaborating and deriving data insights. In that case, any information provided under "Basic information" tab of your profile will be visible to all participant in Supply Chain Insights. 
+There are three steps you need to complete to onboard to Supply Chain Insights. [Import your data](/articles/ingestion.md), complete your [company profile](/articles/company-profile.md), and [create your supply chain network](/articles/partners.md). Setting up your company profile should come after you import your supply chain data because Supply Chain Insights will use all of this information to gather relevant news articles and recommend partners. 
 
-In case your profile visibility is set to Private, non connected partners will not discover your profile and details in the "Find Partners" and will not be able to connect with you. However, your profile Basic information will still be visible to your connected partners.
+Initially, your company profile will only contain the company name and profile picture, based on your Azure Active Directory (Azure AD) tenant. To update your company profile, select **Edit** or **Add** in the upper right corner of the section you want to update. You can complete each part of the company profile section individually if you don't have all the information on hand or want to finish your profile at a later time. 
+
+## Set your company profile to public
+
+To make your profile visible to other partners, set **Profile visibility** in the **Basic information** tab to **Public**. If your profile is public, other partners can discover your profile and connect with you to collaborate and derive data insights. Any information on the **Basic Information** tab on your company profile will be visible to all participants in Supply Chain Insights. 
+
+If **Profile visibility** is set to **Private**, non-connected partners won't discover your profile and details in **Find Partners**, and they can't connect with you. However, your **Basic Information** is still be visible to your connected partners.
