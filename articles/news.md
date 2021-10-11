@@ -1,6 +1,6 @@
 ---
-title: External insights
-description: This page contains information on the external insights Microsoft Dynamics 365 Supply Chain Insights delivers on real world events
+title: News
+description: This page contains information on the curated news feature included in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/08/2021
 ms.topic: article
