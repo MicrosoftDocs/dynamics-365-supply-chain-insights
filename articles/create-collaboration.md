@@ -1,8 +1,8 @@
 ---
 title: Create a collaboration
-description: This page contains information on how to create a data collaboration.
+description: This page contains information on how to create a data collaboration in Supply Chain Insights.
 author: carylhenry
-ms.date: 09/20/2021
+ms.date: 10/11/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -15,49 +15,41 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Data sharing between you and your partners grants everyone greater visibility into their supply chains because the health of your supply chain is also dependent upon your suppliers and customers. Supply Chain Insights using data collaborations to make data sharing a straightforward process so it can then include partner data when generating insights to identify risks within all parts of your supply chain. Data collaborations enable you to request and share data with one or more partners.  Each partner in a collaboration will be able to see your data, and you will be able to see all of your partners' data. However, your partners won't be aware of what other companies are involved in the collaboration and can't see each other's data.
+The health of your supply chain is dependent upon your suppliers and customers, making data sharing between you and your partners vital for granting everyone greater visibility into their supply chains. Data collaborations are how Supply Chain Insights makes data sharing a straightforward process, so it can then generate more insights about your supply chain by taking into account your partners' information.
 
 
 # Prerequisites
-
-Before starting a collaboration, make note of what happens and can happen when you share your data with partners within Supply Chain Insights along with what responsibilities related to this data falls upon you and Microsoft to ensure this meets your companies' expectations.  When sharing data with partners, your data may be copied to a different region if you are sharing it with a partner who holds their Supply Chain Insights data in a different location from you. Additionally, partners may view and use your data within Supply Chain Insights and/or use your data outside of Supply Chain Insights by exporting the data you have shared with them. Please refer to Supply Chain Insight's terms and conditions to review your and Microsoft's responsibilities concerning data sharing.
+Before starting a collaboration, make note of what happens and can happen when you share your data with partners within Supply Chain Insights along with what responsibilities related to this data falls upon you and Microsoft to ensure this meets your companies' expectations. When sharing data with partners, your data may be copied to a different region if you are sharing it with a partner who holds their Supply Chain Insights data in a different location from you. Additionally, partners may view and use your data within Supply Chain Insights and/or use your data outside of Supply Chain Insights by exporting the data you have shared with them. Please refer to [Supply Chain Insight's terms and conditions](https://aka.ms/scitc) to review your and Microsoft's responsibilities concerning data sharing.
 
 Collaborations require connected partners who use Supply Chain Insights and ingested data to share with them.
 
 
-# Create a data collaboration
-A new data collaboration can be started in two ways. The first is by clicking the "New collaboration" button in the top left of the "Data collaboration" section. The second is by selecting "Partners" within the "All partners" tab of the "Partners" section and then clicking the three dots. After initiating a new data collaboration, a name must be entered, partners must be chosen, and some data must be specified before sharing the collaboration.
- 
+# Create a data collaboration 
  ## Send a request
- ### Partners
- You can add one or more partners depending on if you created the collaboration within the data collaboration section or through the partners section accordingly. It is possible to add partners who are in other collaborations because  the same partner can join multiple collaborations simultaneously. Once added, clicking on a partner will cause a sidebar to appear where you can write an optional note. Different partners can receive different notes, all partners can receive the same note, and not all partners need to be sent a note. Notes will be seen by the partner as part of the invitation for the new data collaboration.
+ Select the "New collaboration" button in the top left of the "Data collaboration" section of the application to start a new data collaboration. After initiating a new data collaboration, a name must be entered, partners must be chosen, and some data must be specified before sharing the collaboration.
 
+ ## Add partners
+You can add one or more partners depending on if you created the collaboration within the data collaboration section or through the partners section accordingly. It is possible to add partners who are in other collaborations because  the same partner can join multiple collaborations simultaneously. Once added, clicking on the chat icon by a partner's name will cause a sidebar to appear where you can write an optional note. Different partners can receive different notes, all partners can receive the same note, and not all partners need to be sent a note. Notes will be seen by the partner as part of the invitation for the new data collaboration.
 
- ### Data requested
-The Data requested step presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. How often you receive updated information for the data entities you are requesting can be seen under the "Requested schedule" column.  Clicking on an item in this column lets you edit how often you get the updated data.
+## Request data from parters
+The "Data requested" tab presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. All, none, or some entities can be requested.
 
 ![requested-entities-for-a-data-collaboration](/articles/media/data-collaboration-request-entities.PNG)
 
-### Data shared
-Data shared mirrors Data requested, except it determines what information you will give to your Partners and how often you will update that information.
+## Share data with partners
+The format of the "Data shared" tab mirrors the "Data requested" tab, except it determines what information you will share with your partners instead of what information your partners will share with you.
 
-### Documents
-The Documents step is to share information that can't be captured within the data entities provided in the Data shared step. If no documents have been added, you can add documents by clicking the "Add files" button in the middle of the screen. Afterwards, you must select "Attach files" from the bar at the top of the page.
+# Respond to a request
+You may respond to a data collaboration request through the email invitation, notification on the home screen, or the "Partners' collaborations" tab of the "Data collaborations" section. Data collaborations which have not been responded to under the "Partners' collaborations" tab will have a 0% visibility score and a "Decline" button in the top right once clicked. Beyond the "Decline" button, clicking on a data collaboration will show more information on what data is being shared.
 
-## Respond to a request
-Partners may initiate a response to a data collaboration request through the email invitation, notification on their home screen, or the Partners' collaborations tab of the Data collaborations section. Data collaborations which have not been responded to under the collaborations tab will have "Not yet shared" for their entry under the "Data shared" column. 
+## View the requested data and share your data
+The "Data requested" tab of a partner's collaboration contains a table of what data entities are requested and which ones you are sharing. You don't need to share all the requested entities to accept the collaboration and you can also share non-requested data.
 
-### Data requested
-Partners will be able to see what data entities you requested and choose to comply with those requests or decline them. Declining some data entries does not mean a Partner has declined the data collaboration completely.
+## View the data shared with you
+The "Data shared" tab is very similar to the "Data requested" tab, but there is nothing for you to interact with here. This tab only contains information for what data your partner is sharing with you in this collaboration. If this partner is involved in other collaborations with you, then they may already be sharing some of the data listed in this tab.
 
-### Data shared
-Partners can see what information you will be sharing with them.
+## View and add notes
+The "Notes" tab contains notes sent from your partner and yourself.
 
-### Notes and documents
-Partners can see what notes and documents you will share with them. They will also be able to respond with their own notes and documents
-
-### Respond
-A partner can click "Share data" or "Decline" in the upper right corner will send a response to your data collaboration request. Regardless of their response, Partners are able to include a comment before being brought back to the Partner's collaborations tab of the Data collaborations section. If the data collaboration was declined, then the collaboration will be removed from the list. If the data collaboration was accepted, then a percentage will appear under the "Data shared" column based on how much data the Partner shared in respect to how much data you requested.
-
-# Sharing non-requested data
-If you would like to volunteer information to your Partners, you can update one of the data collaborations under "My org collaborations" and add an additional data entity under "Data shared."
+## Respond
+After reviewing a data collaboration request, select "Share data" or "Decline" in the upper right corner to send a response. If you decide to decline the collaboration, then the collaboration will be removed from the "Partners' collaborations" tab. If the data collaboration was accepted, then a percentage will appear under the "Visibility score" column in the "Partners' collaborations" tab based on how much data you shared in respect to how much data was requested of you.
