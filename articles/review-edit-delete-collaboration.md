@@ -10,8 +10,6 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
-# Metadata and Markdown template
-
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
