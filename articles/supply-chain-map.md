@@ -2,7 +2,7 @@
 title: Supply chain map
 description: This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/11/2021
+ms.date: 10/12/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -77,6 +77,6 @@ The following latent weather risks can be viewed on the map page:
 
 Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Currently filters will be provided for facility type and vendor visibility for tier 1- 5+. By default vendor visibility will be set to all uploaded vendors regardless of tiers.
 
-## List
+### List
 
 Selecting **List** in the top left of the command bar brings up a sidebar on the left side of the map that will initially contain a list of sites ranked from highest to lowest risk. Sites can be reordered based on risk score and alphabetically by site name. Selecting a specific site on the supply chain map will bring up information related to that site such as risk details and order information.
