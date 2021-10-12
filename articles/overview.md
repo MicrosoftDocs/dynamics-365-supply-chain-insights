@@ -2,7 +2,7 @@
 title: Supply Chain Insights overview
 description: This topic provides an overview of Microsoft Dynamics 365 Supply Chain Insights and the value it brings to users.
 author: carylhenry
-ms.date: 10/12/21
+ms.date: 10/12/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
