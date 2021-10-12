@@ -1,5 +1,5 @@
 ---
-title: Requirements and set up
+title: Set up Supply Chain Insights
 description: This page contains requirements for using Supply Chain Insights and instructions for setting it up.
 author: carylhenry
 ms.date: 10/08/2021
@@ -10,6 +10,7 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
+# Set up Supply Chain Insights
 
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
