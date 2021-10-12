@@ -23,7 +23,7 @@ The map view also provides risk data for each uploaded site. Currently, two type
 
 ## Supply chain map prerequisites
 
-The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will use the data provided when a participant is onboarded to populate your location and your vendors' locations. The map view is updated to include additional sites when other production plant and warehouse data is uploaded or when you receive data from connected suppliers or customers within Supply Chain Insights. The map view update feature uses uploaded bills of materials to connect sites and visualize the geographic flow of products and relationships between sites. 
+The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will use the data provided when a participant is onboarded to populate participant and vendor locations. The map view is updated to include additional sites when other production plant and warehouse data is uploaded or when you receive data from connected suppliers or customers within Supply Chain Insights. The map view update feature uses uploaded bills of materials to connect sites and visualize the geographic flow of products and relationships between sites. 
 
 ## Reading the map
 
@@ -33,15 +33,13 @@ The supply chain map requires site location information to add locations to the 
 
 ![Icons used to represent different types of locations on the supply chain map](/articles/media/supply-chain-map-legend.PNG)
 
-"My site" and "Vendor's site" are generic icon labels that are used when Supply Chain Insights cannot detect the facility type or when a facility includes both production plants and warehouses. You must ingest the production plant and warehouse entities to see your sites on the map whereas you must ingest, connect, and share data with a vendor for their sites to appear.
+To see your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To see vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
 
-To see your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To see vendor sites on the map, you must forst ingest, connect, and share data with those vendors.
-
-Hovering over a site on the map will bring up information related to the site, including the company name, site address, and site risk score. Selecting a site icon will bring up a sidebar that shows additional site information such as risks details and potentially impacted orders. For the potentially impacted order functionality to work, the order entity must be ingested in addition to the production plant and warehouse entities mentioned above.
+Hovering over a site on the map will bring up information related to the site, including the company name, site address, and site risk score. Selecting a site icon will bring up a sidebar that displays additional site information such as risk details and potentially impacted orders. For the potentially impacted order functionality to work, the order entity must be ingested into Supply Chain Insights in addition to the production plant and warehouse entities mentioned above.
 
 ### Connections
 
-Arrows and dashed lines between two sites show the flow of goods. Goods are shipped from the site at the tail end of the arrow and are delivered to another site at the tip of the arrow. These connections are created based on attributes defined in your and your vendors' production plant, warehouse, and bill of material entities. These entities must be ingested before the relevant connections can be seen on the supply chain map.
+Arrows and dashed lines between two sites show the flow of goods. Goods are shipped from the site at the tail end of the arrow and are delivered to another site at the tip of the arrow. These connections are created based on attributes defined in your and your vendors' production plant, warehouse, and bill of material entities. These entities must be ingested into Supply Chain Insights before the relevant connections can be seen on the supply chain map.
 
 ### Risk score
 
@@ -59,7 +57,7 @@ Red circles on the supply chain map represent areas containing sites that may be
 
 ## Map views
 
-The drop down menu in the top right of the supply chain map can display various types of latent risk overlaid on the map. Initially the view is set to a **Default** state where no latent risks are overlaid.  
+The dropdown menu on the top right of the supply chain map can display various types of latent risk overlaid on the map. Initially the view is set to a **Default** state where no latent risks are overlaid.  
 
 The following latent weather risks can be viewed on the map page:
 
@@ -75,7 +73,7 @@ The following latent weather risks can be viewed on the map page:
 
 ### Filters
 
-Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Currently filters will be provided for facility type and vendor visibility for tier 1- 5+. By default vendor visibility will be set to all uploaded vendors regardless of tiers.
+Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Currently filters are provided for facility type and vendor visibility. By default, vendor visibility is set to show all uploaded vendors regardless of tiers.
 
 ### List
 
