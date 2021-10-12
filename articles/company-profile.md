@@ -25,6 +25,6 @@ Initially, your company profile will only contain the company name and profile p
 
 ## Set your company profile to public
 
-To make your profile visible to other partners, set **Profile visibility** in the **Basic information** tab to **Public**. If your profile is public, other partners can discover your profile and connect with you to collaborate and derive data insights. Any information on the **Basic Information** tab on your company profile will be visible to all participants in Supply Chain Insights. 
+To make your profile discoverable to other partners, set **Profile visibility** in the **Basic information** tab to **Public**. If your profile is public, other partners can discover your profile and connect with you to collaborate and derive data insights. Any information on the **Basic Information** tab on your company profile will be displayed for all participants in Supply Chain Insights. 
 
-If **Profile visibility** is set to **Private**, non-connected partners won't discover your profile and details in **Find Partners**, and they can't connect with you. However, your **Basic Information** is still be visible to your connected partners.
+If **Profile visibility** is set to **Private**, non-connected partners won't discover your profile and details in **Find Partners**, and they can't connect with you. However, your **Basic Information** is still displayed to your connected partners.
