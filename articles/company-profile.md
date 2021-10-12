@@ -19,7 +19,7 @@ In your company profile in Dynamics 365 Supply Chain Insights, you can add gener
 
 ## Set up your company profile
 
-There are three steps you need to complete to onboard to Supply Chain Insights. [Import your data](/articles/ingestion.md), complete your [company profile](/articles/company-profile.md), and [create your supply chain network](/articles/partners.md). You should set up your company profile after you import your supply chain data because Supply Chain Insights will use all of this information to gather relevant news articles and recommend partners. 
+There are three steps you need to complete to onboard to Supply Chain Insights. [Import your data](ingestion.md), complete your company profile, and [create your supply chain network](partners.md). You should set up your company profile after you import your supply chain data because Supply Chain Insights will use all of this information to gather relevant news articles and recommend partners. 
 
 Initially, your company profile will only contain the name of your company and the profile picture, based on the information in your Azure Active Directory (Azure AD) tenant. To update your company profile, select **Company profile** on the left navigation pane, then select **Edit** or **Add** in the upper right corner of the profile section you want to update. You can complete each part of the company profile section individually if you don't have all the information on hand or want to finish your profile at a later time. 
 
@@ -28,3 +28,9 @@ Initially, your company profile will only contain the name of your company and t
 To make your profile discoverable to other partners, set **Profile visibility** in the **Basic information** tab to **Public**. If your profile is public, other partners can discover your profile on the **Partners > Find Partners** tab and connect with you to collaborate and derive data insights. Any information on the **Basic Information** tab on your company profile will be displayed for all participants in Supply Chain Insights. 
 
 If **Profile visibility** is set to **Private**, non-connected partners won't discover your profile and details, and they can't connect with you. However, your information on the **Basic Information** tab is still displayed to your connected partners.
+
+## Additional resources
+
+[Set up Supply Chain Insights](set-up.md)
+[Import your data](ingestion.md)
+[Create your supply chain network](partners.md)
