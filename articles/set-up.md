@@ -15,7 +15,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This topic provides requirements and instructions for using and setting up Microsoft Dynamics 365 Supply Chain Insights.
+This topic provides requirements and instructions for signing up for and setting up Microsoft Dynamics 365 Supply Chain Insights.
 
 ## Sign up for the public preview
 
@@ -35,11 +35,11 @@ There are two ways to sign up for the public preview of Dynamics 365 Supply Chai
 After receiving an email invitation to join Supply Chain Insights as a user, follow these steps to get started.
 
 1. Go to [sci.dynamics.com](https://sci.dynamics.com/) and follow the prompts to create and/or provision your Azure AD tenant. 
-1. Accept the popup request asking for access to your location, which will be used to offer better suggestions as you search for locations in the next two steps.
+1. Accept the popup request asking for access to your location, which will then be used to offer better suggestions as you search for locations in the following steps.
 1. Search for and select your company location. 
 1. Search for and select your vendor location(s). 
 1. Select **Get Started**. 
-1. Complete the following three steps to provide the application with more information to deliver you accurate insights:
+1. Complete the following steps to provide Supply Chain Insights with additional information that will help the application deliver you accurate insights:
     1. [Import your data](ingestion.md).
     1. Complete your [Company profile](company-profile.md).
     1. [Create your supply chain network](partners.md).
