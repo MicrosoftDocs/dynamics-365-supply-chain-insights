@@ -1,6 +1,6 @@
 ---
 title: Set up Supply Chain Insights
-description: This topic provides requirements and instructions for using and setting up Microsoft Dynamics 365 Supply Chain Insights.
+description: This topic provides requirements and instructions for signing up for and setting up Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/12/2021
 ms.topic: article
@@ -17,7 +17,7 @@ ms.author: carylhenry
 
 This topic provides requirements and instructions for using and setting up Microsoft Dynamics 365 Supply Chain Insights.
 
-## Public preview enrollment
+## Sign up for the public preview
 
 There are two ways to sign up for the public preview of Dynamics 365 Supply Chain Insights. The first is to sign up from the [Supply Chain Insights home page](https://dynamics.microsoft.com/supply-chain-insights/). The second method is by signing up through an invitation sent from a company that is already a public preview user. Companies who sign up using either method will then be contacted by email from the Supply Chain Insights team with information on how register as a public preview user.
 
