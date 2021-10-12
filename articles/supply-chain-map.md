@@ -19,11 +19,11 @@ This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain
 
 The Dynamics 365 Supply Chain Insights supply chain map provides a visual representation of a company’s supply chain. This visualization shows how suppliers are connected to company facilities and how those facilities are connected to customers. 
 
-The map view also provides risk data for each uploaded site. Currently, two types of risk data are shown in map view: latent weather risks based on historical events and real-time weather risks such as ongoing natural catastrophes.
+The map view also provides risk data for each uploaded site. Two types of risk data are currently shown in map view: latent weather risks based on historical events and real-time weather risks such as ongoing natural catastrophes.
 
 ## Supply chain map prerequisites
 
-The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will use the data provided when a participant is onboarded to populate participant and vendor locations. The map view is updated to include additional sites when other production plant and warehouse data is uploaded or when you receive data from connected suppliers or customers within Supply Chain Insights. The map view update feature uses uploaded bills of materials to connect sites and visualize the geographic flow of products and relationships between sites. 
+The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will use the data provided when a participant is onboarded to populate participant and vendor locations. The map view is updated to include additional sites when other production plant and warehouse data are uploaded or when you receive data from connected suppliers or customers within Supply Chain Insights. The map view update feature uses uploaded bills of materials to connect sites and visualize the geographic flow of products and relationships between sites. 
 
 ## Reading the map
 
@@ -51,7 +51,7 @@ The circle with a number next to a supply chain map site icon represents the cor
 
 ### Live alerts
 
-Red circles on the supply chain map represent areas containing sites that may be impacted by real time events. Currently, the real time risks shown are weather risks such as ongoing natural catastrophes. Selecting a circle brings up a sidebar on the left with a list of live alerts. 
+Red circles on the supply chain map represent areas containing sites that may be impacted by real time events. Currently, the real time risks shown are weather risks such as ongoing natural catastrophes. Selecting a circle brings up a sidebar on the left with a list of live alerts, as shown in the following illustration. 
 
 ![Supply chain map showing the sidebar listing sites and their risk scores](/articles/media/supply-chain-map.PNG)
 
@@ -73,7 +73,7 @@ The following latent weather risks can be viewed on the map page:
 
 ### Filters
 
-Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Currently filters are provided for facility type and vendor visibility. By default, vendor visibility is set to show all uploaded vendors regardless of tiers.
+Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Filters are currently provided for facility type and vendor visibility. By default, vendor visibility is set to show all uploaded vendors regardless of tier.
 
 ### List
 
