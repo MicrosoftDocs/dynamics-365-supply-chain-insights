@@ -10,8 +10,6 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
-# Metadata and Markdown template
-
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
@@ -25,6 +23,9 @@ Collaborations require connected partners who use Supply Chain Insights and inge
 
 
 # Create a data collaboration 
+
+![demo for how to create a data collaboration with one partner](/articles/media/create-collaboration-example-flow.gif)
+
  ## Send a request
  Select the "New collaboration" button in the top left of the "Data collaboration" section of the application to start a new data collaboration. After initiating a new data collaboration, a name must be entered, partners must be chosen, and some data must be specified before sharing the collaboration.
 
@@ -33,8 +34,6 @@ You can add one or more partners depending on if you created the collaboration w
 
 ## Request data from parters
 The "Data requested" tab presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. All, none, or some entities can be requested.
-
-![requested-entities-for-a-data-collaboration](/articles/media/data-collaboration-request-entities.png)
 
 ## Share data with partners
 The format of the "Data shared" tab mirrors the "Data requested" tab, except it determines what information you will share with your partners instead of what information your partners will share with you.
@@ -49,7 +48,7 @@ The "Data requested" tab of a partner's collaboration contains a table of what d
 The "Data shared" tab is very similar to the "Data requested" tab, but there is nothing for you to interact with here. This tab only contains information for what data your partner is sharing with you in this collaboration. If this partner is involved in other collaborations with you, then they may already be sharing some of the data listed in this tab.
 
 ## View and add notes
-The "Notes" tab contains notes sent from your partner and yourself.
+The "Notes" tab contains notes sent from your partner and yourself to provide more information such as the purpose of the data collaboration and why or why not some data has been shared.
 
 ## Respond
 After reviewing a data collaboration request, select "Share data" or "Decline" in the upper right corner to send a response. If you decide to decline the collaboration, then the collaboration will be removed from the "Partners' collaborations" tab. If the data collaboration was accepted, then a percentage will appear under the "Visibility score" column in the "Partners' collaborations" tab based on how much data you shared in respect to how much data was requested of you.
