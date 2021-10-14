@@ -37,7 +37,7 @@ Import a local CSV or XLSX file from your computer or connect Supply Chain Insig
 
 ## Local file prerequisites
 
-- An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) is required for local files on your computer to be imported into Supply Chain Insights. For support on installing an on-premises data gateway, see [Install an on-premises data gateway](https://docs.microsoft.com/en-us/data-integration/gateway/service-gateway-install).
+- An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) is required for local files on your computer to be imported into Supply Chain Insights. For support on installing an on-premises data gateway, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
 - After installing on-premises data gateway, you must use your Supply Chain Insights user credentials to sign into the application.
 - You must ensure that the local folder containing the file you want to upload is configured to grant access to everyone.
 
