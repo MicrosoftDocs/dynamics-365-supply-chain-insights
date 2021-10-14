@@ -17,7 +17,7 @@ ms.author: carylhenry
 
 This topic describes data resiliency, compliance, and security as it relates to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
 
-As a Microsoft product, Dynamics 365 Supply Chain Insights is backed by Microsoft's Enterprise Business Continuity Management (EBCM) team to ensure that the application and all of the data associated with it are resilient. To check if Supply Chain Insights meets your organization's requirements for resilience, please review Microsoft's documentation for [Resiliency and continuity overview](/compliance/assurance/assurance-resiliency-and-continuity)*.
+As a Microsoft product, Dynamics 365 Supply Chain Insights is backed by Microsoft's Enterprise Business Continuity Management (EBCM) team to ensure that the application and all of the data associated with it are resilient. To check if Supply Chain Insights meets your organization's requirements for resilience, see [Resiliency and continuity overview](/compliance/assurance/assurance-resiliency-and-continuity).
 
 > [NOTE]
 > Since it is a new product in public preview, Supply Chain Insights has yet to meet the external regulation and certification requirements for Microsoft Azure and Dynamics 365. These requirements will be fulfilled before the product is generally available. 
