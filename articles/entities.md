@@ -102,7 +102,7 @@ A *product* entity captures the details of end products that a company produces 
 
 ### Bill of material lines
 #
-A *bill of material lines* entity capture the details for the production bill of materials or the parts/raw materials requirement for manufacturing a product. 
+A *bill of material lines* entity captures the details for the production bill of materials or the parts/raw materials requirement for manufacturing a product. 
 
 | Attribute            | Description                                                              | Type    | Required     |
 | -------------------- |--------------------------------------------------------------------------| ------- | ------------ |
