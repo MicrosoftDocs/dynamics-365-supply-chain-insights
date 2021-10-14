@@ -17,49 +17,49 @@ ms.author: carylhenry
 
 This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 
-The Dynamics 365 Supply Chain Insights supply chain map provides a visual representation of a company’s supply chain. This visualization shows how suppliers are connected to company facilities and how those facilities are connected to customers. 
+The supply chain map in Dynamics 365 Supply Chain Insights provides a visual representation of a company's supply chain. It shows how suppliers are connected to company facilities and how those facilities are connected to customers.
 
-The map view also provides risk data for each uploaded site. Two types of risk data are currently shown in map view: latent weather risks based on historical events and real-time weather risks such as ongoing natural catastrophes.
+Additionally, the map view provides risk data for each uploaded site. Two types of risk data are currently shown in the map view: latent weather risks, based on historical events, and real-time weather risks, such as ongoing natural catastrophes.
 
 ## Supply chain map prerequisites
 
-The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights will use the data provided when a participant is onboarded to populate participant and vendor locations. The map view is updated to include additional sites when other production plant and warehouse data are uploaded or when you receive data from connected suppliers or customers within Supply Chain Insights. The map view update feature uses uploaded bills of materials to connect sites and visualize the geographic flow of products and relationships between sites. 
+The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights adds participant and vendor locations by using the data that is provided when a participant is onboarded. Then, when other production plant and warehouse data is uploaded, or when you receive data from connected suppliers or customers in Supply Chain Insights, the map view is updated so that it includes additional locations. The map view update feature uses uploaded bills of materials (BOMs) to connect sites and to visualize the geographic flow of products and relationships between sites.
 
 ## Reading the map
 
 ### Sites
 
-"My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites represented by icons in the Supply Chain Insights supply chain map, as shown in the following illustration. 
+"My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites that are represented by icons on the supply chain map, as shown in the following illustration.
 
-![Icons used to represent different types of locations on the supply chain map](/articles/media/supply-chain-map-legend.PNG)
+![Icons that represent different types of locations on the supply chain map.](/articles/media/supply-chain-map-legend.PNG)
 
-To see your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To see vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
+To view your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To view vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
 
-Hovering over a site on the map will bring up information related to the site, including the company name, site address, and site risk score. Selecting a site icon will bring up a sidebar that displays additional site information such as risk details and potentially impacted orders. For the potentially impacted order functionality to work, the order entity must be ingested into Supply Chain Insights in addition to the production plant and warehouse entities mentioned above.
+If you hover over a site on the map, information that is related to the site appears. This information includes the company name, site address, and site risk score. If you select a site icon, a sidebar appears and shows additional site information, such as risk details and potentially affected orders. The potentially affected order functionality requires that the order entity be ingested into Supply Chain Insights, in addition to the production plant and warehouse entities that were mentioned earlier.
 
 ### Connections
 
-Arrows and dashed lines between two sites show the flow of goods. Goods are shipped from the site at the tail end of the arrow and are delivered to another site at the tip of the arrow. These connections are created based on attributes defined in your and your vendors' production plant, warehouse, and bill of material entities. These entities must be ingested into Supply Chain Insights before the relevant connections can be seen on the supply chain map.
+Arrows and dashed lines between two sites show the flow of goods. Goods are shipped from the site at the tail end of the arrow and delivered to the site at the tip of the arrow. These connections are created based on attributes that are defined in your and your vendors' production plant, warehouse, and BOM entities. These entities must be ingested into Supply Chain Insights before the relevant connections can be shown on the supply chain map.
 
 ### Risk score
 
-The circle with a number next to a supply chain map site icon represents the correlating risk score for that site. Risk scores are ranked on a scale from 0 to 99, and are calculated by averaging all of the latent weather risks for a given site and also factoring in any current weather risks as warranted. Risk scores are classified as low, medium, or high as follows: 
+A circle that contains a number appears next to each site icon on the supply chain map and represents the correlating risk score for that site. Risk scores are ranked on a scale from 0 through 99. They are calculated by averaging all the latent weather risks for a given site and also factoring in any current weather risks as appropriate. Risk scores are classified as low, medium, or high in the following way:
 
-- Low risk scores represent risk scores 0 to 33 and are displayed as green. 
-- Medium risk scores represent risk scores 34 to 66 and are displayed as orange. 
-- High risk scores represent risk scores 67 to 99 and are displayed as red. 
+- **Low** – The risk score is from 0 through 33. These risk scores are shown in green.
+- **Medium** – The risk score is from 34 through 66. These risk scores are shown in orange.
+- **High** – The risk score is from 67 through 99. These risk scores are shown red.
 
 ### Live alerts
 
-Red circles on the supply chain map represent areas containing sites that may be impacted by real time events. Currently, the real time risks shown are weather risks such as ongoing natural catastrophes. Selecting a circle brings up a sidebar on the left with a list of live alerts, as shown in the following illustration. 
+Red circles on the supply chain map represent areas that contain sites that might be affected by real-time events. Currently, the real-time risks that are shown are weather risks, such as ongoing natural catastrophes. If you select a circle, a sidebar appears on the left and shows a list of live alerts, as shown in the following illustration.
 
-![Supply chain map showing the sidebar listing sites and their risk scores](/articles/media/supply-chain-map.PNG)
+![Sidebar that lists sites and their risk scores.](/articles/media/supply-chain-map.PNG)
 
 ## Map views
 
-The dropdown menu on the top right of the supply chain map can display various types of latent risk overlaid on the map. Initially the view is set to a **Default** state where no latent risks are overlaid.  
+The drop-down menu in the upper right of the supply chain map can be used to overlay various types of latent risk on the map. Initially, the view is set to a **Default** state where no latent risks are overlaid.
 
-The following latent weather risks can be viewed on the map page:
+The following latent weather risks can be viewed on the map:
 
 - River flooding
 - High winds
@@ -73,8 +73,8 @@ The following latent weather risks can be viewed on the map page:
 
 ### Filters
 
-Filters are provided to help you focus on different aspects of your supply chain. Selecting **Filters** in the top right of the command bar brings up a sidebar containing options to filter by. Filters are currently provided for facility type and vendor visibility. By default, vendor visibility is set to show all uploaded vendors regardless of tier.
+Filters are provided to help you focus on different aspects of your supply chain. If you select **Filters** in the upper right of the command bar, a sidebar appears and shows filtering options. You can currently filter by facility type and vendor visibility. By default, the vendor visibility filter is set to show all uploaded vendors, regardless of tier.
 
 ### List
 
-Selecting **List** in the top left of the command bar brings up a sidebar on the left side of the map that will initially contain a list of sites ranked from highest to lowest risk. Sites can be reordered based on risk score and alphabetically by site name. Selecting a specific site on the supply chain map will bring up information related to that site such as risk details and order information.
+If you select **List** in the upper left of the command bar, a sidebar appears on the left side of the map and shows a list of sites. Initially, the sites are ranked from highest risk to lowest risk. However, you can reorder them by risk score or site name. If you select a specific site on the supply chain map, information that is related to that site appears, such as risk details and order information.
