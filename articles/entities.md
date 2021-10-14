@@ -7,7 +7,7 @@ ms.topic: article
 audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
-ms.author: carylhery
+ms.author: carylhenry
 ---
 
 # Entities
@@ -101,7 +101,7 @@ A *product* entity captures the details of end products that a company produces 
 | Height                   | Height of the product.                                                | Integer  | Optional |
 
 ### Bill of material lines
-#
+
 A *bill of material lines* entity captures the details for the production bill of materials or the parts/raw materials requirement for manufacturing a product. 
 
 | Attribute            | Description                                                              | Type    | Required     |
