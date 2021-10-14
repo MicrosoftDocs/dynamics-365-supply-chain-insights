@@ -1,6 +1,6 @@
 ---
 title: Data resiliency
-description: This page contains information on data resiliency, compliance, and security as it relates to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
+description: This topic describes data resiliency, compliance, and security as it relates to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/14/2021
 ms.topic: article
@@ -15,7 +15,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This page contains information on data resiliency, compliance, and security as it relates to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
+This topic describes data resiliency, compliance, and security as it relates to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
 
 As a Microsoft product, Dynamics 365 Supply Chain Insights is backed by Microsoft's Enterprise Business Continuity Management (EBCM) team to ensure that the application and all of the data associated with it are resilient. To check if Supply Chain Insights meets your organization's requirements for resilience, please review Microsoft's documentation for [Resiliency and continuity overview](/compliance/assurance/assurance-resiliency-and-continuity)*.
 
