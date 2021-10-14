@@ -1,6 +1,6 @@
 ---
-title: Products
-description: This topic describes the products page of Microsoft Dynamics 365 Supply Chain Insights.
+title: Products page
+description: This topic describes the functionality of the products page in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/13/2021
 ms.topic: article
@@ -15,21 +15,23 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This topic describes the products page of Microsoft Dynamics 365 Supply Chain Insights.
+This topic describes the functionality of the products page in Microsoft Dynamics 365 Supply Chain Insights.
 
-Products are often manufactured goods that require materials to be created. The products section of Supply Chain Insights contains a catalogue of all the products you sell and enables you to easily identify what materials are required for each product to highlight the dependencies in your supply chain.
+Products are often manufactured goods that require parts and materials to be created. The products page of Supply Chain Insights lists all of the products you sell and highlights dependencies in your supply chain by enabling you to easily identify what parts and materials are required to manufacture each product.
 
-Choose a product then select "Details" in the top right or select "Details" after opening the contextual menu using the vertical ellipsis. This will present you the page for that product which contains two tabs, one for "Details" and another for "Bill of materials."  
+> [!NOTE]
+> For the **Products** page to function, the entities for products and their corresponding bills of material must be ingested into Supply Chain Insights according to the process outlined in [Ingestion](ingestion.md).
 
-The **Bill of materials** tab for a product shows what parts are used in manufacturing the product. Selecting a part opens a pane on the right containing details about the part such as the product name, product ID, and product description. 
+## Products page functionality
 
-Alternatively, selecting "Details" after opening the contextual menu via the vertical ellipsis will take you to the product page for that part, mirroring the two-tab, "Details" and "Bill of material" page for the original product that was viewed.
+To view information about a product in Supply Chain Insights, you first select **Products** in the left navigation pane, which brings up the **Products** page with a list of products. To view product details, select the vertical ellipsis in the product's row, and then select **Details**. The product page then appears with two tabs:
 
-![selecting a product, looking at its bill of material, and then choosing an item listed in the bill of material](/articles/media/Basket-assembly-product.gif)
+- The **Details** tab lists details about the product such as the product name, product ID, product description, vendor name, and vendor ID.
+- The **Bill of materials** tab lists the component parts of the product.
 
-## Prerequisites
+Selecting a part on the **Bill of materials** tab opens a pane on the right that contains details about the part such as the part name, part ID, vendor product ID, and item ID. Alternatively, selecting **Details** via the vertical ellipsis of a part's row on the **Bill of materials** tab opens a part page with **Details** and **Bill of materials** tabs. Part information is listed on the **Details** tab, and any part components are listed on the **Bill of materials** tab.
 
-For the "Products" page to function, the entities for products and their corresponding bills of material must be ingested into Supply Chain Insights according to the process outlined in [Ingestion](ingestion.md).
+<!-- ![selecting a product, looking at its bill of material, and then choosing an item listed in the bill of material](/articles/media/Basket-assembly-product.gif)-->
 
-## 
+
 
