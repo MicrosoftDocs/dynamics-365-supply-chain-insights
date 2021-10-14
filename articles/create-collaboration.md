@@ -1,5 +1,5 @@
 ---
-title: Create a collaboration
+title: Create data collaborations
 description: This topic describes how to create data collaborations in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/14/2021
@@ -10,7 +10,7 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
-# Create a collaboration
+# Create data collaborations
 
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
@@ -21,13 +21,13 @@ The health of your supply chain is dependent upon your suppliers and customers, 
 
 ## Prerequisites
 
-Before starting a data collaboration, make note of what happens and what can happen when you share your data with partners within Supply Chain Insights. You should also determine what responsibilities related to the data falls upon you and Microsoft to ensure that you meet your company's expectations. When sharing data with partners, your data may be copied to a different region if you are sharing it with a partner who holds their Supply Chain Insights data in a different location from yours. Additionally, partners may view and use your data within Supply Chain Insights and/or use your data outside of Supply Chain Insights by exporting the data you have shared with them. To review your and Microsoft's responsibilities concerning data sharing, see [Supply Chain Insight's terms and conditions](https://aka.ms/scitc).
+Before starting a data collaboration, make note of what happens and what can happen when you share your data with partners within Supply Chain Insights. You should also determine which responsibilities related to the data are assigned to your company and Microsoft to ensure that you meet your company's expectations. When sharing data with partners, your data may be copied to a different region if you are sharing it with a partner who holds their Supply Chain Insights data in a different location from yours. Additionally, partners may view and use your data within Supply Chain Insights and/or use your data outside of Supply Chain Insights by exporting the data you have shared with them. To review your and Microsoft's responsibilities concerning data sharing, see [Supply Chain Insight's terms and conditions](https://aka.ms/scitc).
 
 Collaborations require connected partners who use Supply Chain Insights, and ingested data to share with them.
 
 ## Create a data collaboration 
 
-![demo for how to create a data collaboration with one partner](/articles/media/create-collaboration-example-flow.gif)
+<!--![demo for how to create a data collaboration with one partner](/articles/media/create-collaboration-example-flow.gif)-->
 
 ### Send a request
  
@@ -39,23 +39,23 @@ You can add one or more partners depending on if you created the collaboration w
 
 ### Request data from partners
 
-The "Data requested" tab presents a list of data entities that can be requested using the toggles provided in the "Request to share?" column. All, none, or some entities can be requested.
+The **Data requested** tab presents a list of data entities that can be requested using the checkboxes provided in the **Request to share?** column. All, none, or some entities can be requested.
 
 ### Share data with partners
 
-The format of the "Data shared" tab mirrors the "Data requested" tab, except it determines what information you will share with your partners instead of what information your partners will share with you.
+The format of the **Data shared** tab is similar to that of the **Data requested** tab, except that it determines what information you will share with your partners instead of what information your partners will share with you.
 
 ### Respond to a request
 
-You may respond to a data collaboration request through the email invitation, notification on the home screen, or the "Partners' collaborations" tab of the "Data collaborations" section. Data collaborations which have not been responded to under the "Partners' collaborations" tab will have a 0% visibility score and a "Decline" button in the top right once clicked. Beyond the "Decline" button, clicking on a data collaboration will show more information on what data is being shared.
+You can respond to a data collaboration request through the email invitation, notification on the home screen, or the **Partners' collaborations** tab of the **Data collaborations** page. Data collaborations which have not been responded to under the **Partners' collaborations** tab will have a 0% visibility score and will show a **Decline** button in the top right when selected. Selecting a data collaboration will also show more information on what data is being shared.
 
 ### View the requested data and share your data
 
-The **Data requested** tab of a partner's collaboration page contains a list of which data entities are requested, as well as which data entities you are sharing. It is not necessary to share all of the requested entities to accept a data collaboration request, and you can also share data not requested.
+The **Data requested** tab of a partner's collaboration page contains a list of what data entities are requested, as well as what data entities you are sharing. It is not necessary to share all of the requested entities to accept a data collaboration request, and you can also share data that is not requested.
 
 ### View the data shared with you
 
-The **Data shared** tab of a partner's collaboration page is similar to the **Data requested** tab, but it simply lists information about what data your partner is sharing with you in the data collaboration. If the partner is involved in other data collaborations with you they may already be sharing some of the data listed on this tab with you.
+The **Data shared** tab of a partner's collaboration page is similar to the **Data requested** tab, except that it lists information about what data your partner is sharing with you in the data collaboration. If the partner is involved in other data collaborations with you they may already be sharing some of the data listed on this tab with you.
 
 ### View and add notes
 
