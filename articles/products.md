@@ -2,7 +2,7 @@
 title: Products page
 description: This topic describes the functionality of the products page in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/13/2021
+ms.date: 10/14/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -10,7 +10,7 @@ ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
 ---
 
-# Products
+# Products page
 
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
@@ -20,7 +20,7 @@ This topic describes the functionality of the products page in Microsoft Dynamic
 Products are often manufactured goods that require parts and materials to be created. The products page of Supply Chain Insights lists all of the products you sell and highlights dependencies in your supply chain by enabling you to easily identify what parts and materials are required to manufacture each product.
 
 > [!NOTE]
-> For the **Products** page to function, the entities for products and their corresponding bills of material must be ingested into Supply Chain Insights according to the process outlined in [Ingestion](ingestion.md).
+> For the **Products** page to function, the entities for products and their corresponding bills of material must be ingested into Supply Chain Insights according to the process outlined in [Ingest data](ingestion.md).
 
 ## Products page functionality
 
