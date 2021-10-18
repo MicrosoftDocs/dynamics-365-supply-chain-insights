@@ -1,6 +1,6 @@
 ---
 title: Curated news feature
-description: This topic describes the curated news feature included in Microsoft Dynamics 365 Supply Chain Insights.
+description: This topic describes the curated news feature that is included in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/14/2021
 ms.topic: article
@@ -16,16 +16,16 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This topic describes the curated news feature included in Microsoft Dynamics 365 Supply Chain Insights.
+This topic describes the curated news feature that is included in Microsoft Dynamics 365 Supply Chain Insights.
 
-Supply Chain Insights is designed to enable users to identify and respond to external risks. One way this is accomplished is by gathering information on world events and presenting you with only the news that is relevant to your company and partner companies. Supply Chain Insights uses your company's and your vendor companies' names provided during initial onboarding to curate the news articles.
+Dynamics 365 Supply Chain Insights is designed to help users identify and respond to external risks. The curated news feature is one way that it achieves this goal. The feature enables Supply Chain Insights to gather information about world events, and then present only the news that is relevant to your company and partner companies. To curate news articles in this way, Supply Chain Insights uses the names that were provided for your company and your vendor companies during initial onboarding.
 
 ## Prerequisites
 
-News articles are sorted based on how relevant the news article is to a company and its supply chain using a trained AI model. Initial news will be populated based on company, vendor and customer names entered during the onboarding process. When additional vendors or customers are imported to Supply Chain Insights or a connection is made with another Supply Chain Insights participant, news will be curated for those companies.  
+A trained AI model is used to sort news articles based on their relevance to a company and its supply chain. Initially, news will be presented based on company, vendor, and customer names that were entered during the onboarding process. However, when additional vendors or customers are imported into Supply Chain Insights, or when a connection is made with another Supply Chain Insights participant, news will be curated for those companies.
 
 ## Functionality
 
-Supply Chain Insights curates recent relevant news articles using a trained AI model that identifies articles that impact a supply chain. It then presents them as tiles on the **Home** and **News** pages of the application. Selecting **Read article** on a tile will open the news story in a new tab. Selecting **View impacts** will take you to a page specific to that news article where you can view which partners in your supply chain are potentially impacted.
+Supply Chain Insights curates recent relevant news articles by using a trained AI model that identifies news that could affect a supply chain. The news articles are then presented as tiles on the **Home** and **News** pages of the application. If you select **Read article** on a tile, the news story is opened on a new tab. If you select **View impacts** on a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
 <!--![list of news articles](/articles/media/news-list.PNG)-->
