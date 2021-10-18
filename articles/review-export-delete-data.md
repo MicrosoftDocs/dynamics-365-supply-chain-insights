@@ -17,25 +17,25 @@ ms.author: carylhenry
 
 This topic describes how to review, edit, delete, and export data in Microsoft Dynamics 365 Supply Chain Insights.
 
-Reviewing, exporting, and deleting data in Dynamics 36 Supply Chain Insights can help you derive maximum benefits through analytics and data modeling by confirming that the data you have ingested are valid and mapping to the correct entities and attributes within the application. 
+The ability to review, export, and delete data in Dynamics 36 Supply Chain Insights can help you derive maximum benefits through analytics and data modeling. You can verify that the data that you've ingested is valid, and you can map to the correct entities and attributes in the application.
 
 ## Prerequisites
 
-Data management requires that you have already ingested your data into Supply Chain Insights either manually from your local computer or from your data storage provider.
+Data management requires that you've already ingested your data into Supply Chain Insights, either manually from your local computer or from your data storage provider.
 
 ## Review the ingested data
 
-Review the ingested data for a given entity by selecting the entity name on the main **Data import** page, or selecting **View data** from the vertical ellipsis contextual menu of a given entity. This displays a new page with a table listing all the data Supply Chain Insights has for the attributes of that entity. The panes on the right side contain tools for customizing data to see and understand what has been ingested. Any interactions with the side panes are not saved, so they will not edit your data. For more information on what is possible with these tools, see [Tour the report editor in Power BI](/power-bi/create-reports/service-the-report-editor-take-a-tour).
+To review the ingested data for a given entity, select the entity name on the main **Data import** page. Alternatively, select the vertical ellipsis button for the entity, and then select **View data**. The new page that appears contains a grid that lists all the data that Supply Chain Insights has for the attributes of that entity. The panes on the right side contain tools that let you customize data to see and understand what has been ingested. Customizations that you perform by using those tools aren't saved. Therefore, your data isn't edited. For more information about the capabilities of the tools, see [Tour the report editor in Power BI](/power-bi/create-reports/service-the-report-editor-take-a-tour).
 
 ## Export data
 
-Data export allows you to download ingested data in Microsoft Excel format for further analytics or partner collaboration outside the scope of Supply Chain Insights. The format of the data will mirror what is seen when reviewing the data in Supply Chain Insights. To export data for an entity from Supply Chain Insights, review the ingested data, select the contextual menu on the top right of the table, and then select **Export data**. This brings up a dialog box where you can choose to download the data as a XLSX or CSV file.
+Data export lets you download ingested data in Excel format for further analysis or partner collaboration outside Supply Chain Insights. The format of the data matches what is shown when the data is reviewed in Supply Chain Insights. To export data for an entity from Supply Chain Insights, review the ingested data, select the ellipsis button in the upper right of the grid, and then select **Export data**. In the dialog box that appears, you can select to download the data as an Excel (.xlsx) file or a comma-separate values (.csv) file.
 
 <!--![reviewing and then exporting data](/articles/media/data-export.gif)-->
 
 ## Delete data
 
-Data deletion allows you to delete an entity or all entities that have been ingested into Supply Chain Insights. If you see an issue or error in the ingested data such as an incorrect data mapping or incorrect data, the data deletion functionality allows you to delete incorrect data and then reingest the data. Currently, users are only able to delete all entries for an entity. To do this for a single entity or multiple entities at once, select one or multiple entities on the **Data import** page. Additionally, all data for all data entities can be removed by selecting **Delete all data** on the top left of the **Data import** page. 
+Data deletion lets you delete an entity or all entities that have been ingested into Supply Chain Insights. If you see an issue or error in the ingested data, such as an incorrect data mapping or incorrect data, you can delete the incorrect data and then reingest the data. Currently, all entries for an entity are deleted. To delete data for one or more entities at the same time, select the entities on the **Data import** page. To delete data for all entities, you can select **Delete all data** in the upper left of the **Data import** page.
 
 > [!NOTE]
-> It can take up to 48 hours for data deletion to take effect.
+> Data deletion can require up to 48 hours to take effect.
