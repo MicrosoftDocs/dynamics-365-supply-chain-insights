@@ -41,6 +41,6 @@ After you receive an email invitation to join Supply Chain Insights as a user, f
 1. Select **Get Started**.
 1. Follow these steps to provide additional information to Supply Chain Insights. This information will help the application deliver accurate insights to you.
 
-    1. [Import your data](ingestion.md).
+    1. [Import your data](ingest-data.md).
     1. Complete your [Company profile](company-profile.md).
     1. [Create your supply chain network](partners.md).
