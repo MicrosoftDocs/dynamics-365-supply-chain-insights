@@ -16,7 +16,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-With Dynamics 365 Supply Chain Insights, you can connect with your vendors and customers to share data and gain greater visibility into your supply chain. You can invite your existing vendors and suppliers to connect in Supply Chain Insights, or find new partners to connect with. Partners that are connected in Supply Chain Insights can collaborate and share data with you. 
+With Dynamics 365 Supply Chain Insights, you can connect with your vendors and customers to collaborate, share data, and gain greater visibility into your supply chain. You can invite your existing vendors and suppliers to connect in Supply Chain Insights, or find new partners to connect with.  
 
 You should complete your [company profile](company-profile.md) before you add partners. Supply Chain Insights will suggest partners based on the data you import and your company's industry. 
 
