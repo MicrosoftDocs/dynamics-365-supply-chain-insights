@@ -33,7 +33,7 @@ To start to ingest data, open the **Data import** page, and select an entity tha
 
 To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. In both cases, make sure that your data contains the required attributes of a given entity. For example, if you upload a local file, column headers must be named. For cloud storage, additional information will be required to authenticate Supply Chain Insight's access to the data, depending on the cloud storage service that you select.
 
-<!--![selecting an entity, choosing a cloud data source, and authorizing Supply Chain Insights' access to the data](/articles/media/connect-and-authorize-cloud-storage.gif)-->
+![selecting an entity, choosing a cloud data source, and authorizing Supply Chain Insights' access to the data](media/connect-and-authorize-cloud-storage.gif)
 
 ## Local file prerequisites
 
