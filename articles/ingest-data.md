@@ -53,7 +53,7 @@ Local files that you upload must have column headers, because Supply Chain Insig
 
 If a table that represents the desired entity is available, select it in the left column after a data source has been selected. If no table is available, the Power Query interface contains numerous tools that you can use to transform your data into a single table that represents the entity. For more information about those tools and how to use them, see [Transform data](/power-query/power-query-ui). After a table that contains all the information for an entity has been created, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the pop-up window, and then select **Auto map**. Review the query output column for any errors, or use that column to manually map your data, and then select **Done**.
 
-<!--![mapping for importing data from a cloud storage solution](/articles/media/map-column-headers-to-attributes.gif)-->
+![mapping for importing data from a cloud storage solution](media/map-column-headers-to-attributes.gif)
 
 ## Refresh schedule
 
