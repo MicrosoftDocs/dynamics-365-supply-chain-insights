@@ -23,7 +23,7 @@ You should complete your [company profile](company-profile.md) before you add pa
 ![find partners tab with filter](/articles/media/find-partners-with-filter.PNG)
 
 ## Find and connect with partners
-To diplay a list of companies who have joined Supply Chain Insights, go to **Partners > All partners > Find partners**. Select a partner name or card to display the partner's company profile. To request to connect to a partner, select **Connect** on the partner card. When you make your request, you can add a customized note to personalize your request. 
+To display a list of companies who have joined Supply Chain Insights, go to **Partners > All partners > Find partners**. Select a partner name or card to display the partner's company profile. To request to connect to a partner, select **Connect** on the partner card. When you make your request, you can add a customized note to personalize your request. 
 
 You can use the search field and filters to find specific partners. If the partner you're looking for isn't found, you can invite them to join Supply Chain Insights by selecting **Invite partners** on the upper left side of the page. You may need to have the company name, vendor ID, DUNS number, and contact email to manually add them.
 
