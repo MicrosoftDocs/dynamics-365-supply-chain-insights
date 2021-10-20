@@ -1,6 +1,6 @@
 ---
 title: Partner management
-description: This topic includes information on anaging partners in Dynamics 365 Supply Chain Insights.
+description: This topic includes information on managing partners in Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/08/2021
 ms.topic: article
