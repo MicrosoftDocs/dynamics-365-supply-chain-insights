@@ -31,7 +31,7 @@ The supply chain map requires site location information to add locations to the 
 
 "My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites that are represented by icons on the supply chain map, as shown in the following illustration.
 
-![Icons that represent different types of locations on the supply chain map.](/articles/media/supply-chain-map-legend.PNG)
+![Icons that represent different types of locations on the supply chain map.](media/supply-chain-map-legend.PNG)
 
 To view your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To view vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
 
@@ -53,7 +53,7 @@ A circle that contains a number appears next to each site icon on the supply cha
 
 Red circles on the supply chain map represent areas that contain sites that might be affected by real-time events. Currently, the real-time risks that are shown are weather risks, such as ongoing natural catastrophes. If you select a circle, a sidebar appears on the left and shows a list of live alerts, as shown in the following illustration.
 
-![Sidebar that lists sites and their risk scores.](/articles/media/supply-chain-map.PNG)
+![Sidebar that lists sites and their risk scores.](media/supply-chain-map.PNG)
 
 ## Map views
 
