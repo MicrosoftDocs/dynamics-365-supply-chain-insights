@@ -24,7 +24,7 @@ Data collaborations that you create are listed on the **My organization's collab
 
 ### Partners tab
 
-The **Partners** tab lists partners who have been invited for a data collaboration or who have accepted an invitation. To remove a partner from a collaboration, select the vertical ellipsis button for that partner, and then select **Delete**. To add a partner to the set of partners that you specified when you first made a collaboration, select **Add partners** in the upper left.
+The **Partners** tab lists partners who have been invited for a data collaboration or who have accepted an invitation. To remove a partner from a collaboration, select the vertical ellipsis button for that partner, and then select **Remove**. To add a partner to the set of partners that you specified when you first made a collaboration, select **Add partners** in the upper left.
 
 ### Data shared tab
 
