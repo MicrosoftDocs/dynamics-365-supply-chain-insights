@@ -260,7 +260,7 @@ A *shipment* entity captures details about inbound and outbound shipments that a
 | PlannedShippedDate   | The projected shipment date. | ISO 8601 format | Required |
 | ActualShippedDate    | The date when the shipment was shipped. | ISO 8601 format | Required |
 | EstimatedArrivalDate | The date when the shipment is expected to arrive. | ISO 8601 format | Required |
-| ShipmentReceivedDate | The date when shipment actually arrived. | ISO 8601 format | |
+| ShipmentReceivedDate | The date when shipment actually arrived. | ISO 8601 format | Required |
 
 ### Production
 
