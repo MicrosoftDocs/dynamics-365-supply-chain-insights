@@ -31,7 +31,7 @@ To review the ingested data for a given entity, select the entity name on the ma
 
 Data export lets you download ingested data in Excel format for further analysis or partner collaboration outside Supply Chain Insights. The format of the data matches what is shown when the data is reviewed in Supply Chain Insights. To export data for an entity from Supply Chain Insights, review the ingested data, select the ellipsis button in the upper right of the grid, and then select **Export data**. In the dialog box that appears, you can select to download the data as an Excel (.xlsx) file or a comma-separate values (.csv) file.
 
-[reviewing and then exporting data](/articles/media/data-export.gif)
+[reviewing and then exporting data](/media/data-export.gif)
 
 ## Delete data
 
