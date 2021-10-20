@@ -20,7 +20,6 @@ With Dynamics 365 Supply Chain Insights, you can connect with your vendors and c
 
 You should complete your [company profile](company-profile.md) before you add partners. Supply Chain Insights will suggest partners based on the data in your profile and the industry your company is part of. When you connect with a partner, your contact email address and any other data provided in the **General information** section of your company profile is shared with the partner. 
 
-![find partners tab with filter](/articles/media/find-partners-with-filter.PNG)
 
 ## Find and connect with partners
 To display a list of companies who have joined Supply Chain Insights, go to **Partners > All partners > Find partners**. Select a partner name or card to display the partner's company profile. To request to connect to a partner, select **Connect** on the partner card. When you make your request, you can add a customized note to personalize your request. 
