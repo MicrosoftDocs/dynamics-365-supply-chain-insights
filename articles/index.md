@@ -15,8 +15,6 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This topic provides an overview of Microsoft Dynamics 365 Supply Chain Insights and the value that it brings to users.
-
 Today, supply chains aren't as resilient as they could be in the face of constant exposure to risks that are caused by rapidly changing internal and external conditions. These risks might include a business partner who is running late on a delivery or a natural disaster that has occurred in the area of a business's warehouse. Unfortunately, because current approaches to supply chain management are disconnected from the external environment, they lack visibility into companies' multi-tier supply chain networks and don't consider relevant real-world events. Therefore, it's difficult to anticipate, identify, and adapt to these types of risks and work with business partners to address them.
 
 ## The Supply Chain Insights solution
