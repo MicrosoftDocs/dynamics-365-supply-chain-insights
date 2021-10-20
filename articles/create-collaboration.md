@@ -27,7 +27,7 @@ Collaborations require connected partners who use Supply Chain Insights. They al
 
 ## Create a data collaboration 
 
-![demo for how to create a data collaboration with one partner](/articles/media/create-collaboration-example-flow.gif)
+![demo for how to create a data collaboration with one partner](media/create-collaboration-example-flow.gif)
 
 ### Send a request
  
