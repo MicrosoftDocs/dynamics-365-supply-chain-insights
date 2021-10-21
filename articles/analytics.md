@@ -67,7 +67,7 @@ The following entities are required for the **Vendor performance** dashboard to 
 
 ## Supply and demand
 
-The dashboard on the **Supply and demand** tab provides an overview of the interest that different parts have relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply, based on conditions such as the time range, partner, or product.
+The dashboard on the **Supply and demand** tab provides an overview of the demand that there is for different parts relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply, based on conditions such as the time range, partner, or product.
 
 The following entities are required for the **Supply and demand** dashboard to appear:
 
