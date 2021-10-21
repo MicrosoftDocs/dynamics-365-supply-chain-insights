@@ -45,7 +45,7 @@ The following entities are required for the **Shipping** dashboard to display.
 - **Shipment**
 
 ## Vendor performance
-The dashboard on the **Vendor performance** tab provides an overview of your vendors' on-time delivery performance for a variety of scenarios. You can change the filters to modify the display of your vendors' on-time delivery performance or to dill down into a particular type of delivery.
+The dashboard on the **Vendor performance** tab provides an overview of your vendors' on-time delivery performance for various scenarios. You can change the filters to modify the display of your vendors' on-time delivery performance or to dill down into a particular type of delivery.
 
 The following entities are required for the **Vendor performance** dashboard to display.
 - **Item**
@@ -57,7 +57,7 @@ The following entities are required for the **Vendor performance** dashboard to 
 - **Shipment**
 
 ## Supply and demand
-The **Supply and demand** dashboard provides an overview of the interest that different parts have relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply based on a variety of conditions such as time range, partner, or product.
+The **Supply and demand** dashboard provides an overview of the interest that different parts have relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply based on vaious conditions such as time range, partner, or product.
 
 The following entities are required for the **Supply and demand** dashboard to display.
 - **Item**
