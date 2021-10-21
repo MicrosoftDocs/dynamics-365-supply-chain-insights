@@ -12,9 +12,9 @@
     href: ingest-data.md
   - name: Review, export, and delete data
     href: review-export-delete-data.md
-- name: Analytics dashboard
+- name: Analytics dashboards
   href: analytics.md
-- name: Products
+- name: Products page
   href: products.md
 - name: Supply chain map
   href: supply-chain-map.md
@@ -28,6 +28,6 @@
     href: create-collaboration.md
   - name: Review, edit, and delete data collaborations
     href: review-edit-delete-collaboration.md
-- name: Data resiliency, compliance, and security
+- name: Data resiliency
   href: resiliency-compliance-security.md
     
