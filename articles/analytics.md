@@ -80,3 +80,7 @@ The following entities are required for the **Supply and demand** dashboard to a
 - Master plan schedule
 - Material resource plan
 - Warehouse item available stock
+
+## Additional resources
+[Entities](entities.md)
+[Ingest data](ingest-data.md)
