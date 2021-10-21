@@ -27,8 +27,6 @@ Collaborations require connected partners who use Supply Chain Insights. They al
 
 ## Create a data collaboration 
 
-![demo for how to create a data collaboration with one partner](media/create-collaboration-example-flow.gif)
-
 ### Send a request
  
 To start a new data collaboration, select **Data collaborations** in the left navigation pane, and then select **New collaboration** on the command bar. After you start a new data collaboration, you must enter a name for it, add a partner or partners, and specify which data should be shared. You must then save and share the collaboration.
