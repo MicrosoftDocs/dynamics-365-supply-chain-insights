@@ -16,7 +16,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Dynamics 365 Supply Chain Insights uses your ingested data and information received from partners to generate analytics. The analytics provide you with a  current snapshot of different parts of your supply chain such as supply and demand, shipping, and vendor performance. Analytics are presented as dashboars using charts, tables, and graphs.
+Dynamics 365 Supply Chain Insights uses your ingested data and information received from partners to generate analytics. The analytics provide you with a current snapshot of different parts of your supply chain such as supply and demand, shipping, and vendor performance. Analytics are presented as dashboars using charts, tables, and graphs.
 
 ## Prerequisites
 To generate insights that are relevant to your business, Supply Chain Insights requires data that is relevant to your supply chain. Therefore, that data must be brought (ingested) into the application. For more information, see [Ingest data](ingest-data.md). The sections below specify which entities are required for each tab on the **Analytics > Analytics** page.
