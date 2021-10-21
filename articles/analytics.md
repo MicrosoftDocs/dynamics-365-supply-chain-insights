@@ -1,6 +1,6 @@
 ---
 title: Analytics dashboards
-description: This topic describes the analytics dashboards in Dynamimcs 365 Supply Chain Insights.
+description: This topic describes the analytics dashboards in Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/13/2021
 ms.topic: article
@@ -16,7 +16,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Dynamics 365 Supply Chain Insights uses your ingested data and information received from partners to generate analytics. The analytics provide you with a current snapshot of different parts of your supply chain such as supply and demand, shipping, and vendor performance. Analytics are presented as dashboars using charts, tables, and graphs.
+Dynamics 365 Supply Chain Insights uses your ingested data and information received from partners to generate analytics. The analytics provide you with a current snapshot of different parts of your supply chain such as supply and demand, shipping, and vendor performance. Analytics are presented as dashboards using charts, tables, and graphs.
 
 ## Prerequisites
 To generate insights that are relevant to your business, Supply Chain Insights requires data that is relevant to your supply chain. Therefore, that data must be brought (ingested) into the application. For more information, see [Ingest data](ingest-data.md). The sections below specify which entities are required for each tab on the **Analytics > Analytics** page.
@@ -57,7 +57,7 @@ The following entities are required for the **Vendor performance** dashboard to 
 - **Shipment**
 
 ## Supply and demand
-The **Supply and demand** dashboard provides an overview of the interest that different parts have relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply based on vaious conditions such as time range, partner, or product.
+The **Supply and demand** dashboard provides an overview of the interest that different parts have relative to your overall inventory. You can use this information to identify which parts have the greatest shortage or greatest over-supply based on various conditions such as time range, partner, or product.
 
 The following entities are required for the **Supply and demand** dashboard to display.
 - **Item**
