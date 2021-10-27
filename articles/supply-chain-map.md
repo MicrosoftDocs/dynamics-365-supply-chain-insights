@@ -49,11 +49,6 @@ A circle that contains a number appears next to each site icon on the supply cha
 - **Medium** – The risk score is from 34 through 66. These risk scores are shown in orange.
 - **High** – The risk score is from 67 through 99. These risk scores are shown red.
 
-### Live alerts
-
-Red circles on the supply chain map represent areas that contain sites that might be affected by real-time events. Currently, the real-time risks that are shown are weather risks, such as ongoing natural catastrophes. If you select a circle, a sidebar appears on the left and shows a list of live alerts, as shown in the following illustration.
-
-![Sidebar that lists sites and their risk scores.](media/supply-chain-map.PNG)
 
 ## Map views
 
