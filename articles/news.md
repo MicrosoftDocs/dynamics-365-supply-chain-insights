@@ -1,5 +1,5 @@
 ---
-title: Curated news feature
+title: Curated news
 description: This topic describes the curated news feature that is included in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
 ms.date: 10/14/2021
@@ -11,7 +11,7 @@ ms.author: carylhenry
 
 ---
 
-# Curated news feature
+# Curated news
 
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
@@ -22,7 +22,7 @@ Dynamics 365 Supply Chain Insights is designed to help users identify and respon
 
 ## Prerequisites
 
-A trained AI model is used to sort news articles based on their relevance to a company and its supply chain. Initially, news will be presented based on company, vendor, and customer names that were entered during the onboarding process. However, when additional vendors or customers are imported into Supply Chain Insights, or when a connection is made with another Supply Chain Insights participant, news will be curated for those companies.
+Supply Chain Insights uses artificial intelligence to sort news articles based on their relevance to a company and its supply chain. Initially, news will be presented based on company, vendor, and customer names that were entered during the onboarding process. However, when additional vendors or customers are imported into Supply Chain Insights, or when a connection is made with another Supply Chain Insights participant, news will be curated for those companies.
 
 ## Functionality
 
