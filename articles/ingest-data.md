@@ -23,7 +23,7 @@ To generate insights that are relevant to your business, Dynamics 365 Supply Cha
 
 Data management requires that you ingest data from various sources, according to the entities that are described in [Data entities](entities.md). For example, an Excel file can contain data that can be used for the vendor, warehouse, production plant, bill of materials (BOM), and product entities. Although this data might not contain all the attributes for every entity, it will be sufficient, because it includes the required attributes for each entity.
 
-Before you ingest your data, review the information in [Data resiliency, compliance, and security](resiliency-compliance-security.md) to ensure that Supply Chain Insights meets your company's expectations.
+Before you ingest your data, review the information in [Compliance](resiliency-compliance-security.md) to ensure that Supply Chain Insights meets your company's expectations.
 
 ## Get started
 
