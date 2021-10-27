@@ -32,10 +32,7 @@ Data subject deletion requests can be done by deleting or exporting the relevant
 >[!NOTE]
 >If the deleted data was originally shared with partners through a data collaboration, and the data was exported, the partners may still have the data.
 
-It may take as long as 48 hours for Supply Chain Insights to stop making data available to partners who you shared data with if you deleted the data by:
-- Choosing to stop ingesting it in Supply Chain Insights.
-- Deleting the data in the original data source and refreshing the data in Supply Chain Insights.
-- Choosing to no longer share data with your partners. 
+It may take as long as 48 hours for Supply Chain Insights to stop making data available to partners who you shared data with if you deleted the data in the original data source and refreshed the data in Supply Chain Insights, or if you chose to no longer share data with your partners. 
 
 ## Security
 
