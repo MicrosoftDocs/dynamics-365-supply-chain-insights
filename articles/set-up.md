@@ -19,7 +19,7 @@ This topic describes the requirements and instructions for signing up for and se
 
 ## Sign up for the public preview
 
-There are two ways to sign up for the public preview of Dynamics 365 Supply Chain Insights. The first method is to sign up from the [Supply Chain Insights home page](https://dynamics.microsoft.com/supply-chain-insights/). The second method is to sign up through an invitation that is sent from a company that is already a public preview user. Regardless of the method that they use, companies that sign up will be contacted by the Supply Chain Insights team via email. The email that they receive will provide information about how to register as a public preview user.
+You can sign up for the public preview release on the [Supply Chain Insights page](https://dynamics.microsoft.com/supply-chain-insights/). Supply Chain Insights uses a gated process to enroll new public preview users. Once you sign up, you will be invited to onboard on a rolling basis. Other customers may be invited to onboard if an invitation is sent from a company that is already a public preview user. Users that signed up or were invited by a public preview user will receive an email with details on how to register. 
 
 ## Prerequisites
 
@@ -34,10 +34,12 @@ There are two ways to sign up for the public preview of Dynamics 365 Supply Chai
 
 After you receive an email invitation to join Supply Chain Insights as a user, follow these steps to get started.
 
-1. Go to [sci.dynamics.com](https://sci.dynamics.com/), and follow the prompts to create and/or provision your Azure AD tenant.
-1. Accept the request for access to your location. This access will be used to offer better suggestions as you search for locations in the next two steps.
+1. Use the link provided in your email or go to [sci.dynamics.com](https://sci.dynamics.com/). Follow the prompts to create and/or provision your Azure AD tenant.
+1. Choose where your data will be stored. Data can be stored only in the United States for the public preview release, but there are plans to expand the list. 
+1. Enter a company name and a team name. The combination must be unique. 
+1. Once your tenant is provisioned, accept the request for access to your location. This access will be used to offer better suggestions as you search for locations in the next two steps.
 1. Search for and select your company location.
-1. Search for and select your vendor locations.
+1. Search for and select your vendor and customer locations. You can enter multiple locations.
 1. Select **Get Started**.
 1. Follow these steps to provide additional information to Supply Chain Insights. This information will help the application deliver accurate insights to you.
 
