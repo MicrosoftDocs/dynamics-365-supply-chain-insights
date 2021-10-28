@@ -21,7 +21,7 @@ In your company profile in Microsoft Dynamics 365 Supply Chain Insights, you can
 
 You must complete three steps to onboard to Supply Chain Insights.
 
-1. [Import your data](ingestion.md).
+1. [Import your data](ingest-data.md).
 2. Complete your company profile.
 3. [Create your supply chain network](partners.md).
 
@@ -39,6 +39,6 @@ If the **Profile visibility** field is set to **Private**, unconnected partners 
 
 [Set up Supply Chain Insights](set-up.md)
 
-[Import your data](ingestion.md)
+[Import your data](ingest-data.md)
 
 [Create your supply chain network](partners.md)
