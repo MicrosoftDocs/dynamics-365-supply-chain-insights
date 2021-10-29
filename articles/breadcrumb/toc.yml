@@ -1,3 +1,7 @@
-- name: Docs
-  tocHref: /
-  topicHref: /
+- name: Dynamics 365
+  tocHref: /dynamics365/
+  topicHref: /dynamics365/
+  items:
+  - name: Supply Chain Insights
+    tocHref: /dynamics365/supply-chain-insights/
+    topicHref: /dynamics365/supply-chain-insights/index
