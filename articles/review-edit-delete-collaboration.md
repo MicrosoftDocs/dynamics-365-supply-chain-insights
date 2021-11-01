@@ -2,7 +2,7 @@
 title: Review, edit, and delete data collaborations
 description: This topic describes how to review, edit, and delete data collaborations in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/14/2021
+ms.date: 11/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -49,4 +49,4 @@ If you no longer want to share any data, you can clear all the checkboxes in the
 If data is deleted from a collaboration in Supply Chain Insights, the original source of the data that Supply Chain Insights ingested isn't affected. Data can be deleted from Supply Chain Insights when you remove requested entities from collaborations on the **My organization's collaborations** tab, or when you delete one of those collaborations. In a similar way, data can be deleted when you stop sharing entities among collaborations that are listed on the **Partners' collaborations** tab, or when you leave one of those collaborations.
 
 > [!NOTE]
-> Data deletion can require up to 48 hours to take effect.
+> When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights,  by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights to no longer make that data available to partners with which you had previously chosen to share that data.
