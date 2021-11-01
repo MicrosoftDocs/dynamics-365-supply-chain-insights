@@ -41,3 +41,7 @@ Data deletion lets you delete an entity or all entities that have been ingested 
 > When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights, by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights to no longer make that data available to partners with which you had previously chosen to share that data.
 
 ![deleting data for an entity from the contextual menu](media/entity-contextual-menu.gif)
+
+## Disconnecting from cloud storage providers
+On the Data import page, you can change a refresh schedule, stop a refresh schedule, or completely disconnect the entity from a data source by clicking the vertical ellipses button of the entity you wish to update. Disconnecting the data source will stop any refreshes, so the data will not be updated going forward, but it will not delete the data that has already been ingested.
+
