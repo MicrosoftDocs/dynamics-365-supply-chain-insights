@@ -56,7 +56,7 @@ If a table that represents the desired entity is available, select it in the lef
 
 ![Flow for mapping data from a cloud storage provider](media/map-column-headers-to-attributes.gif)
 
-## Refresh schedule
+## Refresh schedule for data ingested through the cloud
 
 Up-to-date insights rely on up-to-date data ingestion. There are three ways to ensure that data ingestion is up to date:
 
