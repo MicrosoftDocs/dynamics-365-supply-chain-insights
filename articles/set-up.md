@@ -8,6 +8,7 @@ audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
+
 ---
 
 # Set up Supply Chain Insights
@@ -24,7 +25,7 @@ You can sign up for the public preview release on the [Supply Chain Insights pag
 ## Prerequisites
 
 - Supply Chain Insights is currently available only in the English, German, and simplified Chinese languages.
-- Supply Chain Insights supports only the most recent and second most recent versions of the Microsoft Edge, Chrome, Firefox, and Safari browsers. Please make sure that WebGL is also activated in your browser's settings.
+- Supply Chain Insights supports only the most recent and second most recent versions of the Microsoft Edge, Chrome, Firefox, and Safari browsers. Also, ensure that WebGL is activated in your browser's settings.
 - An Azure Active Directory (Azure AD) tenant is required. A tenant represents an organization in Azure AD and lets you manage user access to Azure resources to ensure controlled access to your data. If your business already has an Azure AD tenant, contact your Azure AD tenant administrator or IT department, and have them sign up for Supply Chain Insights.
 
     > [!NOTE]
