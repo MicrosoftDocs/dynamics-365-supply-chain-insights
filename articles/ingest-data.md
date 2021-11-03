@@ -33,7 +33,6 @@ To start the ingestion process, open the **Data import** page, and select an ent
 
 To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. In both cases, make sure that your data contains the required attributes of a given entity. For example, if you upload a local file, column headers must be named. For cloud storage, additional information will be required to authenticate Supply Chain Insight's access to the data, depending on the cloud storage service that you select.
 
-![Flow for authorizong Supply Chain Insight's connection to a cloud storage provider](media/connect-and-authorize-cloud-storage.gif)
 
 ### Local file prerequisites
 
@@ -53,7 +52,6 @@ Local files that you upload must have column headers, because Supply Chain Insig
 
 If a table that represents the desired entity is available, select it in the left column after a data source has been selected. If no table is available, the Power Query interface contains numerous tools that you can use to transform your data into a single table that represents the entity. For more information about those tools and how to use them, see [Transform data](/power-query/power-query-ui). After a table that contains all the information for an entity has been created, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the pop-up window, and then select **Auto map**. Review the query output column for any errors, or use that column to manually map your data, and then select **Done**.
 
-![Flow for mapping data from a cloud storage provider](media/map-column-headers-to-attributes.gif)
 
 ## Refresh schedule for data ingested through the cloud
 
