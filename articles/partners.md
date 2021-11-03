@@ -22,9 +22,12 @@ Before you add partners, you should complete your [company profile](company-prof
 
 ## Find and connect with partners
 
-![List of companies to connect with under the Find partners tab along with a filter to narrow down the companies](media/find-partners-with-filter.PNG) 
 
-To view a list of companies that have joined Supply Chain Insights, go to **Partners \> All partners \> Find partners**. Select a partner name or card to view the partner's company profile. To request to connect with a partner, select **Connect** on the partner card. You can add a customized note to personalize your request.
+To view a list of companies that have joined Supply Chain Insights, go to **Partners \> All partners \> Find partners**, as illustrated in the screenshot below. 
+
+![List of companies to connect with under the Find partners tab along with a filter to narrow down the companies](media/find-partners-with-filter.PNG)
+
+Select a partner name or card to view the partner's company profile. To request to connect with a partner, select **Connect** on the partner card. You can add a customized note to personalize your request.
 
 You can use the search field and filters to find specific partners. If the partner that you're looking for isn't found, you can invite them to join Supply Chain Insights by selecting **Invite partners** in the upper left of the page. You might need the company name, vendor ID, Data Universal Numbering System (DUNS) number, and contact email address to manually add the partner.
 
@@ -34,14 +37,14 @@ You can import additional partners by selecting **Import partners** in the upper
 
 If a partner that you're connecting with is already a vendor or customer in your enterprise resource planning (ERP) system, you can identify them by setting the **Relationship** field on the **My partners** tab and entering their vendor ID or customer ID. The **Relationship** value and any vendor or customer ID that you enter won't be visible to the partner.
 
-## Incoming requests
+### Incoming requests
 
 The **Incoming requests** tab shows connection requests that you've received from partners. You can accept or decline the requests on this tab. After you accept a request to connect with a partner, the partner will be listed on the **My partners** tab.
 
-## Sent requests
+### Sent requests
 
 The **Sent requests** tab shows the status of connection requests that you've sent to partners but that haven't been accepted. The requests will be listed as either **Pending** or **Declined**. After a request is accepted, the partner will be listed on the **My partners** tab.
 
-# Manage connections
+## Manage connections
 
 The **My partners** tab shows a list of partners that you've connected with in Supply Chain Insights. You can manage your relationship, [start a new data collaboration with the partner](/articles/create-collaboration.md), [view the collaborations that have been established with the partner](/articles/review-edit-delete-collaboration.md), and view the general information that is included in the partner's [company profile](company-profile.md).
