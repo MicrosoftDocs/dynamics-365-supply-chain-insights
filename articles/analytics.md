@@ -2,7 +2,7 @@
 title: Analytics dashboards
 description: This topic describes the analytics dashboards in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/13/2021
+ms.date: 11/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -30,11 +30,11 @@ The dashboard on the **Product map** tab shows visuals that can help you underst
 
 The following entities are required for the **Product map** dashboard to appear:
 
+- Vendor
 - Warehouse
 - Item
 - Product
 - Bill of material line
-- Product map
 
 ## Shipping
 
@@ -82,5 +82,5 @@ The following entities are required for the **Supply and demand** dashboard to a
 - Warehouse item available stock
 
 ## Additional resources
-[Entities](entities.md)
-[Ingest data](ingest-data.md)
+- [Entities](entities.md)
+- [Ingest data](ingest-data.md)
