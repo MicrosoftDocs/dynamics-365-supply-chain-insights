@@ -2,7 +2,7 @@
 title: Supply chain map
 description: This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/12/2021
+ms.date: 11/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -23,15 +23,19 @@ Additionally, the map view provides risk data for each uploaded site. Two types 
 
 ## Supply chain map prerequisites
 
-The supply chain map requires site location information to add locations to the map. Initially, Supply Chain Insights adds participant and vendor locations by using the data that is provided when a participant is onboarded. Then, when other production plant and warehouse data is uploaded, or when you receive data from connected suppliers or customers in Supply Chain Insights, the map view is updated so that it includes additional locations. The map view update feature uses uploaded bills of materials (BOMs) to connect sites and to visualize the geographic flow of products and relationships between sites.
+The supply chain map requires that WebGL is enabled in your browser's settings. Site location information also must be ingested to add locations to the map. Initially, Supply Chain Insights adds participant and vendor locations by using the data that is provided when a participant is onboarded. Then, when other production plant and warehouse data is uploaded, or when you receive data from connected suppliers or customers in Supply Chain Insights, the map view is updated so that it includes additional locations. The map view update feature uses uploaded bills of materials (BOMs) to connect sites and to visualize the geographic flow of products and relationships between sites.
 
 ## Reading the map
+
+The screenshot below is an example supply chain map. The following sections describe how to interpret items on the map.
+
+![Image of the supply chain map with a list of sites on the left](media/supply-chain-map.PNG)
 
 ### Sites
 
 "My site," "My production plant," "My warehouse," "Vendor's site," "Vendor's production plant," and "Vendor's warehouse" are all sites that are represented by icons on the supply chain map, as shown in the following illustration.
 
-![Icons that represent different types of locations on the supply chain map.](media/supply-chain-map-legend.PNG)
+![Icons that represent different types of locations on the supply chain map.](media/supply-chain-map-legend.png)
 
 To view your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To view vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
 
