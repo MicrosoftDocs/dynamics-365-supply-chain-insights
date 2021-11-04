@@ -44,9 +44,6 @@ To review or change what data you're sharing in a partner's collaboration, first
 
 If you no longer want to share any data, you can clear all the checkboxes in the **Share?** column. Alternatively, you can completely leave the collaboration by selecting **Leave collaboration** in the upper left.
 
-## Notes about deleting data
-
-If data is deleted from a collaboration in Supply Chain Insights, the original source of the data that Supply Chain Insights ingested isn't affected. Data can be deleted from Supply Chain Insights when you remove requested entities from collaborations on the **My organization's collaborations** tab, or when you delete one of those collaborations. In a similar way, data can be deleted when you stop sharing entities among collaborations that are listed on the **Partners' collaborations** tab, or when you leave one of those collaborations.
-
 > [!NOTE]
-> When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights, or by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights stop making the data available to partners who you previously shared the data with.
+> - If data is deleted from a collaboration in Supply Chain Insights, the original source of the data that was ingested isn't affected. Data can be deleted from Supply Chain Insights when you remove requested entities from collaborations, or when you delete collaborations. In a similar way, data can be deleted when you stop sharing entities among collaborations, or when you leave collaborations.
+> - When you stop ingesting data, stop sharing data with partners, or delete data from an original data source and then refresh the data within Supply Chain Insights, it may take as long as 48 hours for Supply Chain Insights to cease making the data available to partners you previously shared the data with.
