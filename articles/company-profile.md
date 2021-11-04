@@ -2,7 +2,7 @@
 title: Company profile
 description: This topic describes what is included in the company profile in Microsoft Dynamics 365 Supply Chain Insights. It also explains the purpose of company profiles.
 author: carylhenry
-ms.date: 11/01/2021
+ms.date: 11/04/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -22,10 +22,9 @@ Your company profile initially contains only the name of your company and the pr
 
 ## Public and private company profiles
 
-To make your profile discoverable by other partners users, set the **Profile visibility** field on the **Basic information** tab to **Public**. If your profile is public, other users can discover it on the **Partners \> Find Partners** tab, and they can connect with you to collaborate and derive data insights. If you choose to set this field to public, all information in the **Company details** section of the **Basic Information** tab of your company profile is shown to all participants in Supply Chain Insights.
+To make your profile discoverable by your partners' users, set the **Profile visibility** field on the **Basic information** tab to **Public**. If your profile is public, users can find it on the **Partners \> Find Partners** tab, and they can connect with you to collaborate and derive data insights. If you set the **Profile visibility** field to **Public**, all information in the **Company details** section of the **Basic Information** tab of your company profile is shown to all participants in Supply Chain Insights.
 
-
-If the **Profile visibility** field is set to **Private**, unconnected partners can't discover your profile and can't connect via the list of companies on the **Partners  \> Find Partners** tab. The only way other users can initiate a connection with you is if they manually send an connection request to your email. Once you have connected with a partner, the **Company details** section of the **Basic Information** tab of your company profile will be visible to that connected partner. 
+If the **Profile visibility** field is set to **Private**, unconnected partners can't discover your profile and can't connect with you on the **Partners  \> Find Partners** tab. Users can only initiate a connection with you if they manually send a connection request by email. Once you connect with a partner, the **Company details** section of your company profile will be visible to that partner. 
 
 ## Additional resources
 
