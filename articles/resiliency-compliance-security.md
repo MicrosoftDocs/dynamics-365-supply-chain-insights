@@ -45,3 +45,7 @@ Supply Chain Insights might include data sharing with other users of the applica
 Supply Chain Insights shares data between participants only when it's explicitly instructed to do so via data collaborations. The participants in a collaboration agree that, to share customer data as they instruct, Microsoft might have to store a copy of that data in any or all of the geographic regions where the other participants are located. For more information about data sharing, see [Data collaborations](create-collaboration.md) and the [Supply Chain Insights terms of service agreement](https://go.microsoft.com/fwlink/?linkid=2175113).
 
 You agree that, to share customer data as you instruct, Microsoft might have to store a copy of that data in any or all of the geographic regions where the services store customer data, provided that the services will make the data available to other users only as you instruct.
+
+## Additional resources
+[Review, edit, and delete data collaborations](review-edit-delete-collaboration.md)
+[Review, export, and delete data](review-export-delete-data.md)
