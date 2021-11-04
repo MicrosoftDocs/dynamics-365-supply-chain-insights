@@ -31,17 +31,16 @@ To review the ingested data for a given entity, select the entity name on the ma
 
 Data export lets you download ingested data in Excel format for further analysis or partner collaboration outside Supply Chain Insights. The format of the data matches what is shown when the data is reviewed in Supply Chain Insights. To export data for an entity from Supply Chain Insights, review the ingested data, select the ellipsis button in the upper right of the grid, and then select **Export data**. In the dialog box that appears, you can select to download the data as an Excel (.xlsx) file or a comma-separate values (.csv) file.
 
-![reviewing and then exporting data](media/data-export.gif)
 
 ## Delete data
 
-Data deletion lets you delete an entity or all entities that have been ingested into Supply Chain Insights. If you see an issue or error in the ingested data, such as an incorrect data mapping or incorrect data, you can delete the incorrect data and then reingest the data. Currently, all entries for an entity are deleted. To delete the data for an entity, select the vertical ellipsis button for the entity you wish to delete on the **Data import** page, and then select **Delete** from the contextual menu. To delete data for all entities, you can select **Delete all data** in the upper left of the **Data import** page.
+Data deletion lets you delete an entity or all entities that have been ingested into Supply Chain Insights. If you see an issue or error in the ingested data, such as an incorrect data mapping or incorrect data, you can delete the incorrect data and then reingest the data. Currently, all entries for an entity are deleted. To delete the data for an entity, select the vertical ellipsis button for the entity you want to delete on the **Data import** page, and then select **Delete** from the contextual menu. To delete data for all entities, you can select **Delete all data** in the upper left of the **Data import** page.
 
 > [!NOTE]
-> When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights, by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights to no longer make that data available to partners with which you had previously chosen to share that data.
+> When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights, and by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights to no longer make that data available to partners.
 
-![deleting data for an entity from the contextual menu](media/entity-contextual-menu.gif)
 
-## Disconnecting from cloud storage providers
-On the Data import page, you can change a refresh schedule, stop a refresh schedule, or completely disconnect the entity from a data source by clicking the vertical ellipses button of the entity you wish to update. Disconnecting the data source will stop any refreshes, so the data will not be updated going forward, but it will not delete the data that has already been ingested.
+## Disconnect from cloud storage providers
+
+On the **Data import** page, you can change a refresh schedule, stop a refresh schedule, or completely disconnect the entity from a data source. To make any of these changes, select the vertical ellipses button of the entity you want to update. If you disconnect the data source, the data will no longer be refreshed. While the data will no longer be updated, the data that was previously ingested wil not be deleted.
 
