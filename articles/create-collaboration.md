@@ -21,7 +21,7 @@ The health of your supply chain depends on your suppliers and customers. Therefo
 
 ## Prerequisites
 
-Before you start a data collaboration, you should be aware of what happens and what can happen when you share your data with partners in Supply Chain Insights. You should also determine which data-related responsibilities are assigned to your company and which are assigned to Microsoft, to ensure that you meet your company's expectations. If you and a partner that you share data with keep Supply Chain Insights data in different locations, your data might be copied to a different region. Additionally, although partners might view and use the data that you share with them in Supply Chain Insights, they might also export it and use it outside Supply Chain Insights. To review your and Microsoft's responsibilities about data sharing, see [Supply Chain Insight's terms and conditions](https://aka.ms/scitc).
+Before you start a data collaboration, you should be aware of what happens and what can happen when you share your data with partners in Supply Chain Insights. You should also determine which data-related responsibilities are assigned to your company and which are assigned to Microsoft, to ensure that you meet your company's expectations. If you and a partner that you share data with keep Supply Chain Insights data in different locations, your data might be copied to a different region. Additionally, although partners might view and use the data that you share with them in Supply Chain Insights, they might also export it and use it outside Supply Chain Insights. To review your and Microsoft's responsibilities about data sharing, see the [Supply Chain Insights terms of service agreement](https://go.microsoft.com/fwlink/?linkid=2175113).
 
 Collaborations require connected partners who use Supply Chain Insights. They also require ingested data that is shared with those partners.
 
@@ -41,9 +41,9 @@ The **Data requested** tab determines what information your partners will share 
 
 ### Share data with partners
 
-The **Data shared** tab resembles the **Data requested** tab. However, it determines what information you will share with your partners.
+The **Data shared** tab resembles the **Data requested** tab. However, it determines what information you will share with your partners. Your partners can then use the data in any way that Supply Chain Insights allows, including exporting data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements you have with them regarding how the partner uses your data, including data protection agreements.
 
-### Respond to a request
+## Respond to a request
 
 You can respond to a data collaboration request through the email invitation, the notification on the home page, or the **Partners' collaborations** tab of the **Data collaborations** page. Data collaborations that haven't been responded to on the **Partners' collaborations** tab will have a 0-percent visibility score. Additionally, when they are selected, they will show a **Decline** button in the upper right, above the information about what data is being shared.
 
@@ -51,9 +51,11 @@ You can respond to a data collaboration request through the email invitation, th
 
 The **Data requested** tab of a partner's collaboration page contains a list of the data entities that were requested and the data entities that you're sharing. To accept a data collaboration request, you don't have to share all the requested entities. You can also share data that wasn't requested.
 
+Regardless of what entities you share, the partners you share the data with can use that data in any way that Supply Chain Insights allows it, which includes the ability to export data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements between you (including any data protection agreements) in how that partner uses your data.
+
 ### View the data that is shared with you
 
-The **Data shared** tab of a partner's collaboration page resembles the **Data requested** tab. However, it contains information about what data your partner is sharing with you in the data collaboration. If the partner is involved in other data collaborations with you, it might already be sharing some of the data on this tab with you.
+The **Data shared** tab of a partner's collaboration page resembles the **Data requested** tab. However, it contains information about what data your partner is sharing with you in the data collaboration. If the partner is involved in other data collaborations with you, it might already be sharing some of the data on this tab with you. You, not Microsoft, are responsible for ensuring that when you use data a partner shares with you, that you are complying with any agreements between you and that partner (including any data protection agreements).
 
 ### View and add notes
 

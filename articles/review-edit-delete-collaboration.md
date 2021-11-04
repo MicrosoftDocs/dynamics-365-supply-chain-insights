@@ -2,7 +2,7 @@
 title: Review, edit, and delete data collaborations
 description: This topic describes how to review, edit, and delete data collaborations in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/14/2021
+ms.date: 11/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -44,9 +44,9 @@ To review or change what data you're sharing in a partner's collaboration, first
 
 If you no longer want to share any data, you can clear all the checkboxes in the **Share?** column. Alternatively, you can completely leave the collaboration by selecting **Leave collaboration** in the upper left.
 
-## Data deletion notice
-
-If data is deleted from a collaboration in Supply Chain Insights, the original source of the data that Supply Chain Insights ingested isn't affected. Data can be deleted from Supply Chain Insights when you remove requested entities from collaborations on the **My organization's collaborations** tab, or when you delete one of those collaborations. In a similar way, data can be deleted when you stop sharing entities among collaborations that are listed on the **Partners' collaborations** tab, or when you leave one of those collaborations.
-
 > [!NOTE]
-> Data deletion can require up to 48 hours to take effect.
+> - If data is deleted from a collaboration in Supply Chain Insights, the original source of the data that was ingested isn't affected. Data can be deleted from Supply Chain Insights when you remove requested entities from collaborations, or when you delete collaborations. In a similar way, data can be deleted when you stop sharing entities among collaborations, or when you leave collaborations.
+> - When you stop ingesting data, stop sharing data with partners, or delete data from an original data source and then refresh the data within Supply Chain Insights, it may take as long as 48 hours for Supply Chain Insights to cease making the data available to partners you previously shared the data with.
+
+## Additional resources
+[Review, export, and delete data](review-export-delete-data.md)

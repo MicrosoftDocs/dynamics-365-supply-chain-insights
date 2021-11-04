@@ -2,12 +2,13 @@
 title: Compliance
 description: This topic describes compliance and security as they are related to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/14/2021
+ms.date: 11/04/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
+
 ---
 
 # Compliance
@@ -17,7 +18,7 @@ ms.author: carylhenry
 
 Supply Chain Insights was designed with compliance, privacy, security, and confidentiality in mind. It's intended to be used only to identify and mitigate risks that are related to your supply chain. Microsoft offers Supply Chain Insights under the Microsoft Online Services terms, which include robust data protection terms.
 
-To determine whether Supply Chain Insights meets your compliance requirements, see the [Supply Chain Insights terms of service agreement](https://aka.ms/scitc).
+To determine whether Supply Chain Insights meets your compliance requirements, see the [Supply Chain Insights terms of service agreement](https://go.microsoft.com/fwlink/?linkid=2175113).
 
 You have the following responsibilities:
 
@@ -27,12 +28,12 @@ You have the following responsibilities:
 
 ## Data subject access requests
 
-Data subject deletion requests can be done by deleting or exporting the relevant entities within Supply Chain Insights. When responding to deletion requests, the ingestion source for the entities must also be updated so that the data in the deletion request does not get uploaded again.
+Data subject deletion requests can be completed by deleting or exporting the relevant entities within Supply Chain Insights. When responding to deletion requests, you should also update the ingestion source for those entities so that the data involved in the deletion request does not get reuploaded to the application.
  
 >[!NOTE]
->If the deleted data was originally shared with partners through a data collaboration, and the data was exported, the partners may still have the data.
+> - If the deleted data was originally shared with partners through a data collaboration and a partner exported the data, the partner may still have the data.
+> - When you stop ingesting data, stop sharing data with partners, or delete data from an original data source and then refresh the data within Supply Chain Insights, it may take as long as 48 hours for Supply Chain Insights to cease making the data available to partners you previously shared the data with.
 
-It may take as long as 48 hours for Supply Chain Insights to stop making data available to partners who you shared data with if you deleted the data in the original data source and refreshed the data in Supply Chain Insights, or if you chose to no longer share data with your partners. 
 
 ## Security
 
@@ -41,6 +42,10 @@ Supply Chain Insights might include data sharing with other users of the applica
 
 ## Data sharing
 
-Supply Chain Insights shares data between participants only when it's explicitly instructed to do so via data collaborations. The participants in a collaboration agree that, to share customer data as they instruct, Microsoft might have to store a copy of that data in any or all of the geographic regions where the other participants are located. For more information about data sharing, see [Data collaborations](create-collaboration.md) and the [Supply Chain Insights terms of service agreement](https://aka.ms/scitc).
+Supply Chain Insights shares data between participants only when it's explicitly instructed to do so via data collaborations. The participants in a collaboration agree that, to share customer data as they instruct, Microsoft might have to store a copy of that data in any or all of the geographic regions where the other participants are located. For more information about data sharing, see [Data collaborations](create-collaboration.md) and the [Supply Chain Insights terms of service agreement](https://go.microsoft.com/fwlink/?linkid=2175113).
 
 You agree that, to share customer data as you instruct, Microsoft might have to store a copy of that data in any or all of the geographic regions where the services store customer data, provided that the services will make the data available to other users only as you instruct.
+
+## Additional resources
+[Review, edit, and delete data collaborations](review-edit-delete-collaboration.md)
+[Review, export, and delete data](review-export-delete-data.md)
