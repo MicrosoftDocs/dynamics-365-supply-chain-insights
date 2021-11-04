@@ -23,9 +23,11 @@ Additionally, the map view provides risk data for each uploaded site. Two types 
 
 ## Supply chain map prerequisites
 
-The supply chain map requires that WebGL be enabled in your browser's settings. Site location information also must be ingested beforehand to add locations to the map. Initially, Supply Chain Insights adds participant and vendor locations by using the data that is provided when a participant is onboarded. Then, when other production plant and warehouse data is uploaded, or when you receive data from connected suppliers or customers in Supply Chain Insights, the map view is updated so that it includes additional locations. The map view update feature uses uploaded bills of materials (BOMs) to connect sites and to visualize the geographic flow of products and relationships between sites.
+The supply chain map requires that WebGL is enabled in your browser's settings. Site location information also must be ingested to add locations to the map. Initially, Supply Chain Insights adds participant and vendor locations by using the data that is provided when a participant is onboarded. Then, when other production plant and warehouse data is uploaded, or when you receive data from connected suppliers or customers in Supply Chain Insights, the map view is updated so that it includes additional locations. The map view update feature uses uploaded bills of materials (BOMs) to connect sites and to visualize the geographic flow of products and relationships between sites.
 
 ## Reading the map
+
+The screenshot below is an example supply chain map. The following sections describe how to interpret items on the map.
 
 ![Image of the supply chain map with a list of sites on the left](media/supply-chain-map.PNG)
 
