@@ -30,5 +30,3 @@ To view information about a product in Supply Chain Insights, select **Products*
 - **Bill of materials** – This tab lists the component parts of the product.
 
 If you select a part on the **Bill of materials** tab, a pane appears on the right and shows details about that part, such as the part name, part ID, vendor product ID, and item ID. Alternatively, if you select the vertical ellipsis button in the row for a part on the **Bill of materials** tab, and then select **Details**, a part page appears. This page has a **Details** tab that lists part information and a **Bill of materials** tab that lists any part components.
-
-![selecting a product, looking at its bill of material, and then choosing an item listed in the bill of material](/articles/media/Basket-assembly-product.gif)
