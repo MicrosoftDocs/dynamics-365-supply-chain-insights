@@ -27,8 +27,6 @@ Collaborations require connected partners who use Supply Chain Insights. They al
 
 ## Create a data collaboration 
 
-![flow for how to create a data collaboration](media/create-collaboration-example-flow.gif)
-
 ### Send a request
  
 To start a new data collaboration, select **Data collaborations** in the left navigation pane, and then select **New collaboration** on the command bar. After you start a new data collaboration, you must enter a name for it, add a partner or partners, and specify which data should be shared. You must then save and share the collaboration.
@@ -43,7 +41,7 @@ The **Data requested** tab determines what information your partners will share 
 
 ### Share data with partners
 
-The **Data shared** tab resembles the **Data requested** tab. However, it determines what information you will share with your partners. These partners will then have the technical ability to use that data in any way that Supply Chain Insights allows it, which includes the ability to export data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements between you (including any data protection agreements) in how that partner uses your data.
+The **Data shared** tab resembles the **Data requested** tab. However, it determines what information you will share with your partners. Your partners can then use the data in any way that Supply Chain Insights allows, including exporting data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements you have with them regarding how the partner uses your data, including data protection agreements.
 
 ## Respond to a request
 
@@ -53,7 +51,7 @@ You can respond to a data collaboration request through the email invitation, th
 
 The **Data requested** tab of a partner's collaboration page contains a list of the data entities that were requested and the data entities that you're sharing. To accept a data collaboration request, you don't have to share all the requested entities. You can also share data that wasn't requested.
 
-Regardless of what entities you decide to share, the partners you share that data with will then have the technical ability to use that data in any way that Supply Chain Insights allows it, which includes the ability to export data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements between you (including any data protection agreements) in how that partner uses your data.
+Regardless of what entities you share, the partners you share the data with can use that data in any way that Supply Chain Insights allows it, which includes the ability to export data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements between you (including any data protection agreements) in how that partner uses your data.
 
 ### View the data that is shared with you
 
