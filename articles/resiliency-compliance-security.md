@@ -2,12 +2,13 @@
 title: Compliance
 description: This topic describes compliance and security as they are related to the handling of information in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 11/01/2021
+ms.date: 11/04/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
+
 ---
 
 # Compliance
@@ -27,12 +28,12 @@ You have the following responsibilities:
 
 ## Data subject access requests
 
-Data subject deletion requests can be completed by deleting or exporting the relevant entities within Supply Chain Insights. When responding to deletion requests, the ingestion source for those entities should also be updated such that the data involved in the deletion request does not get reuploaded to the application.
+Data subject deletion requests can be completed by deleting or exporting the relevant entities within Supply Chain Insights. When responding to deletion requests, you should also update the ingestion source for those entities so that the data involved in the deletion request does not get reuploaded to the application.
  
 >[!NOTE]
->If the deleted data was originally shared with partners through a data collaboration, and the data was exported, the partners may still have the data.
+> - If the deleted data was originally shared with partners through a data collaboration and a partner exported the data, the partner may still have the data.
+> - When you stop ingesting data, stop sharing data with partners, or delete data from an original data source and then refresh the data within Supply Chain Insights, it may take as long as 48 hours for Supply Chain Insights to cease making the data available to partners you previously shared the data with.
 
-When you delete data by choosing to no longer ingest it in Supply Chain Insights, by deleting it in the original data source and refreshing the data within Supply Chain Insights,  by choosing to no longer share data with your partners, it may take as long as 48 hours for Supply Chain Insights to no longer make that data available to partners with which you had previously chosen to share that data.
 
 ## Security
 
