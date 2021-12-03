@@ -19,7 +19,9 @@ Entities are collections of attributes that are used to organize data in Microso
 
 ## Definition
 
-Supply Chain Insights organizes its data by using labels, so that it can analyze the data for insights. To do so, Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it. It is also important to note that an entity provides structure to represent a concept as a way of helping user ingest their data, but the entity is not the data itself. A record of an entity represents the data for one instance of the entity, so you will mostl likely ingest many records for a single entity. Continuing the vendor example, the data for a vendor's name, location, and other characteristics represent a single record of a vendor.
+Supply Chain Insights organizes its data by using labels, so that it can analyze the data for insights. To do so, Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it. 
+
+It is also important to note that an entity provides the structure to represent a concept as a way of helping users ingest their data, but the entity is not the data itself. A record of an entity represents the data for one instance of the entity, so you will most likely ingest many records for a single entity. Continuing the vendor example, the data for a vendor's name, location, and other characteristics represent a single record of a vendor.
 
 ## Entity list
 
