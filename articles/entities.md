@@ -8,6 +8,7 @@ audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
+
 ---
 
 # Entities
