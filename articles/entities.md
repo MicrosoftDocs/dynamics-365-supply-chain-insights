@@ -2,12 +2,13 @@
 title: Entities
 description: This topic covers entities in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/14/2021
+ms.date: 12/13/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
+
 ---
 
 # Entities
@@ -19,11 +20,16 @@ Entities are collections of attributes that are used to organize data in Microso
 
 ## Definition
 
-Supply Chain Insights organizes its data by using labels, so that it can analyze the data for insights. To do so, Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it.
+Supply Chain Insights organizes its data by using labels. That way, it can analyze the data for insights. Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it. 
+
+It is also important to note that an entity provides the structure to represent a concept as a way of helping users ingest their data, but the entity is not the data itself. A record of an entity represents the data for one instance of the entity, so you will most likely ingest many records for a single entity. Continuing the vendor example, the data for a vendor's name, location, and other characteristics represent a single record of a vendor.
 
 ## Entity list
 
 The following tables provide a complete list of entities and their attributes.
+
+> [!NOTE]
+> Supply Chain Insights can ingest data for an entity that does not contain all of the required attributes, but if it doesn't contain all of the attributes, the insights provided may be limited. For example, if a record of the warehouse entity does not contain data for the AddressCity, AddressState, AddressCountryRegion, and AddressPostalCode attributes, then the warehouse can't be properly placed on the supply chain map.
 
 ### Facilities
 
@@ -112,7 +118,7 @@ A *bill of material lines* entity captures details about the production bill of 
 | ItemId               | The parent item identifier in the BOM. | String | Required |
 | ComponentItemId      | The component item identifier. | String | Required |
 | BomLevel             | The level of the BOM (in the case of a multi-level BOM). | Integer | Optional |
-| ComponentQuantity    | The quantity of the component item that is required to manufacture the parent item. | Integer | Optional |
+| ComponentQuantity    | The quantity of the component item that is required to manufacture the parent item. | Number (max 3 decimal places) | Optional |
 | UnitOfMeasureId      | The unit of measure that is used for item quantities. | String | Optional |
 | ProductId            | The product that is associated with the parent item. | String | Optional |
 
@@ -319,7 +325,7 @@ A *production order* entity captures details about the production orders that ar
 | ProductionPlantId               | The production plant that is fulfilling the production order. | String | Required |
 | ItemId                          | The item that is being produced. | String | Required |
 | OrderId                         | The purchase order or sales order that is associated with the production order. | String | Required |
-| OrderLineId                     | The purchase order line or sales order lines that is associated with the production order. | String | Optional |
+| OrderLineId                     | The purchase order line or sales order lines that are associated with the production order. | String | Optional |
 | MasterPlanScheduleId            | The master schedule that the production order is part of. | Integer | Optional |
 | ItemManufacturedPlannedQuantity | The planned quantity of the item to manufacture. | Integer | Optional |
 | ItemManufacturedActualQuantity  | The actual quantity that was manufactured at the end of the period. | String | Optional |
