@@ -325,7 +325,7 @@ A *production order* entity captures details about the production orders that ar
 | ProductionPlantId               | The production plant that is fulfilling the production order. | String | Required |
 | ItemId                          | The item that is being produced. | String | Required |
 | OrderId                         | The purchase order or sales order that is associated with the production order. | String | Required |
-| OrderLineId                     | The purchase order line or sales order lines that is associated with the production order. | String | Optional |
+| OrderLineId                     | The purchase order line or sales order lines that are associated with the production order. | String | Optional |
 | MasterPlanScheduleId            | The master schedule that the production order is part of. | Integer | Optional |
 | ItemManufacturedPlannedQuantity | The planned quantity of the item to manufacture. | Integer | Optional |
 | ItemManufacturedActualQuantity  | The actual quantity that was manufactured at the end of the period. | String | Optional |
