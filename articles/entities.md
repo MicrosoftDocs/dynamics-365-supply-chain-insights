@@ -2,7 +2,7 @@
 title: Entities
 description: This topic covers entities in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 12/02/2021
+ms.date: 12/13/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -20,15 +20,16 @@ Entities are collections of attributes that are used to organize data in Microso
 
 ## Definition
 
-Supply Chain Insights organizes its data by using labels, so that it can analyze the data for insights. To do so, Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it. 
+Supply Chain Insights organizes its data by using labels. That way, it can analyze the data for insights. Supply Chain Insights has users ingest data by entities, which are collections of attributes that together make up a concept. For example, a vendor is an entity that contains attributes that are related to the vendor's name, location, and other characteristics. Supply Chain Insights contains many entities to represent different parts of a supply chain, and each entity has attributes that describe it. 
 
 It is also important to note that an entity provides the structure to represent a concept as a way of helping users ingest their data, but the entity is not the data itself. A record of an entity represents the data for one instance of the entity, so you will most likely ingest many records for a single entity. Continuing the vendor example, the data for a vendor's name, location, and other characteristics represent a single record of a vendor.
 
 ## Entity list
 
 The following tables provide a complete list of entities and their attributes.
+
 > [!NOTE]
-> It is  possible to ingest data for an entity without containing all of the required attributes, but you may not be able to take full advantage of Supply Chain Insights. For example, if a record of the warehouse entity does not contain data for the AddressCity, AddressState, AddressCountryRegion, and AddressPostalCode attributes, then the warehouse can't be properly placed on the supply chain map.
+> Supply Chain Insights can ingest data for an entity that does not contain all of the required attributes, but if it doesn't contain all of the attributes, the insights provided may be limited. For example, if a record of the warehouse entity does not contain data for the AddressCity, AddressState, AddressCountryRegion, and AddressPostalCode attributes, then the warehouse can't be properly placed on the supply chain map.
 
 ### Facilities
 
