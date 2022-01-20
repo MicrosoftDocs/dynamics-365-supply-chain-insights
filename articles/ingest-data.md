@@ -33,6 +33,7 @@ To start the ingestion process, open the **Data import** page, and select an ent
 
 To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. In both cases, make sure that your data contains the required attributes of a given entity. For example, if you upload a local file, column headers must be named. For cloud storage, additional information will be required to authenticate Supply Chain Insight's access to the data, depending on the cloud storage service that you select.
 
+![List of data sources that can be connected to Supply Chain Insights](media/connector-options.png)
 
 ### Local file prerequisites
 
@@ -49,10 +50,16 @@ Mappings inform Supply Chain Insights how to interpret your data so that it can 
 Local files that you upload must have column headers, because Supply Chain Insights uses the headers to map your data to the attributes of the entity. If you select **Auto map**, Supply Chain Insights tries to use the column headers to determine which column represents which attribute. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
 
 ### Mapping data from a cloud storage provider
-The Power Query interface contains numerous tools that you can use to transform your data into a single table that contains all attributes of an entity. For more information about those tools and how to use them, see [Transform data](/power-query/power-query-ui). After you've created the table with the data you wish to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the pop-up window, and then select **Auto map**. Review the query output column for any errors, or use that column to manually map your data, and then select **Done**.
+The Power Query interface contains numerous tools that you can use to transform your data into a single table that contains all attributes of an entity. For more information about those tools and how to use them, see [Transform data](/power-query/power-query-ui). 
 
     > [!NOTE]
     > When working in the Power Query editor, make sure that you do not change the name of the query. The name should always the singular form of the entity e.g. the warehouses entity should have a query name of "warehouse." The name of the query can be found in the collapsible **Queries** pane on the lefthand side and it can be seen as an editable field in the collapsible **Query settings* pane on the righthand side. 
+    
+![Power Query editor for the product entity](media/power-query-editor.png)
+
+After you've created the table with the data you wish to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the pop-up window, and then select **Auto map**. Review the query output column for any errors, or use that column to manually map your data, and then select **Done**.
+
+![Pop-up of Power Query's auto map feature when using it to map the user's data to the product entity's attributes](media/product-attribute-mapping.png)
 
 
 ## Refresh schedule for data ingested through the cloud
