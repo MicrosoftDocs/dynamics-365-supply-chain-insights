@@ -26,6 +26,8 @@ To make your profile discoverable to your partners' users, set the **Profile vis
 
 If the **Profile visibility** field is set to **Private**, unconnected partners can't discover your profile and can't connect with you on the **Partners  \> Find Partners** tab. If your company profile is private, users can only initiate a connection with you if they manually send a connection request by email. Once you connect with a partner, the **Company details** section of your company profile will be visible to that partner. 
 
+![Image of a company profile with the dropdown menu shown with settings to toggle the profile visibility on and off](media/company-profile-visibility-toggle.png)
+
 ## Additional resources
 
 - [Set up Supply Chain Insights](set-up.md)
