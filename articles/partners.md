@@ -31,11 +31,11 @@ Select a partner name or card to view the partner's company profile. To request 
 
 You can use the search field and filters to find specific partners. If the partner that you're looking for isn't found, you can invite them to join Supply Chain Insights by selecting **Invite partners** in the upper left of the page. You might need the company name, vendor ID, Data Universal Numbering System (DUNS) number, and contact email address to manually add the partner.
 
-The **Imported** tab shows a list of companies that haven't joined Supply Chain Insights but that have been detected based on the data that was ingested for your customer and vendor entities. To invite a partner that was previously imported into Supply Chain Insights, select **Invite** next to the partner's name. An email invitation is sent to the partner from a Microsoft mailbox. You should let the partner know that they can expect an email from Microsoft, because it might be routed to their spam folder. After the partner joins Supply Chain Insights, they will receive a connection request from your participant. After they accept the request, they can collaborate and share data.
+The **Imported** tab shows a list of companies that haven't joined Supply Chain Insights but that have been detected based on the data that was ingested for your customer and vendor entities. To invite a partner that was previously imported into Supply Chain Insights, select **Invite** next to the partner's name. Supply Chain Insights requires an email to be associated with partners you wish to invite. You can click **Add email** for partners without them in the **Imported** tab to then be able to send an invitation to them. Email invitations are sent to partners from a Microsoft email, so you should let invited partners know that they can expect an email from Microsoft because it might be routed to their spam folder. After the partner joins Supply Chain Insights, they will receive a connection request from your participant. After they accept the request, they can collaborate and share data.
 
-You can import additional partners by selecting **Import partners** in the upper left of the page.
+You can import additional partners by selecting **Import partners** in the upper left of the page when no partners are selected.
 
-If a partner that you're connecting with is already a vendor or customer in your enterprise resource planning (ERP) system, you can identify them by setting the **Relationship** field on the **My partners** tab and entering their vendor ID or customer ID. The **Relationship** value and any vendor or customer ID that you enter won't be visible to the partner.
+![Pop-up for entering a partner's email via the Imported tab of the Partners section of Supply Chain Insights](media/update-imported-partner-email.png)
 
 ### Incoming requests
 
