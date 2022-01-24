@@ -35,9 +35,13 @@ To start a new data collaboration, select **Data collaborations** in the left na
  
 You can add one or more partners, depending on whether you created the collaboration on the **Data collaborations** page or through the partner section. You can add partners who are also in other collaborations, because a partner can join multiple collaborations at the same time. After partners are added, you can select the chat symbol next to a partner's name to open a sidebar. There, you can enter an optional note to send to the partner. Different partners can receive different notes, or all partners can receive the same note. Not all partners have to receive a note. Partners will see the notes as part of the invitation for the new data collaboration.
 
+![Selecting partners from a list that should be added to the new data collaboation](media/add-partners-to-collaboration.png)
+
 ### Request data from partners
 
 The **Data requested** tab determines what information your partners will share with you. It contains a list of the data entities that can be requested. To request an entity, select the appropriate checkbox in the **Request to share?** column. You can request all entities, some entities, or no entities.
+
+![Screen with toggles to specifiy what entities are being requested from partners in the data collaboration](media/specify-requested-entities-from-partners.png)
 
 ### Share data with partners
 
@@ -53,13 +57,19 @@ The **Data requested** tab of a partner's collaboration page contains a list of 
 
 Regardless of what entities you share, the partners you share the data with can use that data in any way that Supply Chain Insights allows it, which includes the ability to export data out of Supply Chain Insights. You, not Microsoft, are responsible for ensuring that a partner complies with any agreements between you (including any data protection agreements) in how that partner uses your data.
 
+![Screen with toggles to specify what entities are being requested from you in the data collaboration](media/responding-to-date-request.png)
+
 ### View the data that is shared with you
 
 The **Data shared** tab of a partner's collaboration page resembles the **Data requested** tab. However, it contains information about what data your partner is sharing with you in the data collaboration. If the partner is involved in other data collaborations with you, it might already be sharing some of the data on this tab with you. You, not Microsoft, are responsible for ensuring that when you use data a partner shares with you, that you are complying with any agreements between you and that partner (including any data protection agreements).
 
+![Reviewing what entities have been shared with the user for a certain data collaboration](media/reviewing-data-shared.png)
+
 ### View and add notes
 
 The **Notes** tab contains notes that you and your partner have sent to provide additional information, such as the purpose of the data collaboration and the reason why some data has or hasn't been shared.
+
+![Adding a note to a data collaboration request](media/view-and-add-note.png)
 
 ### Send a response
 
