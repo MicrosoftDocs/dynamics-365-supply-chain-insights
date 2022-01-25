@@ -33,11 +33,8 @@ To add users to your Azure AD tenant, follow these steps.
 
 1. Go to the [Azure portal](https://portal.azure.com) and sign in.
 1. Search for and then select **Azure Active Directory**. The **Overview** page of your Azure AD tenant appears.
-<!--![Top part of the Azure portal home page that includes the search bar and featured capabilities](media/AzurePortalHomePageWithSearchBar.png)-->
-
 1. Confirm that you are in the same Azure AD tenant as the one being used for SCI. You can change your tenant by selecting **Manage tenants** and then selecting the desired tenant. 
 1. To add a user to the correct Azure AD tenant, on the **Overview** page select **+Add**, and then select **User** from the dropdown menu.
-
 1. Enter the new user's information, and then select **Create**. 
 
 >[!NOTE]
@@ -59,7 +56,7 @@ To assign users a license with OneDrive access, follow these steps.
 
 ## Initialize a user's OneDrive license
 
-In the previous procedure you gave users access to OneDrive, but their OneDrive license must be first be initialized for them to be able to import data within SCI. 
+After assigning a user a license to access to OneDrive, the user's OneDrive license must then be initialized for them to be able to import data within SCI. 
 
 To initialize a user's license, follow these steps.
 
@@ -72,5 +69,7 @@ To initialize a user's license, follow these steps.
 To add a user using SCI's user management functionality, follow these steps.
 
 1. As an SCI admin, sign in to the application and go to the **User management section**. 
-1. Select **Invite user** to add a user that has been added to your Azure AD tenant, been assigned Office 365 licenses, and had OneDrive accounts initialized.
-
+1. Select **Invite user** to add any user that has already
+    - Been added to your Azure AD tenant.
+    - Been assigned an Office 365 license.
+    - Had their OneDrive license initialized.
