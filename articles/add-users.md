@@ -1,10 +1,11 @@
 ---
 title: Add users to Supply Chain Insights
-description: Instructions for how to add users to an instance of Dynamics 365 Supply Chain Insights
+description: This topic describes how to add users to an instance of Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 01/19/2022
+ms.date: 01/25/2022
 ms.topic: article
 audience: Application Use
+ms.reviewer: v-chgriffin
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
 ms.author: carylhenry
@@ -12,42 +13,64 @@ ms.author: carylhenry
 
 # Add users to Supply Chain Insights
 
-Multiple users from the same company can access the same instance of Supply Chain Insights (SCI), but a four-step process must be followed to give these users access. You must (1) add users to your Azure Active Directory (AAD) tenant, (2) assign them a license with OneDrive access, (3) initialize their OneDrive licenses, and (4) add them within the SCI application. 
+[!include[banner](includes/banner.md)]
+[!include[banner](includes/preview-banner.md)]
 
-## Add users to your AAD tenant
+This topic describes how to add users to an instance of Microsoft Dynamics 365 Supply Chain Insights.
 
-Go to portal.azure.com and select **Azure Active Directory** or use the search bar. This will present you with the **Overview** page of your AAD tenant.
+Multiple users from the same company can access the same instance of Supply Chain Insights (SCI), but you must follow a four-step procedure to give these users access. 
 
+To give multiple users access to the same instance of Supply Chain Insights, follow these steps.
+
+1. Add users to your Azure Active Directory (AAD) tenant.
+1. Assign them a license with OneDrive access. 
+1. Initialize their OneDrive licenses.
+1. Add them within the SCI application. 
+
+## Add users to your Azure AD tenant
+
+To add users to your Azure AD tenant, follow these steps.
+
+1. Go to the [Azure portal](https://portal.azure.com) and sign in.
+1. Search for and then select **Azure Active Directory**. The **Overview** page of your Azure AD tenant appears.
 <!--![Top part of the Azure portal home page that includes the search bar and featured capabilities](media/AzurePortalHomePageWithSearchBar.png)-->
 
-Make sure you are in the same AAD tenant as the one being used for SCI. You can change your tenant by going to **Manage tenants** and select the correct one. To add a user to the correct AAD tenant, select **Add** then choose **User** from the dropdown menu on the **Overview** page.
+1. Confirm that you are in the same Azure AD tenant as the one being used for SCI. You can change your tenant by selecting **Manage tenants** and then selecting the desired tenant. 
+1. To add a user to the correct Azure AD tenant, on the **Overview** page select **+Add**, and then select **User** from the dropdown menu.
 
-<!--![Dropdown menu for the Add function on the overview page of an AAD tenant](media/AADTenantAddUserDropdown.png)-->
-
-Enter the information necessary for a new user and select **Create**. 
+1. Enter the new user's information, and then select **Create**. 
 
 >[!NOTE]
-> Ensure for each added user that their usage location is set to United States. You can check this by clicking the new user from the **Users** section of your AAD tenant and looking at the **Settings** section of the **Profile** tab. If the location is not the United States, select **Edit** in the top left to make the update.
- 
-<!--![Dropdown menu for the Add function on the overview page of an AAD tenant](media/AADTenantUserProfile.png)-->
+> Ensure that each added user's location is set to **United States**. You can check this in your Azure AD tenant by selecting **User** in the left pane, selecting the new user from the list, and then checking the **Usage location** field in the **Settings** section of the **Profile** tab. If the location listed is not the United States, select **Edit** in the top left to update the **Usage location** value.
 
 ## Assign users a license with OneDrive access
 
-Access to OneDrive is necessary for users so they can import data within SCI. This access should be granted from your AAD tenant. From your tenant's **Overview** page, go to **Licenses > All products** before choosing a license that includes OneDrive (such as Office 365 or Microsoft 365) and clicking **Assign**.
+Users must have access to OneDrive so that they can import data within SCI. This access should be granted from your Azure AD tenant.
 
-<!--![The "All products" section of the licenses for a single AAD tenant](media/AADTenantLicensesPage.png)-->
+To assign users a license with OneDrive access, follow these steps.
 
-Next, select **Add users & groups**. This will open a side panel of users that can be assigned the license. Make sure the users you wish to join SCI are in this list before clicking **Select** to close the side panel and then **Review + assign** to complete this step.
- 
-<!--![Selecting which AAD tenant users should be assigned a specific license](media/SelectingAADTenantUsersForLicense.png)-->
+1. Go to the [Azure portal](https://portal.azure.com) and sign in.
+1. On your tenant's **Overview** page, select **Licenses** in the left pane. 
+1. On the **Licenses** page, select **All products** in the left pane.
+1. Select a license from the list that includes OneDrive (such as Office 365 or Microsoft 365), and then select **Assign**.
+1. On the **Assign license** page, select **Add users and groups**. A side pane appears listing users that can be assigned the license. 
+1. Confirm that the users you wish to join SCI are in this list, and then select **Select** to close the side pane.
+1. Select **Review + assign**.
 
-## Initialize users' OneDrive license
+## Initialize a user's OneDrive license
 
-The previous step gave users access to OneDrive, but their OneDrive license must be initialized first for them to import data within SCI. To initialize a user's license, navigate to [https://onedrive.live.com/](https://onedrive.live.com/) and sign into OneDrive as the new user. Their user principal name and password from the AAD tenant should be used as their credentials here, and you will be prompted to update their passwords if you just added them to your tenant. The account should automatically set up after signing into OneDrive.
+In the previous procedure you gave users access to OneDrive, but their OneDrive license must be first be initialized for them to be able to import data within SCI. 
 
-## Add users through SCI's user management
+To initialize a user's license, follow these steps.
 
-As an SCI admin, log into the application and go to the **User management section**. Select **Invite user** and add the users which were added to your AAD tenant, assigned Office 365 licenses, and had OneDrive accounts initialized to complete this process.
+1. Go to the [Microsoft OneDrive home page](https://onedrive.live.com/) and sign into OneDrive as the new user, using the principal name and password from the Azure AD tenant as their credentials. 
+1. You will be prompted to update the user's password if you just added them to your tenant. After updating the user's password, the account should automatically be set up after signing into OneDrive.
+1. Repeat the preceding steps for each additional user that needs to be initialized. 
 
-<!--![Adding new users from the "User management" section of Dynaimcs 365 Supply Chain Insights](media/AddingUsersInSCI.png)-->
+## Add users using SCI's user management functionality
+
+To add a user using SCI's user management functionality, follow these steps.
+
+1. As an SCI admin, sign in to the application and go to the **User management section**. 
+1. Select **Invite user** to add a user that has been added to your Azure AD tenant, been assigned Office 365 licenses, and had OneDrive accounts initialized.
 
