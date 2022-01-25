@@ -34,7 +34,7 @@ You can sign up for the public preview release on the [Supply Chain Insights pag
 
 ## Onboarding
 
-After you receive an email invitation to join Supply Chain Insights as a user, follow these steps to get started.
+After you receive an email invitation to join Supply Chain Insights as a user, follow these steps to get started onboarding.
 
 1. Select the sign-up link provided in your invitation email.
 1. Choose where your data will be stored. Data can be stored only in the United States for the public preview release, but there are plans to expand the list. 
