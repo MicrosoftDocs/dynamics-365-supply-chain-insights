@@ -69,7 +69,7 @@ To initialize a user's license, follow these steps.
 To add a user using SCI's user management functionality, follow these steps.
 
 1. As an SCI admin, sign in to the application and go to the **User management section**. 
-1. Select **Invite user** to add any user that has already
+1. Select **Invite user** to add any user that has already:
     - Been added to your Azure AD tenant.
     - Been assigned an Office 365 license.
     - Had their OneDrive license initialized.
