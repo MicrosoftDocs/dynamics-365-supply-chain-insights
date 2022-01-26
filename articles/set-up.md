@@ -27,16 +27,16 @@ You can sign up for the public preview release on the [Supply Chain Insights pag
 
 - Supply Chain Insights is currently available only in the English, German, and simplified Chinese languages.
 - Supply Chain Insights supports only the most recent and second most recent versions of the Microsoft Edge, Chrome, Firefox, and Safari browsers. Also, ensure that WebGL is activated in your browser's settings.
-- An Azure Active Directory (Azure AD) tenant is required. A tenant represents an organization in Azure AD and lets you manage user access to Azure resources to ensure controlled access to your data. If you don’t have an Azure AD tenant, you can create one manually in the Azure portal by following the instructions in [QuickStart:  Create a new tenant in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant). Alternatively, you can sign up for a free [Microsoft 365 trial](https://www.microsoft.com/microsoft-365/try) that includes an Azure AD tenant. You can then use the email address associated with your Microsoft 365 trial to sign up for Supply Chain Insights.
+- An Azure Active Directory (Azure AD) tenant is required. A tenant represents an organization in Azure AD and lets you manage user access to Azure resources to ensure controlled access to your data. If you don't have an Azure AD tenant, you can manually create one in the Azure portal by following the instructions in [QuickStart: Create a new tenant in Azure Active Directory](/azure/active-directory/fundamentals/active-directory-access-create-new-tenant). Alternatively, you can sign up for a free [Microsoft 365 trial](https://www.microsoft.com/microsoft-365/try) that includes an Azure AD tenant. You can then use the email address that is associated with your Microsoft 365 trial to sign up for Supply Chain Insights.
 
     > [!NOTE]
-    > Free trials end after one month and require credit card information to help ensure that you do not experience any interruptions when your trial ends. Your credit card will not be billed until the end of the trial period. You can cancel any time during the trial period by selecting **Turn off recurring billing** on your [Microsoft account](https://go.microsoft.com/fwlink/p/?LinkID=401325&CLCID=0x409&culture=en-us&country=US) page.
+    > Free trials end after one month and require credit card information to help ensure that you don't experience any interruptions when your trial ends. Your credit card won't be billed until the end of the trial period. You can cancel at any time during the trial period by selecting **Turn off recurring billing** on your [Microsoft account](https://go.microsoft.com/fwlink/p/?LinkID=401325&CLCID=0x409&culture=en-us&country=US) page.
 
 ## Onboarding
 
-After you receive an email invitation to join Supply Chain Insights as a user, follow these steps to get started onboarding.
+After you receive an email invitation to join Supply Chain Insights as a user, follow these steps to get started with onboarding.
 
-1. Select the sign-up link provided in your invitation email.
+1. Select the sign-up link that is provided in your invitation email.
 1. Choose where your data will be stored. Data can be stored only in the United States for the public preview release, but there are plans to expand the list. 
 1. Enter a company name and a team name. The combination must be unique. 
 1. Once your tenant is provisioned, accept the request for access to your location. This access will be used to offer better suggestions as you search for locations in the next two steps.
