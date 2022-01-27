@@ -29,3 +29,6 @@ Supply Chain Insights uses artificial intelligence to sort news articles based o
 Supply Chain Insights curates recent relevant news articles by using a trained AI model that identifies news that could affect a supply chain. The news articles are then presented as tiles on the **Home** and **News** pages of the application. If you select **Read article** on a tile, the news story is opened on a new tab. If you select **View impacts** on a tile, a page that is specific to the news article is opened. There, you can see which partners in your supply chain could be affected by the news.
 
 ![list of news articles](media/news-list.PNG)
+
+> [!NOTE]
+> Larger companies are more likely to be prominent in the news than smaller ones, affecting which news articles are recommended in this news feature. As a result, certain sources of risks from smaller partner companies may not be highlighted here and may remain under the radar.
