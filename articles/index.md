@@ -3,7 +3,7 @@ title: Supply Chain Insights home page
 description: This topic provides an overview of Microsoft Dynamics 365 Supply Chain Insights and the value that it brings to users.
 author: josaw1
 ms.date: 10/12/2021
-ms.topic: article
+ms.topic: overview
 audience: Application User
 ms.search.region: Global
 ms.service: dynamics-365-supply-chain-insights
