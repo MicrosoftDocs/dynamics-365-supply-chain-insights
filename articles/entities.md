@@ -376,5 +376,5 @@ A *warehouse item available stock* entity captures details about available stock
 | AnticipationStockQuantity    | The quantity of stock that is expected through inbound shipments. | Integer | Optional |
 | AvailableToPromiseQuantity   | The quantity of stock that is available to service new demand. | Integer | Optional |
 | FillRatePercentage           | The fill rate of the item or component that is supplied. The value will be automatically set. | Integer | Optional |
-| ItemStatusName               | The status of the stock that is associated with the item (for example, blocked). | Number | Optional |
+| ItemStatusName               | The status of the stock that is associated with the item (for example, blocked). | String | Optional |
 | Timestamp                    | The timestamp that indicates when the stock levels were updated in the system. | ISO 8601 format | Optional |
