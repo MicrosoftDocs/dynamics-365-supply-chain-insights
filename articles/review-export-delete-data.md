@@ -2,7 +2,7 @@
 title: Review, export, and delete data
 description: This topic describes how to review, edit, delete, and export data in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 11/01/2021
+ms.date: 01/28/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -38,7 +38,7 @@ Data deletion lets you delete an entity or all entities that have been ingested 
 > [!NOTE]
 > When you stop ingesting data, stop sharing data with partners, or delete data from an original data source and then refresh the data within Supply Chain Insights, it may take as long as 48 hours for Supply Chain Insights to cease making the data available to partners you previously shared the data with.
 
-![Dropdown menu to view, edit, refresh, disconnect, and delete the data associated with the products entity](media/disconnect-refresh-delete-data-dropdown.png)
+![Data import page showing the dropdown menu to view, edit, refresh, disconnect, and delete data associated with a products entity](media/disconnect-refresh-delete-data-dropdown.png)
 
 
 ## Disconnect from cloud storage providers
