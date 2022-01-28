@@ -31,6 +31,8 @@ If the **Profile visibility** field is set to **Private**, unconnected partners 
 
 ## Additional resources
 
-- [Set up Supply Chain Insights](set-up.md)
-- [Import your data](ingest-data.md)
-- [Create your supply chain network](partners.md)
+[Set up Supply Chain Insights](set-up.md)
+
+[Import your data](ingest-data.md)
+
+[Create your supply chain network](partners.md)
