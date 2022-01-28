@@ -2,7 +2,7 @@
 title: Entities
 description: This topic covers entities in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 12/13/2021
+ms.date: 01/28/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
