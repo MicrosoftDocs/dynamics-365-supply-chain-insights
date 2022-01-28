@@ -2,7 +2,7 @@
 title: Curated news
 description: This topic describes the curated news feature that is included in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 10/14/2021
+ms.date: 01/28/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -31,4 +31,4 @@ Supply Chain Insights curates recent relevant news articles by using a trained A
 ![list of news articles](media/news-list.PNG)
 
 > [!NOTE]
-> Larger companies are more likely to be prominent in the news than smaller ones, affecting which news articles are recommended in this news feature. As a result, certain sources of risks from smaller partner companies may not be highlighted here and may remain under the radar.
+> Larger companies are more likely to be prominent in the news than smaller companies, which may affect what news articles are recommended in the curated news feature. As a result, certain sources of risks from smaller partner companies may not be highlighted.
