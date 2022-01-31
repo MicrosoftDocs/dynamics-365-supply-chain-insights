@@ -2,7 +2,7 @@
 title: Partner management
 description: This topic explains how you can manage partners in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 11/01/2021
+ms.date: 01/28/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -22,20 +22,19 @@ Before you add partners, you should complete your [company profile](company-prof
 
 ## Find and connect with partners
 
-
 To view a list of companies that have joined Supply Chain Insights, go to **Partners \> All partners \> Find partners**, as illustrated in the screenshot below. 
 
-![List of companies to connect with under the Find partners tab along with a filter to narrow down the companies](media/find-partners-with-filter.PNG)
+![Find partners tab on the All partners page, showing a list of companies that you can connect with and a filter box to narrow down the companies.](media/find-partners-with-filter.PNG)
 
 Select a partner name or card to view the partner's company profile. To request to connect with a partner, select **Connect** on the partner card. You can add a customized note to personalize your request.
 
 You can use the search field and filters to find specific partners. If the partner that you're looking for isn't found, you can invite them to join Supply Chain Insights by selecting **Invite partners** in the upper left of the page. You might need the company name, vendor ID, Data Universal Numbering System (DUNS) number, and contact email address to manually add the partner.
 
-The **Imported** tab shows a list of companies that haven't joined Supply Chain Insights but that have been detected based on the data that was ingested for your customer and vendor entities. To invite a partner that was previously imported into Supply Chain Insights, select **Invite** next to the partner's name. An email invitation is sent to the partner from a Microsoft mailbox. You should let the partner know that they can expect an email from Microsoft, because it might be routed to their spam folder. After the partner joins Supply Chain Insights, they will receive a connection request from your participant. After they accept the request, they can collaborate and share data.
+The **Imported** tab shows a list of companies that haven't joined Supply Chain Insights, but that have been detected based on the data that was ingested for your customer and vendor entities. To invite a partner that was previously imported into Supply Chain Insights, select **Invite** next to the partner's name. Supply Chain Insights requires that an email address be associated with partners that you want to invite. To add a partner email address, so that you can send the partner an invitation, select **Add email** on the **Imported** tab . Email invitations are sent to partners from an email address in the Microsoft domain. You should let invited partners know that they can expect an email from Microsoft, because it might be routed to their spam folder. After a partner joins Supply Chain Insights, they will receive a connection request from your participant. After a partner accepts a request, they can collaborate and share data.
 
-You can import additional partners by selecting **Import partners** in the upper left of the page.
+You can import additional partners by selecting **Import partners** in the upper left of the page when no partners are selected.
 
-If a partner that you're connecting with is already a vendor or customer in your enterprise resource planning (ERP) system, you can identify them by setting the **Relationship** field on the **My partners** tab and entering their vendor ID or customer ID. The **Relationship** value and any vendor or customer ID that you enter won't be visible to the partner.
+![Dialog box for updating a partner's email address via the Imported tab on the All partners page.](media/update-imported-partner-email.png)
 
 ### Incoming requests
 
