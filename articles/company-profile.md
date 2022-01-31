@@ -25,9 +25,9 @@ Your company profile initially contains only the name of your company and the pr
 
 To make your profile discoverable to your partners' users, set the **Profile visibility** field on the **Basic information** tab to **Public**. If your profile is public, users can find it on the **Partners \> Find Partners** tab, and they can connect with you to collaborate and derive data insights. If your profile is public, all of the information in the **Company details** section on the **Basic Information** tab of your company profile is shown to all participants in Supply Chain Insights.
 
-If the **Profile visibility** field is set to **Private**, unconnected partners can't discover your profile and can't connect with you on the **Partners  \> Find Partners** tab. If your company profile is private, users can only initiate a connection with you if they manually send a connection request by email. Once you connect with a partner, the **Company details** section of your company profile will be visible to that partner. 
+If the **Profile visibility** field is set to **Private**, unconnected partners can't discover your profile and can't connect with you on the **Partners \> Find Partners** tab. If your company profile is private, users can only initiate a connection with you if they manually send a connection request by email. Once you connect with a partner, the **Company details** section of your company profile will be visible to that partner. 
 
-![Supply Chain Insights company profile page with dropdown menu selected showing settings to toggle profile visibility on and off](media/company-profile-visibility-toggle.png)
+![Company profile page in Supply Chain Insights, showing the options on the drop-down menu that is used to switch profile visibility on and off.](media/company-profile-visibility-toggle.png)
 
 ## Additional resources
 
