@@ -21,7 +21,7 @@ To generate insights that are relevant to your business, Dynamics 365 Supply Cha
 
 ## Prerequisites
 
-Data management requires that you ingest data from various sources, according to the entities that are described in [Data entities](entities.md). For example, this set of [Excel files](https://download.microsoft.com/download/d/c/2/dc238977-69a5-4440-a19e-24d632c25cf5/ExampleData.xlsx) contains data for a large manufacturing company that has a supply/demand mismatch issue. Although this data set might not contain all the attributes for every entity, it's enough so that Supply Chain Insights can visually show the mismatch issue in the **Analytics** section of the application.
+Data management requires that you ingest data from various sources, according to the entities that are described in [Data entities](entities.md). For example, this set of [Excel files](https://download.microsoft.com/download/d/c/2/dc238977-69a5-4440-a19e-24d632c25cf5/OEM_Electronics_Sample.zip) contains data for a large manufacturing company that has a supply/demand mismatch issue. Although this data set might not contain all the attributes for every entity, it's enough so that Supply Chain Insights can visually show the mismatch issue in the **Analytics** section of the application.
 
 Before ingesting your data, review the information in [Compliance](resiliency-compliance-security.md) to ensure that Supply Chain Insights meets your company's expectations.
 
