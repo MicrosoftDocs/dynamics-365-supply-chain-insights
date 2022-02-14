@@ -7,7 +7,7 @@ ms.topic: article
 audience: Application User
 ms.reviewer: v-chgriffin
 ms.search.region: Global
-ms.service: dynamics-365-supply-chain-insights
+
 ms.author: carylhenry
 
 ---

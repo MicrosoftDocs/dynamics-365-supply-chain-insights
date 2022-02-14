@@ -6,7 +6,7 @@ ms.date: 10/12/2021
 ms.topic: overview
 audience: Application User
 ms.search.region: Global
-ms.service: dynamics-365-supply-chain-insights
+
 ms.author: josaw
 
 ---
