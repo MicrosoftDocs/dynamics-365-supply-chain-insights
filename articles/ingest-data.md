@@ -2,7 +2,7 @@
 title: Ingest data
 description: This topic describes how to ingest data into Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 01/28/2022
+ms.date: 02/15/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -31,7 +31,7 @@ To start the ingestion process, open the **Data import** page, and select an ent
 
 ## Sources
 
-To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. In both cases, make sure that your data contains the required attributes of a given entity. For example, if you upload a local file, column headers must be named. For cloud storage, additional information will be required to authenticate Supply Chain Insight's access to the data, depending on the cloud storage service that you select.
+To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. Additional information may be required to authenticate Supply Chain Insight's access to the data for certain cloud storage services. If the data for a single entity is stored in two separate data sources, choose one source to begin with and the second one can be added later on in the ingestion process. We also recommend that your data contains the required attributes of a given entity. This will make sure you're getting the most value out of SCI, although not having all the required attributes will not block you from ingesting data. For example, if you upload a local file, the column headers should be named based off of the attributes of the entity your uploading. This will make it easier to map your data to Supply Chain Insights' entities.
 
 ![Data import page showing a list of data sources that can be connected to Supply Chain Insights.](media/connector-options.png)
 
