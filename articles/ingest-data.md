@@ -29,36 +29,26 @@ Before ingesting your data, review the information in [Compliance](resiliency-co
 
 To start the ingestion process, open the **Data import** page, and select an entity that has a status other than **Not imported**. Select **Not imported** or the vertical ellipsis button, and then select **Import data**.
 
-## Sources
+## Connect your data to Supply Chain Insights
 
-To enter the data for any entity, import a local comma-separated values (.csv) file or Excel (.xlsx) file from your computer, or connect Supply Chain Insights to your own data storage or cloud storage service. Additional information may be required to authenticate Supply Chain Insight's access to the data for certain cloud storage services. If the data for a single entity is stored in two separate data sources, choose one source to begin with and the second one can be added later on in the ingestion process. We also recommend that your data contains the required attributes of a given entity. This will make sure you're getting the most value out of SCI, although not having all the required attributes will not block you from ingesting data. For example, if you upload a local file, the column headers should be named based off of the attributes of the entity your uploading. This will make it easier to map your data to Supply Chain Insights' entities.
+Supply Chain Insights must connect to your own data storage or cloud storage service before you can upload the data for any entity. Additional information may be required to authenticate Supply Chain Insights' access to the data. If the data for a single entity is stored in two separate data sources, choose one source to begin with and the second one can be added later on in the ingestion process. We also recommend that your data contains the required attributes of a given entity. This will make sure you're getting the most value out of SCI, although not having all the required attributes will not block you from ingesting data. For example, if you upload an Excel file, the column headers should be named based off of the attributes of the entity your uploading. This will make it easier to map your data to the attributes of Supply Chain Insights' entities, but you can also transform your data to fit this format using the Power Query editor in the next step.
 
 ![Data import page showing a list of data sources that can be connected to Supply Chain Insights.](media/connector-options.png)
 
 ### Local file prerequisites
 
-- An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) is required to import local files on your computer into Supply Chain Insights. For information about how to install an on-premises data gateway, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install).
-- After you install the on-premises data gateway, you must use your Supply Chain Insights user credentials to sign in to the application.
-- The local folder that contains the file that you want to upload must be configured so that access is granted to everyone.
+An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) is required to import local files on your computer into Supply Chain Insights. See [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install) for information on how to install an on-premise data gateway. After you install the gateway, you must use your Supply Chain Insights user credentials to sign in to the application. Then make sure that the local folder which contains the file you want to upload is configured so that access is granted to everyone. To change this configuration, navigate the folder, right click on it, and then select **Give access to >> Specific people**.
 
-## Mappings
+## Transform and map the data according to your desired entity
 
-Mappings inform Supply Chain Insights how to interpret your data so that it can be analyzed. A mapping describes how your data is related to the attributes that represent a specific entity. It's easy to complete a mapping during the ingestion process.
-
-### Map data from local files
-
-Local files that you upload must have column headers, because Supply Chain Insights uses the headers to map your data to the attributes of the entity. If you select **Auto map**, Supply Chain Insights tries to use the column headers to determine which column represents which attribute. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name.
-
-### Map data from a cloud storage provider
-
-The Power Query interface contains numerous tools that you can use to transform your data into a single table that contains all attributes of an entity. For more information about those tools and how to use them, see [Transform data](/power-query/power-query-ui). 
+Mappings inform Supply Chain Insights how to interpret your data so that it can be analyzed. A mapping describes how the data within a query's table relates to the attributes that represent a specific entity. The Power Query editor contains numerous tools that you can use to transform your data into a single query containing one table that contains all attributes of an entity. This transformation and mapping only needs to be completed once for an entity, assuming you don't change the sources that the data is coming from. If only part of the data for an entity is contained in the first source you connected, click **Get Data** in the upper left of the Power Query editor when you are in the **Home** tab. This will prompt you to go through the connection process again to add another source. See [Transform data](/power-query/power-query-ui) for more information about the Power Query editor and what it can do.
 
 > [!NOTE]
-> When you work in the Power Query editor, make sure that you don't change the name of the query. The name should always be the singular form of the entity. For example, the warehouses entity should have a query name of "warehouse." The name of the query can be found in the collapsible **Queries** pane on the left, and it can be seen as an editable field in the collapsible **Query settings** pane on the right. 
+> When you work in the Power Query editor, make sure that the data you upload is contained in a query that's named according to the desired entity. The name should always be the singular form of the entity and in camel case. For example, the warehouses entity should have a query name of "Warehouse" and customer product allocations entity should be "CustomerProductAllocation". The name of the query can be found in the collapsible **Queries** pane on the left, and it can be seen as an editable field in the collapsible **Query settings** pane on the right when you have the query open. 
     
 ![Data import page, showing the Power Query editor for the product entity.](media/power-query-editor.png)
 
-After you've created the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the dialog box that appears, and then select **Auto map**. Review the query output column for any errors, or use that column to manually map your data, and then select **Done**.
+After you've created the query with the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the dialog box that appears, and then select **Auto map**. Supply Chain Insights will use the column headers of the query table to determine which column represents which attribute. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name. Choose **Done** once finished.
 
 ![Data import page, showing the dialog box for Power Query's auto map feature when it's to map user data to a product entity's attributes.](media/product-attribute-mapping.png)
 
