@@ -2,7 +2,7 @@
 title: Entities
 description: This topic covers entities in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 01/28/2022
+ms.date: 02/22/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -35,7 +35,7 @@ The following tables provide a complete list of entities and their attributes.
 
 #### Warehouse
 
-A *warehouse* entity captures details about a warehouse, such as its contact information and location.
+A *Warehouse* entity captures details about a warehouse, such as its contact information and location.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -59,7 +59,7 @@ A *warehouse* entity captures details about a warehouse, such as its contact inf
 
 #### Item
 
-An *item* entity captures physical representation details about a good in a warehouse or production plant. A good can be a finished product, a part, or a raw material.
+An *Item* entity captures physical representation details about a good in a warehouse or production plant. A good can be a finished product, a part, or a raw material.
 
 | Attribute                | Description | Type | Required |
 |--------------------------|-------------|------|----------|
@@ -87,7 +87,7 @@ An *item* entity captures physical representation details about a good in a ware
 
 #### Product
 
-A *product* entity captures details about end products that a company produces and sells to its customers.
+A *Product* entity captures details about end products that a company produces and sells to its customers.
 
 | Attribute                | Description | Type | Required |
 |--------------------------|-------------|------|----------|
@@ -110,7 +110,7 @@ A *product* entity captures details about end products that a company produces a
 
 ### Bill of material lines
 
-A *bill of material lines* entity captures details about the production bill of materials (BOM) or the parts/raw materials that are required to manufacture a product.
+A *BillOfMaterialLine* entity captures details about a single line of the production bill of materials (BOM) or the parts/raw materials that are required to manufacture a product.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -126,7 +126,7 @@ A *bill of material lines* entity captures details about the production bill of 
 
 #### Customer
 
-A *customer* entity captures details about customers that a company sells its end products to.
+A *Customer* entity captures details about customers that a company sells its end products to.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -147,7 +147,7 @@ A *customer* entity captures details about customers that a company sells its en
 
 #### Vendor
 
-A *vendor* entity captures details about vendors that supply raw materials or components that are required to manufacture a company's products.
+A *Vendor* entity captures details about vendors that supply raw materials or components that are required to manufacture a company's products.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -170,7 +170,7 @@ A *vendor* entity captures details about vendors that supply raw materials or co
 
 #### Order
 
-An *order* entity captures details about purchase orders and sales orders.
+An *Order* entity captures details about purchase orders and sales orders.
 
 | Attribute                  | Description | Type | Required |
 |----------------------------|-------------|------|----------|
@@ -204,7 +204,7 @@ An *order* entity captures details about purchase orders and sales orders.
 
 #### Order line
 
-An *order line* entity captures order line details for each purchase and sales order.
+An *OrderLine* entity captures order line details for each purchase and sales order.
 
 | Attribute                          | Description | Type | Required |
 |------------------------------------|-------------|------|----------|
@@ -237,7 +237,7 @@ An *order line* entity captures order line details for each purchase and sales o
 
 #### Shipment item
 
-A *shipment item* entity captures details about the part of an order that is contained in a single shipment.
+A *ShipmentItem* entity captures details about the part of an order that is contained in a single shipment.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -248,7 +248,7 @@ A *shipment item* entity captures details about the part of an order that is con
 
 #### Shipment
 
-A *shipment* entity captures details about inbound and outbound shipments that are associated with a warehouse.
+A *Shipment* entity captures details about inbound and outbound shipments that are associated with a warehouse.
 
 | Attribute            | Description | Type | Required |
 |----------------------|-------------|------|----------|
@@ -272,7 +272,7 @@ A *shipment* entity captures details about inbound and outbound shipments that a
 
 #### Customer product allocation
 
-A *customer product allocation* entity captures the quantities that are allocated for customers to satisfy anticipated demand. In other words, it captures the committed supply.
+A *CustomerProductAllocation* entity captures the quantities that are allocated for customers to satisfy anticipated demand. In other words, it captures the committed supply.
 
 | Attribute                            | Description | Type | Required |
 |--------------------------------------|-------------|------|----------|
@@ -289,7 +289,7 @@ A *customer product allocation* entity captures the quantities that are allocate
 
 #### Master plan schedule
 
-A *master plan schedule* entity captures the build plan details, such as what is being produced, in what quantity, and when.
+A *MasterPlanSchedule* entity captures the build plan details, such as what is being produced, in what quantity, and when.
 
 | Attribute                 | Description | Type | Required |
 |---------------------------|-------------|------|----------|
@@ -304,7 +304,7 @@ A *master plan schedule* entity captures the build plan details, such as what is
 
 #### Material resource plan
 
-A *material resource plan* entity captures details about the material resource plan that contains the quantity of items that is required to satisfy demand for an end product and achieve the master plan schedule.
+A *MaterialResourcePlan* entity captures details about the material resource plan that contains the quantity of items that is required to satisfy demand for an end product and achieve the master plan schedule.
 
 | Attribute              | Description | Type | Required |
 |------------------------|-------------|------|----------|
@@ -317,7 +317,7 @@ A *material resource plan* entity captures details about the material resource p
  
 #### Production order
 
-A *production order* entity captures details about the production orders that are raised to meet customer demand in response to purchase orders or to replenish stock.
+A *ProductionOrder* entity captures details about the production orders that are raised to meet customer demand in response to purchase orders or to replenish stock.
 
 | Attribute                       | Description | Type | Required |
 |---------------------------------|-------------|------|----------|
@@ -337,7 +337,7 @@ A *production order* entity captures details about the production orders that ar
 
 #### Production plant
 
-A *production plant* entity captures the location and contact details for production plants.
+A *ProductionPlant* entity captures the location and contact details for production plants.
 
 | Attribute              | Description | Type | Required |
 |------------------------|-------------|------|----------|
@@ -363,7 +363,7 @@ A *production plant* entity captures the location and contact details for produc
 
 #### Warehouse item available stock
 
-A *warehouse item available stock* entity captures details about available stock in warehouses.
+A *WarehouseItemAvailableStock* entity captures details about available stock in warehouses.
 
 | Attribute                    | Description | Type | Required |
 |------------------------------|-------------|------|----------|
