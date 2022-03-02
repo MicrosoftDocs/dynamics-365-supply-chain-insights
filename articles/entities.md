@@ -2,7 +2,7 @@
 title: Entities
 description: This topic covers entities in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 02/22/2022
+ms.date: 03/02/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -117,7 +117,7 @@ A *BillOfMaterialLine* entity captures details about a single line of the produc
 | ItemId               | The parent item identifier in the BOM. | String | 256 characters | Required |
 | ComponentItemId      | The component item identifier. | String | 256 characters | Required |
 | BomLevel             | The level of the BOM (in the case of a multi-level BOM). | Integer | 2^31 | Optional |
-| ComponentQuantity    | The quantity of the component item that is required to manufacture the parent item. | Number | 9 digits, up to 3 decimal places | Optional |
+| ComponentQuantity    | The quantity of the component item that is required to manufacture the parent item. | Number | 9 digits, up to 3 decimal places. | Optional |
 | UnitOfMeasureId      | The unit of measure that is used for item quantities. | String | 256 characters | Optional |
 | ProductId            | The product that is associated with the parent item. | String | 256 characters | Optional |
 
@@ -178,14 +178,14 @@ An *Order* entity captures details about purchase orders and sales orders.
 | PurchaseOrderNumber        | The purchase order number for the order. | String | 256 characters | Required |
 | VendorId                   | The identifier of the vendor that the order is raised for (in the case of a purchase order). | String | 256 characters | Optional |
 | CustomerId                 | The identifier of the customer that the order is raised for (in the case of a sales order). | String | 256 characters | Optional |
-| OrderReceivedDate          | The date when the order was received. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| OrderConfirmedDate         | The date when the order was confirmed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| OrderRequestedDeliveryDate | The date when the order was requested to be completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| OrderCommittedDeliveryDate | The date when the order was committed to be completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| OrderActualDeliveryDate    | The date when the order was actually completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds |  Optional |
-| IssueDate                  | The date when the order was raised. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| ReturnedDate               | The date when order items were returned. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| CancellationDate           | The date when the order was canceled. | ISO 8601 format | Up to 7 digits for the fractional part of seconds |  Optional |
+| OrderReceivedDate          | The date when the order was received. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| OrderConfirmedDate         | The date when the order was confirmed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| OrderRequestedDeliveryDate | The date when the order was requested to be completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| OrderCommittedDeliveryDate | The date when the order was committed to be completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| OrderActualDeliveryDate    | The date when the order was actually completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. |  Optional |
+| IssueDate                  | The date when the order was raised. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| ReturnedDate               | The date when order items were returned. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| CancellationDate           | The date when the order was canceled. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. |  Optional |
 | ShipToParty                | The name of the company or person that the order must be shipped to. | String | 256 characters | Optional |
 | CarrierId                  | The identifier of the carrier that ships the order. It can be System or a Standard Carrier Alpha Code (SCAC). | String | 256 characters | Optional |
 | ShipmentMethod             | The method that is being used to ship the order (for example, 2 days, overnight, or ground). | String | 256 characters | Optional |
@@ -196,8 +196,8 @@ An *Order* entity captures details about purchase orders and sales orders.
 | AddressCountryRegion       | The country or region from the address that is mentioned in the order. | String | 256 characters | Optional |
 | AddressPostalCode          | The postal code from the address that is mentioned in the order. | String | 256 characters | Optional |
 | Status                     | The order status: completed or in progress. | String | 256 characters | Optional |
-| ConfirmationTimestamp      | The timestamp that indicates when the order was confirmed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| ReceivedTimestamp          | The timestamp that indicates when the order was received. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
+| ConfirmationTimestamp      | The timestamp that indicates when the order was confirmed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| ReceivedTimestamp          | The timestamp that indicates when the order was received. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
 | ConfirmationNumber         | The acknowledgment that the order was received and confirmed. | String | 256 characters | Optional |
 | Quantity                   | The ordered quantity. | Integer | 2^31 | Optional |
 
@@ -216,16 +216,16 @@ An *OrderLine* entity captures order line details for each purchase and sales or
 | ItemId                             | The identifier of the item that is being ordered. | String | 256 characters | Required |
 | WarehouseAddress                   | The address of the warehouse. | String | 256 characters | Optional |
 | VendorItemNumber                   | For purchases orders, the identifier of the item in the vendor's system. | String | 256 characters | Optional |
-| ConfirmedShippingDate              | The date when the shipment that is associated with the order is confirmed to be shipped. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| ConfirmedDeliveryDate              | The date when the shipment that is associated with the order is confirmed to be delivered. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| ActualDeliveryTimestamp            | The date when the order line is actually completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| PlannedDeliveryDate                | The estimated delivery date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| PlannedShipmentDate                | The estimated ship date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| PlannedPickDate                    | The estimated picking or packing date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| CommittedDeliveryDate              | The committed ship or delivery date of the order. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| RequestedDeliveryDate              | The customer-requested delivery or ship date. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| ActualPickTimestamp                | The actual picking or packing date and time of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| ActualShipmentTimestamp            | The actual ship date and time of the order. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
+| ConfirmedShippingDate              | The date when the shipment that is associated with the order is confirmed to be shipped. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| ConfirmedDeliveryDate              | The date when the shipment that is associated with the order is confirmed to be delivered. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| ActualDeliveryTimestamp            | The date when the order line is actually completed. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| PlannedDeliveryDate                | The estimated delivery date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| PlannedShipmentDate                | The estimated ship date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| PlannedPickDate                    | The estimated picking or packing date of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| CommittedDeliveryDate              | The committed ship or delivery date of the order. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| RequestedDeliveryDate              | The customer-requested delivery or ship date. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| ActualPickTimestamp                | The actual picking or packing date and time of the order line. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| ActualShipmentTimestamp            | The actual ship date and time of the order. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
 | OrderLineQuantityUnitOfMeasurement | The unit of measure (for example, KG, EA, or LB) that describes the amount that is being shipped. | String | 256 characters | Optional |
 | OrderLineQuantity                  | The amount of the order line item that is being shipped. | Integer | 2^31 | Optional |
 | ReturnedQuantity                   | The amount of the order line item that was returned. | Integer | 2^31 | Optional |
@@ -262,10 +262,10 @@ A *Shipment* entity captures details about inbound and outbound shipments that a
 | ShipFromAddress      | The source address of the shipment. | String | 256 characters | Required |
 | ShipToAddress        | The destination address of the shipment. | String | 256 characters | Required |
 | ShipmentType         | The type of shipment: inbound or outbound. | String | 256 characters | Required |
-| PlannedShippedDate   | The projected shipment date. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| ActualShippedDate    | The date when the shipment was shipped. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| EstimatedArrivalDate | The date when the shipment is expected to arrive. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| ShipmentReceivedDate | The date when shipment actually arrived. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
+| PlannedShippedDate   | The projected shipment date. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| ActualShippedDate    | The date when the shipment was shipped. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| EstimatedArrivalDate | The date when the shipment is expected to arrive. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| ShipmentReceivedDate | The date when shipment actually arrived. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
 
 ### Production
 
@@ -283,8 +283,8 @@ A *CustomerProductAllocation* entity captures the quantities that are allocated 
 | AllocationQuantity                   | The quantity of stock that is allocated for the customer over the specified period. | Integer | 2^31 | Required |
 | ConfirmedAllocationQuantity          | The actual quantity that can be allocated for the customer. | Integer | 2^31 | Optional |
 | ConfirmedToDeliverAllocationQuantity | The quantity of stock that can be delivered to the customer out of the allocated stock. | Integer | 2^31 | Optional |
-| PeriodStartDate                      | The first date that the allocation quantity is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| PeriodEndDate                        | The last date that the allocation quantity is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
+| PeriodStartDate                      | The first date that the allocation quantity is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| PeriodEndDate                        | The last date that the allocation quantity is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
 
 #### Master plan schedule
 
@@ -298,8 +298,8 @@ A *MasterPlanSchedule* entity captures the build plan details, such as what is b
 | ActualProductionQuantity  | The quantity of material that was actually produced at the end of the period. | Integer | 2^31 | Optional |
 | PlannedProductionQuantity | The quantity of material that is projected to be produced by the end of the period. | Integer | 2^31 | Required |
 | UnitOfMeasure             | The unit of measure (for example, KG, EA, or LB) that describes the amount that is being produced. | String | 256 characters | Optional |
-| PeriodStartDate           | The first date that the master plan is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| PeriodEndDate             | The last date that the master plan is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
+| PeriodStartDate           | The first date that the master plan is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| PeriodEndDate             | The last date that the master plan is valid. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
 
 #### Material resource plan
 
@@ -311,8 +311,8 @@ A *MaterialResourcePlan* entity captures details about the material resource pla
 | ItemId                 | The item that is involved in the master resource plan forecast. It can be a finished good or raw material. | String | 256 characters | Required |
 | QuantityRequired       | The quantity of the item that required to satisfy demand. | Integer | 2^31| Required |
 | QuantityUnitOfMeasure  | The unit of measure for the item quantity. | String | 256 characters | Optional |
-| PeriodStartDate        | The start date of the master resource plan. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
-| PeriodEndDate          | The end date of the master resource plan. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Required |
+| PeriodStartDate        | The start date of the master resource plan. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
+| PeriodEndDate          | The end date of the master resource plan. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Required |
  
 #### Production order
 
@@ -329,10 +329,10 @@ A *ProductionOrder* entity captures details about the production orders that are
 | ItemManufacturedPlannedQuantity | The planned quantity of the item to manufacture. | Integer | 2^31 | Optional |
 | ItemManufacturedActualQuantity  | The actual quantity that was manufactured at the end of the period. | String | 256 characters | Optional |
 | ItemManufacturedPlannedUom      | The unit of measure for the item quantity. | String | 256 characters | Optional |
-| ActualStartDate                 | The actual date when production starts. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| ActualEndDate                   | The actual date when production ends. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
-| OrderPlannedStartDate           | The estimated date to start production. | ISO 8601 format | Up to 7 digits for the fractional part of seconds |  Optional |
-| OrderActualStartDate            | The estimated date to end production. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
+| ActualStartDate                 | The actual date when production starts. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| ActualEndDate                   | The actual date when production ends. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
+| OrderPlannedStartDate           | The estimated date to start production. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. |  Optional |
+| OrderActualStartDate            | The estimated date to end production. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
 
 #### Production plant
 
@@ -374,7 +374,7 @@ A *WarehouseItemAvailableStock* entity captures details about available stock in
 | AllocationQuantity           | The quantity of stock that is reserved either as safety stock or to meet customer demand. | Integer | 2^31 | Optional |
 | AnticipationStockQuantity    | The quantity of stock that is expected through inbound shipments. | Integer | 2^31 | Optional |
 | AvailableToPromiseQuantity   | The quantity of stock that is available to service new demand. | Integer | 2^31 | Optional |
-| FillRatePercentage           | The fill rate of the item or component that is supplied. The value will be automatically set. | Decimal | 9 digits, up to 3 decimal places | Optional |
+| FillRatePercentage           | The fill rate of the item or component that is supplied. The value will be automatically set. | Decimal | 9 digits, up to 3 decimal places. | Optional |
 | ItemStatusName               | The status of the stock that is associated with the item (for example, blocked). | String | 256 characters | Optional |
-| Timestamp                    | The timestamp that indicates when the stock levels were updated in the system. | ISO 8601 format | Up to 7 digits for the fractional part of seconds | Optional |
+| Timestamp                    | The timestamp that indicates when the stock levels were updated in the system. | ISO 8601 format | Up to 7 digits for the fractional part of seconds. | Optional |
 
