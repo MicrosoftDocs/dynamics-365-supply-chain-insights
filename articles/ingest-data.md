@@ -2,7 +2,7 @@
 title: Ingest data
 description: This topic describes how to ingest data into Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 02/15/2022
+ms.date: 03/02/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -21,7 +21,7 @@ To generate insights that are relevant to your business, Dynamics 365 Supply Cha
 
 ## Prerequisites
 
-Data management requires that you ingest data from various sources, according to the entities that are described in [Data entities](entities.md). For example, this set of [Excel files](https://download.microsoft.com/download/d/c/2/dc238977-69a5-4440-a19e-24d632c25cf5/OEM_Electronics_Sample.zip) contains data for a large manufacturing company that has a supply/demand mismatch issue. Although this data set might not contain all the attributes for every entity, it's enough so that Supply Chain Insights can visually show the mismatch issue in the **Analytics** section of the application.
+Data management requires that you ingest data from various sources, according to the entities that are described in [Data entities](entities.md). For example, this set of [Excel files](https://download.microsoft.com/download/d/c/2/dc238977-69a5-4440-a19e-24d632c25cf5/OEM_Electronics_Sample.zip) contains data for a large manufacturing company and its supplier. Although this data set might not contain all the attributes for every entity, it's enough so that Supply Chain Insights can visually show a supply/demand mismatch issue in the **Analytics** section of the application.
 
 Before ingesting your data, review the information in [Compliance](resiliency-compliance-security.md) to ensure that Supply Chain Insights meets your company's expectations.
 
@@ -42,13 +42,13 @@ An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) 
 ## Transform and map the data according to your desired entity
 
 Mappings inform Supply Chain Insights how to interpret your data so that it can be analyzed. A mapping describes how the data within a query's table relates to the attributes that represent a specific entity. The Power Query editor contains numerous tools that you can use to transform your data into a single query containing one table that contains all attributes of an entity. This transformation and mapping only needs to be completed once for an entity, assuming you don't change the sources that the data is coming from. If only part of the data for an entity is contained in the first source you connected, click **Get Data** in the upper left of the Power Query editor when you are in the **Home** tab. This will prompt you to go through the connection process again to add another source. See [Transform data](/power-query/power-query-ui) for more information about the Power Query editor and what it can do.
-
-> [!NOTE]
-> When you work in the Power Query editor, make sure that the data you upload is contained in a query that's named according to the desired entity. The name should always be the singular form of the entity and in camel case. For example, the warehouses entity should have a query name of "Warehouse" and customer product allocations entity should be "CustomerProductAllocation". The name of the query can be found in the collapsible **Queries** pane on the left, and it can be seen as an editable field in the collapsible **Query settings** pane on the right when you have the query open. 
     
 ![Data import page, showing the Power Query editor for the product entity.](media/power-query-editor.png)
 
-After you've created the query with the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the dialog box that appears, and then select **Auto map**. Supply Chain Insights will use the column headers of the query table to determine which column represents which attribute. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name. Choose **Done** once finished.
+After you've created a single query with the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity. Select **Map to entity** in the upper right, select the entity in the left column of the dialog box that appears, and then select **Auto map**. Supply Chain Insights will use the column headers of the query table to determine which column represents which attribute. To ensure that automatic mapping is run correctly, select the **Mapped attributes** column together with the **Data preview** table at the bottom of the page. If an error occurs, or if you prefer to do the mapping manually, select the option for the required attribute in the **Mapped attributes** column, and then select the appropriate column header name. Choose **Done** once finished.
+
+> [!NOTE]
+> You can have multiple queries when using the Power Query editor, but Supply Chain Insights only uploads the data from one of the queries. The application determines the best query to ingest by matching the column headers of the queries to the attributes of the entity that is being uploaded. The query with the best matching column headers will then be selected by Supply Chain Insights and its data ingested.
 
 ![Data import page, showing the dialog box for Power Query's auto map feature when it's to map user data to a product entity's attributes.](media/product-attribute-mapping.png)
 
