@@ -368,7 +368,7 @@ A *WarehouseItemAvailableStock* entity captures details about available stock in
 |------------------------------|-------------|------|------------|----------|
 | WarehouseId                  | The identifier of the warehouse where the stock is located. | String | 256 characters | Required |
 | ItemId                       | The identifier of the item that stock is being recorded for. | String | 256 characters | Required |
-| VendorId                     | If the item is procured, the identifier of the vendor that is supplying it. | String | 256 characters | 256 characters | Required for raw materials |
+| VendorId                     | If the item is procured, the identifier of the vendor that is supplying it. | String | 256 characters |  Required for raw materials |
 | PlannedItemAvailableQuantity | The estimated stock levels for the item. | Integer | 2^31 | Optional |
 | ActualItemQuantity           | The actual stock levels for the item. | Integer | 2^31 | Required |
 | AllocationQuantity           | The quantity of stock that is reserved either as safety stock or to meet customer demand. | Integer | 2^31 | Optional |
