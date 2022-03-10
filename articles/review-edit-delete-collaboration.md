@@ -6,7 +6,7 @@ ms.date: 11/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
-ms.service: dynamics-365-supply-chain-insights
+
 ms.author: carylhenry
 ---
 # Review, edit, and delete data collaborations

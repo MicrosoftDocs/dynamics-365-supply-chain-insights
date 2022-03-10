@@ -6,7 +6,7 @@ ms.date: 01/28/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
-ms.service: dynamics-365-supply-chain-insights
+
 ms.author: carylhenry
 ---
 

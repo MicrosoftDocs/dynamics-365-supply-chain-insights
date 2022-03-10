@@ -6,7 +6,7 @@ ms.date: 06/20/2020
 ms.topic: article
 audience: Application User, Developer, IT Pro
 ms.search.region: Global
-ms.service: dynamics-365-supply-chain-insights
+
 ms.author: josaw
 ---
 
@@ -35,7 +35,7 @@ Here are some key things to note about metadata.
 - **audience** - Use these values: Application User, Developer, or IT Pro. If you use more than one value, separate them with a comma.
 - **ms.reviewer** - This is the Microsoft alias of your Content Strategist.  
 - **ms.search.region** - Use "global" or enter a country-region value.
-- **ms.service** - Use "ms.service: dynamics-365-supply-chain-insights"
+- **
 - **ms.author** - Use your Microsoft alias.  
 
 
