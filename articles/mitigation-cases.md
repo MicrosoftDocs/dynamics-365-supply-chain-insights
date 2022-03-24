@@ -1,8 +1,8 @@
 ---
 title: Mitigation cases
-description: This page contains information on the purpose of the mitigation cases feature within Dynamics 365 Supply Chain Insights and explains how to use it
+description: This page contains information on the purpose of the mitigation cases feature within Dynamics 365 Supply Chain Insights and explains how to use the feature
 author: carylhenry
-ms.date: 03/22/2022
+ms.date: 03/24/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
