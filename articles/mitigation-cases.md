@@ -15,7 +15,7 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-Supply Chain Insights surfaces many risks through many features, but users must be able to organize these everchanging risk insights in order to quickly respond to them. Mitigation cases serves that purpose: they enable users to capture their most important risks to provide the context necessary for creating actionable plans. These plans can be for the case that was just created or old cases can be used as references for approaching new ones.
+Supply Chain Insights surfaces many risks through many features and mitigation cases enables users to capture the risks they deem most important in order to quickly respond to them. Capturing risks and their associated information in a case then provides the context necessary for creating actionable plans. These plans can be used for the risk in the case that was just created or plans described in old cases can be used as references for approaching new cases with similar issues to the past.
 
 # Open a new case
 
