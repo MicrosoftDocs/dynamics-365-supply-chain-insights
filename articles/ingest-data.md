@@ -2,7 +2,7 @@
 title: Ingest data
 description: This topic describes how to ingest data into Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 03/08/2022
+ms.date: 04/08/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -40,7 +40,7 @@ Before you can upload the data for any entity. Supply Chain Insights must connec
 An [on-premises data gateway](/data-integration/gateway/service-gateway-onprem) is required to import local files on your computer into Supply Chain Insights. For information about how to install an on-premises data gateway, see [Install an on-premises data gateway](/data-integration/gateway/service-gateway-install). After you install the gateway, you must use your Supply Chain Insights user credentials to sign in to the application. Then make sure that the local folder that contains the file that you want to upload is configured so that access is granted to everyone. To change this configuration, go to the folder, select and hold (or right-click) it, and then select **Give access to \> Specific people**.
 
 > [!NOTE]
-> There are two types of data gateways, personal mode and standard gateways. Do not install the on-premise data gateway (personal mode) and instead install the standard one according to the directions that are linked above. 
+> There are two types of data gateways, personal mode and standard gateway. Do not install the on-premise data gateway (personal mode) and instead install the standard one according to the directions that are linked above. 
 
 ## Transform and map the data according to your desired entity
 
