@@ -2,7 +2,7 @@
 title: Supply chain map
 description: This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 11/01/2021
+ms.date: 6/01/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -17,7 +17,7 @@ ms.author: carylhenry
 
 This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 
-The supply chain map in Dynamics 365 Supply Chain Insights provides a visual representation of a company's supply chain. It shows how suppliers are connected to company facilities and how those facilities are connected to customers.
+The supply chain map in Dynamics 365 Supply Chain Insights provides a geographic representation of a company's supply chain, including both your and your vendors' sites.
 
 
 ## Supply chain map prerequisites
