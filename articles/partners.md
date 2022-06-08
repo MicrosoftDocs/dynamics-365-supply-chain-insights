@@ -46,4 +46,4 @@ The **Sent requests** tab shows the status of connection requests that you've se
 
 ## Manage connections
 
-The **My partners** tab shows a list of partners that you've connected with in Supply Chain Insights. You can manage your relationship, [start a new data collaboration with the partner](/articles/create-collaboration.md), [view the collaborations that have been established with the partner](/articles/review-edit-delete-collaboration.md), and view the general information that is included in the partner's [company profile](company-profile.md).
+The **My partners** tab shows a list of partners that you've connected with in Supply Chain Insights. You can manage your relationship, [start a new data collaboration with the partner](/dynamics365/supply-chain-insights/create-collaboration), [view the collaborations that have been established with the partner](/dynamics365/supply-chain-insights/review-edit-delete-collaboration), and view the general information that is included in the partner's [company profile](company-profile.md).
