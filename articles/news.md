@@ -31,14 +31,14 @@ Supply Chain Insights curates recent relevant news articles by using a trained A
 > [!NOTE]
 > Larger companies are more likely to be prominent in the news than smaller companies, which may affect what news articles are recommended in the curated news feature. As a result, certain sources of risks from smaller partner companies may not be highlighted.
 
-Each news article is assigned an impact score and a category by the same AI model which sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. Users can filter on these two characteristics on the dedicated **News** page. The categories can be filtered by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on **News** page.
+Each news article is assigned an impact score and a category by the same AI model that sorts the news articles by relevance. The impact score and category definitions are learned from past news articles that were labeled with the correct impact and category. The AI model learns patterns from the sentiment and content of these labeled articles to make predictions for new articles. Users can filter on these two characteristics on the dedicated **News** page. The categories can be filtered by selecting an individual category on the left navigation. Additionally, multiple categories can be toggled off or on within the settings found on **News** page.
 
 ### Impact score definitions
 Each article will be assigned one of the following three impact scores. 
 
 - **Immediate impact:** Contains news that directly negatively impacts companies currently in your supply chain. 
 - **Future impact:** Contains news that has the potential to negatively impact companies in your supply chain at some point in the future. 
-- **Positive impact:** COntains news that is positive about companies in your supply chain and contain supply chain relevant content.
+- **Positive impact:** Contains news that is positive about companies in your supply chain and contain supply chain relevant content.
 
 ### Category definitions
 
