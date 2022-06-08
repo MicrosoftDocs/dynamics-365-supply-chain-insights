@@ -2,7 +2,7 @@
 title: Supply chain map
 description: This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 author: carylhenry
-ms.date: 6/01/2021
+ms.date: 6/07/2021
 ms.topic: article
 audience: Application User
 ms.search.region: Global
@@ -17,7 +17,7 @@ ms.author: carylhenry
 
 This topic describes the supply chain map in Microsoft Dynamics 365 Supply Chain Insights.
 
-The supply chain map in Dynamics 365 Supply Chain Insights provides a geographic representation of a company's supply chain, including both your and your vendors' sites.
+The supply chain map in Supply Chain Insights provides a geographic representation of your company's supply chain, including both you and your vendors' sites.
 
 
 ## Supply chain map prerequisites
@@ -32,7 +32,7 @@ The supply chain map requires that WebGL is enabled in your browser's settings. 
 
 To view your sites on the map, you must first ingest the production plant and warehouse entities into Supply Chain Insights. To view vendor sites on the map, you must first ingest vendor entities into Supply Chain Insights, and then connect and share data with those vendors.
 
-If you hover over a site on the map, information that is related to the site appears. This information includes the company name, site address, and site risk score. If you select a site icon, a sidebar appears and shows additional site information, such as potentially affected orders. The potentially affected order functionality requires that the order entity be ingested into Supply Chain Insights, in addition to the production plant and warehouse entities that were mentioned earlier.
+If you hover over a site on the map, information that is related to the site is shown. The information includes the company name, site address, and site risk score. If you select a site icon, a sidebar appears and shows additional site information, such as potentially affected orders. The "potentially affected order" functionality requires that the order entity is ingested into Supply Chain Insights, in addition to the production plant and warehouse entities that were mentioned earlier.
 
 
 ## Map views
