@@ -30,6 +30,8 @@
     href: create-collaboration.md
   - name: Review, edit, and delete data collaborations
     href: review-edit-delete-collaboration.md
+- name: Mitigation cases
+  href: mitigation-cases.md
 - name: Compliance
   href: resiliency-compliance-security.md
     
