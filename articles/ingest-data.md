@@ -52,7 +52,7 @@ Mappings inform Supply Chain Insights how to interpret your data so that it can 
     
 ![Data import page, showing the Power Query editor for the product entity.](media/power-query-editor.png)
 
-After you've created a single query that has the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity by following these steps.
+After you've created a single query that has the table that contains the data that you want to import, you can have Power Query automatically map the information in your table to the attributes of the entity by following these steps..
 
 1. Select **Map to entity** in the upper right.
 1. In the dialog box that appears, select the entity in the left column, and then select **Auto map**. Supply Chain Insights will use the column headers of the query table to determine which column represents which attribute. 
