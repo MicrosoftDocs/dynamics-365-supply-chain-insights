@@ -16,3 +16,5 @@ Introduction test
 
 ## Test heading 2
 Link to [ingest data](ingest-data.md)
+
+![this is power platform logo](media/Pride.png)
