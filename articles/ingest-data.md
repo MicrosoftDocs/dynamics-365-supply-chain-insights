@@ -1,13 +1,13 @@
 ---
 title: Ingest data
 description: This topic describes how to ingest data into Microsoft Dynamics 365 Supply Chain Insights.
-author: carylhenry
-ms.date: 05/02/2022
+author: jpvk
+ms.date: 06/30/2022
 ms.topic: article
 audience: Application User
 ms.search.region: Global
 
-ms.author: carylhenry
+ms.author: juville
 ---
 
 # Ingest data
@@ -15,9 +15,13 @@ ms.author: carylhenry
 [!include[banner](includes/banner.md)]
 [!include[banner](includes/preview-banner.md)]
 
-This topic describes how to ingest data into Microsoft Dynamics 365 Supply Chain Insights.
+This topic describes how to ingest data into Microsoft Windblade
 
 To generate insights that are relevant to your business, Dynamics 365 Supply Chain Insights requires data that is relevant to your supply chain. Therefore, that data must be brought (*ingested*) into the application. Supply Chain Insights uses [Power Query](/power-query/power-query-what-is-power-query) to help ensure a smooth data ingestion experience.
+
+##Test
+
+This is test text **demo**
 
 ## Prerequisites
 
