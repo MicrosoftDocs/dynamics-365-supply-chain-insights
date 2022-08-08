@@ -41,7 +41,8 @@
     "globalMetadata": {
       "breadcrumb_path": "/dynamics365/supply-chain-insights/breadcrumb/toc.json",
       "extendBreadcrumb": true,
-      "feedback_system": "None"
+      "feedback_system": "GitHub",
+      "feedback_github_repo": "MicrosoftDocs/dynamics-365-supply-chain-insights"
     },
     "fileMetadata": {
       "ms.service":{
