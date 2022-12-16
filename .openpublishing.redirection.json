@@ -1,0 +1,84 @@
+{
+  "redirections": [     
+    {
+      "source_path": "articles/add-users.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/analytics.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/company-profile.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/create-collaboration.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/entities.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/index.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/ingest-data.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/mitigation-cases.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/news.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/partners.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/products.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/resiliency-compliance-security.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/review-edit-delete-collaboration.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/review-export-delete-data.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/set-up.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    },
+    {
+      "source_path": "articles/supply-chain-map.md",
+      "redirect_url": "/supply-chain-platform/supply-chain-center/welcome",
+      "redirect_document_id": "false"
+    }
+ ]
+}
